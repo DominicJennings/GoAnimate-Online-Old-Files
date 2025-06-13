@@ -1,0 +1,159 @@
+<!-- DOCTYPE html breaks it for some reason. -->
+<html>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<title>Video Editor</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://josephanimate2021.github.io/lvm-static/api/jquery/index.js"></script>
+<script>
+alert("yeah sorry but we can't let you access every single feature within this lvm since you need a account. but uh, you can still use the lvm. so yeah, to get the real experience just make an acc and log in or use staff accounts. thanks: -rev909. p.s: please don't nit pick me for what this project has in it, it's a hobby that i enjoy and i won't let stupid dumbasses nitpick me for every small thing, so mind your business please.")
+////
+//// This JS contains important Video Studio stuff
+////
+	
+///
+/// Variables
+///
+var previewPlayerTempData = "",
+    movieDataXmlStr = null,
+    filmXmlStr = null,
+    previewStartFrame = 0;
+///
+/// Previewer
+///
+function get(type) {
+	fetch(`/ajax/getParams?type=${type}`).then(data => {
+		data.json().then(info => {
+			return info.data;
+		}).catch(e => console.log(e));
+	}).catch(e => console.log(e));
+}
+function initPreviewPlayer(dataXmlStr, startFrame) {
+	previewStartFrame = startFrame;
+	// New variable to be used by loadPreviewer()
+	movieDataXmlStr = dataXmlStr;
+	// Movie XML
+	filmXmlStr = dataXmlStr.split("<filmxml>")[1].split("</filmxml>")[0];
+	if (typeof startFrame == 'undefined') {
+		startFrame = 1;
+	} else {
+		startFrame = Math.max(1, parseInt(startFrame));
+	}
+	// setup preview popup
+	fetch(`/ajax/getParams?type=object&subtype=previewPlayer&startFrame=${previewStartFrame}`).then(data => {
+		data.json().then(object => {
+			document.getElementById('playerdiv').innerHTML = object.data;
+			document.getElementById('player-modal').style.display = 'block';
+			// Load the Video Previewer
+			loadPreviewer();
+		}).catch(e => console.log(e));
+	}).catch(e => console.log(e));
+}
+function loadPreviewer() {
+	// I think this is in case of an error??
+	if (movieDataXmlStr === null) return;
+	// I don't know
+	savePreviewData(movieDataXmlStr);
+}
+function savePreviewData(a) {
+	// Set temp data variable
+	previewPlayerTempData = a
+}
+function retrievePreviewPlayerData() {
+	// Store in separate variable
+	var recentPreviewPlayerTempData = previewPlayerTempData;
+	// Clear original variable
+	previewPlayerTempData = "";
+	// Return recent temp data
+	return recentPreviewPlayerTempData;
+}
+///
+/// Other stuff
+///
+function exitStudio() {
+	window.location = "/";
+}
+// interactive tutorial
+const tutorialReload = (new URLSearchParams(window.location.search)).get("tutorial");
+interactiveTutorial = {
+	neverDisplay: function() {
+    return tutorialReload ? false : false
+	}
+}
+// Hide Video Previewer popup
+function hidePreviewer() {
+	document.getElementById("obj")[0].onExternalPreviewPlayerCancel();
+	document.getElementById('player-modal').style.display = 'none';
+}
+function publishStudio() {
+	document.getElementById("obj")[0].onExternalPreviewPlayerPublish();
+	document.getElementById('player-modal').style.display = 'none';
+}
+function showImporter() {
+	document.getElementById('import-modal').style.display = 'block';
+}
+</script>
+<body style="margin:0px">
+<object data="http://localhost:4343/animation/2016 (New)/go_full.swf" type="application/x-shockwave-flash" width="100%" height="100%"><param name="flashvars" value="tts_enabled=1&upl=1&hb=1&pts=0&credits=100&uisa=Y&ve=Y&ctc=go&isEmbed=1&isVideoRecord=1&userId=2152&m_mode=Y&appCode=go&is_golite_preview=1&collab=0&goteam_draft_only=0&isLogin=Y&isWide=1&stutype=tiny_studio&tutorial=1&lid=13&movieLid=10&has_asset_bg=0&has_asset_char=0&nextUrl=http%3A%2F%2Flocalhost%3A4343%2F&gocoins=100&page=&retut=0&siteId=go&tray=custom&themeColor=silver&cczip=1&includeThumbs=Y&tlang=en_US&ut=30&apiserver=http%3A%2F%2Flocalhost%3A4343%2F&storePath=http%3A%2F%2Flocalhost%3A4343%2Fstatic%2Fstore%2F%3Cstore%3E&clientThemePath=%2Fstatic%2Fad44370a650793d9%2F%3Cclient_theme%3E"> <param name="allowScriptAccess" value="always"> <param name="movie" value="http://localhost:4343/animation/2016 (New)/go_full.swf"></object>
+
+<div class="w3-container">
+  <div id="player-modal" class="w3-modal">
+    <div class="w3-modal-content">
+      <header class="w3-container w3-teal"> 
+        <span onclick="hidePreviewer()" class="w3-button w3-display-topright">&times;</span>
+        <h2>Preview Video</h2>
+      </header>
+      <div class="w3-container" id="playerdiv">
+      </div>
+      <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+        <center>
+          <button onclick="hidePreviewer()" type="button" style="text-transform: uppercase" class="w3-button w3-teal">Back to editing</button>
+          <button onclick="publishStudio()" type="button" style="text-transform: uppercase" class="w3-button w3-orange">Save now</button>
+        </center>
+      </div>
+    </div>
+  </div>
+  <div id="import-modal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-left w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="hideImporter()" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Import An Asset</h2>
+      </header>
+      <div class="w3-container">
+        <form id="uploadbanner" enctype="multipart/form-data" method="post" action="/ajax/saveUserProp" target="dummy">
+				  <input id="fileupload" name="import" type="file" accept=".mp3,.wav,.png,.jpg" required>
+				  <h3 id="import-as">Import As:</h3><br>
+          <p>---------------</p>
+          <h4>Image Importing</h4>
+				  <input type="radio" value="prop-placeable" name="subtype"> Prop
+				  <br />
+          <input type="radio" value="prop-holdable" name="subtype"> Holdable Prop
+				  <br />
+          <input type="radio" value="prop-wearable" name="subtype"> Wearable Prop
+				  <br />
+          <input type="radio" value="prop-headable" name="subtype"> Headable Prop
+				  <br />
+				  <input type="radio" value="bg" name="subtype"> Background
+				  <br />
+          <p>---------------</p><br>
+          <h4>Sound Importing</h4>
+           <input type="radio" value="soundeffect" name="subtype"> Sound Effect
+				  <br />
+				  <input type="radio" value="bgmusic" name="subtype"> Music
+				  <br />
+          <input type="radio" value="voiceover" name="subtype"> Voice Over
+				  <br />
+				  <input type="submit" value="Import" onclick='importDone()' id="submit"/>
+			</form>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p>Importing is currently in beta right now. please expect this to not work correctly. Currently, you can only import backgrounds right now. any others will just crash the website.</p>
+      </footer>
+    </div>
+  </div>
+</div>
+            
+</body>
+<iframe style='display:none'name='dummy'></iframe>
+</html>

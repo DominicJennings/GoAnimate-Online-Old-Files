@@ -1,0 +1,38 @@
+
+	<head>
+		<script>
+			document.title='Video Editor',flashvars={"apiserver":"/","storePath":"https://dominicjennings.github.io/store/50/<store>","isEmbed":1,"ctc":"go","ut":30,"bs":"default","userId":2152,"m_mode":"Y","appCode":"go","page":"","siteId":"go","lid":13,"isLogin":"Y","retut":0,"clientThemePath":"https://dominicjennings.github.io/static/477/<client_theme>","themeId":"custom","tray":"custom","tlang":"en_US","presaveId":"m-73","goteam_draft_only":0,"isWide":1,"collab":0,"movieLid":10,"has_asset_char":"0","nextUrl":"../pages/html/list.html","tutorial":1}
+		</script>
+		<script src="/pages/js/stuff.js"></script>
+		<script>
+			if(window.location.pathname == '/player' || window.location.pathname == '/go_full' || window.location.pathname == '/recordWindow' || window.location.pathname == '/go_full/tutorial') {
+				function hideHeader() {
+					document.getElementById("header").remove();
+				}
+			}
+		</script>
+		<link rel="stylesheet" type="text/css" href="/pages/css/modern-normalize.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/global.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/swf.css">
+	</head>
+	
+	<header id="header">
+		<a href="/">
+			<h1 style="margin:0"><img id="logo" src="/pages/img/logo.svg" alt="GoAnimate: Online"/></h1>
+		</a>
+		<nav id="headbuttons">
+				<div class="button_small" onclick="document.getElementById('file').click()">UPLOAD A CHAR</div>
+                                <form enctype='multipart/form-data' action='/api/char/upload' method='post'>
+	                        <input id='file' type="file" onchange="this.form.submit()" name='import' />
+                                </form>
+				</nav>
+			</div>
+			<a href="/create" class="button_big">CREATE</a>
+		</nav>
+	</header>
+	
+	<body onload="hideHeader()">
+		<main>
+			<object id="obj" data="http://localhost:4343/animation/2014 (New)/go_full.swf" type="application/x-shockwave-flash" width="100%" height="100%"><param name="flashvars" value="tts_enabled=1&upl=1&hb=1&pts=0&credits=100&uisa=Y&ve=Y&ctc=go&isEmbed=1&isVideoRecord=1&userId=2152&m_mode=Y&appCode=go&is_golite_preview=1&collab=0&goteam_draft_only=0&isLogin=Y&isWide=1&stutype=tiny_studio&tutorial=1&lid=13&movieLid=10&has_asset_bg=0&has_asset_char=0&nextUrl=http%3A%2F%2Flocalhost%3A4343%2F&gocoins=100&page=&retut=0&siteId=go&tray=custom&themeColor=silver&cczip=1&includeThumbs=Y&tlang=en_US&ut=30&apiserver=http%3A%2F%2Flocalhost%3A4343%2F&storePath=http%3A%2F%2Flocalhost%3A4343%2Fstatic%2Fstore%2F%3Cstore%3E&clientThemePath=%2Fstatic%2Fad44370a650793d9%2F%3Cclient_theme%3E"> <param name="allowScriptAccess" value="always"> <param name="movie" value="http://localhost:4343/animation/2014 (New)/go_full.swf"></object>
+		</main>
+	</body><iframe style='display:none'name='dummy'></iframe><form style='display:none'id='uploadbanner'enctype='multipart/form-data'method='post'action='/upload_asset'target='dummy'><input type='text'name='params'/><input id='fileupload'name='import'type='file'onchange='importComplete(this)'accept='.mp3,.wav,.png,.jpg'/> <input type='submit'value='submit'id='submit'/></form><script>interactiveTutorial={neverDisplay:function(){return true}};function studioLoaded(arg){console.log(arg)}function exitStudio(){window.location='html/list.html'}const fu=document.getElementById('fileupload'),sub=document.getElementById('submit');function showImporter(){fu.click()};function importComplete(obj){const file=obj.files[0];if(file!=undefined){const ext=file.name.substring(file.name.lastIndexOf('.')+1);var params=flashvars.presaveId+'.';if(ext=='mp3'||ext=='wav'){var c;while(c!='vo'&&c!='se'&&c!='mu'){c=prompt('Would you like to upload this as a voiceover ("vo"), sound effect ("se"), or as music ("mu")?').toLowerCase()}params+=c}else if(ext=='jpg'||ext=='png'){var c;while(c!='bg'&&c!='prop'){c=prompt('Would you like to upload this as a background ("bg") or as a prop ("prop")?').toLowerCase()}params+=c}obj.parentElement.firstChild.value=params+'.'+ext;sub.click();return true}}</script><div id="previewPlayerContainer" style="display:none"><div class="preview-player" id="previewPlayer"><h2>Preview</h2><div id="playerdiv"></div><div id="h5-playerdiv"></div><div class="buttons clearfix"><button class="preview-button edit" type="button" onclick="switchBackToStudio()">< Back to editing</button><button class="preview-button save" type="button" onclick="publishStudio()">Save Now ></button></div><a class="close_btn" href="#" onclick="switchBackToStudio();return false">Close ×</a></div></div></div><script>interactiveTutorial={neverDisplay:function(){return true}};function studioLoaded(a){console.log(a)}function savePreviewData(b){previewPlayerTempData=b}function retrievePreviewPlayerData(){var b=previewPlayerTempData;previewPlayerTempData="";return b}function switchBackToStudio(){$("#previewPlayerContainer").hide();$("#playerdiv").empty();$("#video_maker").height("100%");$("#video_maker").width("100%")}function loadLegacyPreview(){if(movieDataXmlStr===null){return}savePreviewData(movieDataXmlStr);createPreviewPlayer("playerdiv",{height:360,width:640,player_url:"http://localhost:4343/animation/2014 (New)/player.swf",quality:"high",wmode:"transparent"},{movieId:flashvars["presaveId"],ut:"30",apiserver:"/",copyable:"0",isPublished:"0",ctc:"go",tlang:"en_US",autostart:"1",appCode:"go",is_slideshow:"0",is_emessage:"0",isEmbed:"1",utm_source:"",uid:"",isTemplate:"1",isInitFromExternal:1,storePath:"http://localhost:4343/store/3a981f5cb2739137/<store>",clientThemePath:"http://localhost:4343/static/ad44370a650793d9/<client_theme>",startFrame:previewStartFrame});$("body").css("background-color: #0f0f0f");$("#video_maker").height("1px");$("#video_maker").width("1px")}function checkPreviewServer(){return previewPlayer._connectionState===PreviewPlayerConstants.STATE_READY}function initPreviewPlayer(d,c,b,a){movieDataXmlStr=d;previewStartFrame=c;filmXmlStr=d.split("<filmxml>")[1].split("</filmxml>")[0];if(typeof c=="undefined"){c=1}else{c=Math.max(1,parseInt(c))}document.getElementById("previewPlayerContainer").setAttribute("style","");loadLegacyPreview();if(!checkPreviewServer()&&(previewPlayerRetryCount>0)){previewPlayer.connect();previewPlayerRetryCount--}}function exitStudio(){window.location="html/list.html"};</script>

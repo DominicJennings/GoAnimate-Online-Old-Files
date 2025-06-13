@@ -1,0 +1,1123 @@
+<html><head><meta property="og:type" content="article"><meta property="og:title" content="The Premium Video Maker from GoAnimate - Create Polished Videos &amp; Animations"><meta property="og:url" content="http://localhost:4343/videomaker"><meta property="og:image" content="http://web.archive.org/web/20180104005627/https://embed-ssl.wistia.com/deliveries/274c3ab31b191bc8fb2b78bb869ce8a4155e914e.bin"><script src="https://web.archive.org/web/20150101131907/http://edge.quantserve.com/quant.js" async="" type="text/javascript"></script><iframe allowtransparency="true" frameborder="0" height="1" scrolling="no" src="http://fast.wistia.com/embed/iframe_shim?domain=com" width="1" style="height: 1px; left: -200px; position: absolute; top: -200px; width: 1px; direction: ltr;" allow="autoplay 'self'; fullscreen 'self'"></iframe><script type="text/javascript" async="" src="https://web.archive.org/web/20150101131907js_/http://stats.g.doubleclick.net/dc.js"></script><script src="https://web.archive.org/web/20150101131907/http://edge.quantserve.com/quant.js" async="" type="text/javascript"></script><script type="application/ld+json">{"@context":"http://web.archive.org/web/20180104005629/http://schema.org/","@id":"https://fast.wistia.net/embed/iframe/ay95ar1ct3","@type":"VideoObject","duration":"PT2M12S","name":"Tutorial: How to use GoAnimate (Templates)","thumbnailUrl":"https://embed-ssl.wistia.com/deliveries/274c3ab31b191bc8fb2b78bb869ce8a4155e914e.jpg?image_crop_resized=640x360","embedUrl":"https://fast.wistia.net/embed/iframe/ay95ar1ct3","uploadDate":"2016-03-20","transcript":"Welcome to GoAnimate. this tutorial will show you how easy it is to make an effective video on our platform.\n\nWe offer several different creative things. Choose one to get started.\n\nYou'll land inside the GoAnimate videomaker. Our templates have everything you need to hit the ground running. Each template is a pre-made scene with background's, characters, props, and text boxes pre-populated for you.\n\nWe set the scene, you customize the rest. Select a character, and the action panel slides out. From there give your character an action, and a line of dialogue.\n\nCan I see that report?\n\nWant your boss, or someone who looks like Justin Timberlake to appear in your video? Customize your own characters in our character creator.\n\nWant to create a transition? Let's move from day to night within the same scene.\n\nIt's easy. Make sure the later scene is selected, click the scene settings button, and change the background color to a color of night in a later scene. In order to represent the passing of time, apply a scene transition. Dissolve between the earlier lighter scene, and the later darker scene. Now, let's see what that looks like.\n\nCan I see that report?\n\nWidgets present data in an engaging way. They include charts, custom calendars, and other visualization tools.\n\nDrag one into the scene, and input your data. This feature is great for presentations, and sales pitches.\n\nWe understand that businesses want to upload their own assets into GoAnimate. Our simple import tool helps you upload images, audio files, outside videos, fonts, and logos right into the video maker.\n\nAfter finishing your video, click save.\n\nYou'll be redirected to the videos page.\n\nPublishing your video is a snap. Download the videos directly, export them to popular video hosting, and courseware authoring sites, and post them on social media channels.\n\nThat's it, we hope this quick tour has shown you how easy it is to get started with GoAnimate. Can I see that report?\n\nHappy video making, from your friends at GoAnimate.","description":"a Help Center - RETIRED video"}</script><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f8;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3a5795;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #2f477a;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f8;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style></head><body class="en_US"><iframe allowtransparency="true" frameborder="0" height="1" scrolling="no" src="http://fast.wistia.com/embed/iframe_shim?domain=com" width="1" style="height: 1px; left: -200px; position: absolute; top: -200px; width: 1px; direction: ltr;" allow="autoplay 'self'; fullscreen 'self'"></iframe><script type="text/javascript" async="" src="https://web.archive.org/web/20150101131907js_/http://stats.g.doubleclick.net/dc.js"></script><script src="https://web.archive.org/web/20150101131907/http://edge.quantserve.com/quant.js" async="" type="text/javascript"></script><script type="application/ld+json">{"@context":"http://web.archive.org/web/20180104005629/http://schema.org/","@id":"https://fast.wistia.net/embed/iframe/ay95ar1ct3","@type":"VideoObject","duration":"PT2M12S","name":"Tutorial: How to use GoAnimate (Templates)","thumbnailUrl":"https://embed-ssl.wistia.com/deliveries/274c3ab31b191bc8fb2b78bb869ce8a4155e914e.jpg?image_crop_resized=640x360","embedUrl":"https://fast.wistia.net/embed/iframe/ay95ar1ct3","uploadDate":"2016-03-20","transcript":"Welcome to GoAnimate. this tutorial will show you how easy it is to make an effective video on our platform.\n\nWe offer several different creative things. Choose one to get started.\n\nYou'll land inside the GoAnimate videomaker. Our templates have everything you need to hit the ground running. Each template is a pre-made scene with background's, characters, props, and text boxes pre-populated for you.\n\nWe set the scene, you customize the rest. Select a character, and the action panel slides out. From there give your character an action, and a line of dialogue.\n\nCan I see that report?\n\nWant your boss, or someone who looks like Justin Timberlake to appear in your video? Customize your own characters in our character creator.\n\nWant to create a transition? Let's move from day to night within the same scene.\n\nIt's easy. Make sure the later scene is selected, click the scene settings button, and change the background color to a color of night in a later scene. In order to represent the passing of time, apply a scene transition. Dissolve between the earlier lighter scene, and the later darker scene. Now, let's see what that looks like.\n\nCan I see that report?\n\nWidgets present data in an engaging way. They include charts, custom calendars, and other visualization tools.\n\nDrag one into the scene, and input your data. This feature is great for presentations, and sales pitches.\n\nWe understand that businesses want to upload their own assets into GoAnimate. Our simple import tool helps you upload images, audio files, outside videos, fonts, and logos right into the video maker.\n\nAfter finishing your video, click save.\n\nYou'll be redirected to the videos page.\n\nPublishing your video is a snap. Download the videos directly, export them to popular video hosting, and courseware authoring sites, and post them on social media channels.\n\nThat's it, we hope this quick tour has shown you how easy it is to get started with GoAnimate. Can I see that report?\n\nHappy video making, from your friends at GoAnimate.","description":"a Help Center - RETIRED video"}</script><iframe allowtransparency="true" frameborder="0" height="1" scrolling="no" src="http://fast.wistia.com/embed/iframe_shim?domain=com" width="1" style="height: 1px; left: -200px; position: absolute; top: -200px; width: 1px; direction: ltr;"></iframe><script type="text/javascript" async="" src="http://stats.g.doubleclick.net/dc.js"></script><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app203.us.archive.org';v.server_ms=791;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://goanimate.com:80/videomaker","20150101131907","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1420118347");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=S1zqJCYt">
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=qtvMKcIJ">
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="dns-prefetch" href="//web.archive.org/web/20150101131907/http://lightspeed.goanimate.com/">
+
+<title>The Premium Video Maker From GoAnimate Online - Create Polished Videos &amp; Animations</title>
+
+
+<meta name="description" content="Make a premium video using GoAnimate's powerful Video Maker studio. Enjoy full creative control with simple drag &amp; drop tools. Make a video today!">
+<meta property="og:site_name" content="GoAnimate">
+<meta property="fb:app_id" content="177116303202">
+
+<meta name="google-site-verification" content="K_niiTfCVi72gwvxK00O4NjsVybMutMUnc-ZnN6HUuA">
+
+<link rel="alternate" href="https://web.archive.org/web/20150101131907/http://feeds.feedburner.com/GoAnimate" type="application/rss+xml" title="GoAnimate Blog">
+<link rel="alternate" href="https://web.archive.org/web/20150101131907/http://feeds.feedburner.com/GoAnimate/WhatsNew" type="application/rss+xml" title="GoAnimate - Recently Released Content">
+<link rel="alternate" href="https://web.archive.org/web/20150101131907/http://feeds.feedburner.com/GoAnimate/MostWatched" type="application/rss+xml" title="GoAnimate - Most Watched">
+
+<link href="//web.archive.org/web/20150101131907cs_/http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Open+Sans:400,600,700" rel="stylesheet" type="text/css">
+<link href="https://web.archive.org/web/20150101131907cs_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/css/common_combined.css" rel="stylesheet" type="text/css">
+
+<link href="https://web.archive.org/web/20150101131907cs_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/css/upsell_modals.css" rel="stylesheet" type="text/css">
+<link href="https://web.archive.org/web/20150101131907cs_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/css/videomaker.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+<style text="text/css">
+.top-nav.collapse {height: auto;overflow: visible;}
+</style>
+<![endif]-->
+
+<script>
+var srv_tz_os = -5, view_name = "go", user_cookie_name = "u_info";
+</script>
+
+<script src="https://web.archive.org/web/20150101131907js_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/js/common_combined.js"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20150101131907js_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/po/goserver_js-en_US.json"></script>
+<script type="text/javascript">
+var I18N_LANG = 'en_US';
+var GT = new Gettext({'locale_data': json_locale_data});
+</script>
+
+<script src="https://web.archive.org/web/20150101131907js_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/js/jquery/jquery.flexslider.min.js"></script>
+<script src="https://web.archive.org/web/20150101131907js_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/js/trial_upsell.js"></script>
+
+
+<script type="text/javascript" src="https://web.archive.org/web/20150101131907js_/http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-2516970-1']);
+_gaq.push(['_setDomainName', 'none']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<!-- GoAnimate_Footer_ROS_Bottom_960x284 -->
+<script type="text/javascript" src="https://web.archive.org/web/20150101131907js_/http://partner.googleadservices.com/gampad/google_service.js">
+</script>
+<script type="text/javascript">
+GS_googleAddAdSenseService("ca-pub-9090384317741239");
+GS_googleEnableAllServices();
+</script><script src="https://web.archive.org/web/20150101131907js_/http://partner.googleadservices.com/gampad/google_ads.js"></script><script src="https://web.archive.org/web/20150101131907js_/http://partner.googleadservices.com/gampad/google_ads.js"></script><script src="https://securepubads.g.doubleclick.net/gampad/google_ads.js"></script>
+<script type="text/javascript">
+GA_googleAddAttr("is_login", "no");
+GA_googleAddAttr("is_plus", "no");
+GA_googleAddAttr("is_creator", "no");
+</script>
+<script type="text/javascript">
+GA_googleAddSlot("ca-pub-9090384317741239", "GoAnimate_Footer_ROS_Bottom_960x284");
+</script>
+<script type="text/javascript">
+GA_googleFetchAds();
+</script>
+<!-- GoAnimate_Footer_ROS_Bottom_960x284 -->
+
+
+<link href="https://plus.google.com/+goanimate" rel="publisher">
+
+<style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f8;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3a5795;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #2f477a;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f8;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style><script type="application/ld+json">{"@context":"http://web.archive.org/web/20180104005629/http://schema.org/","@id":"https://fast.wistia.net/embed/iframe/ay95ar1ct3","@type":"VideoObject","duration":"PT2M12S","name":"Tutorial: How to use GoAnimate (Templates)","thumbnailUrl":"https://embed-ssl.wistia.com/deliveries/274c3ab31b191bc8fb2b78bb869ce8a4155e914e.jpg?image_crop_resized=640x360","embedUrl":"https://fast.wistia.net/embed/iframe/ay95ar1ct3","uploadDate":"2016-03-20","transcript":"Welcome to GoAnimate. this tutorial will show you how easy it is to make an effective video on our platform.\n\nWe offer several different creative things. Choose one to get started.\n\nYou'll land inside the GoAnimate videomaker. Our templates have everything you need to hit the ground running. Each template is a pre-made scene with background's, characters, props, and text boxes pre-populated for you.\n\nWe set the scene, you customize the rest. Select a character, and the action panel slides out. From there give your character an action, and a line of dialogue.\n\nCan I see that report?\n\nWant your boss, or someone who looks like Justin Timberlake to appear in your video? Customize your own characters in our character creator.\n\nWant to create a transition? Let's move from day to night within the same scene.\n\nIt's easy. Make sure the later scene is selected, click the scene settings button, and change the background color to a color of night in a later scene. In order to represent the passing of time, apply a scene transition. Dissolve between the earlier lighter scene, and the later darker scene. Now, let's see what that looks like.\n\nCan I see that report?\n\nWidgets present data in an engaging way. They include charts, custom calendars, and other visualization tools.\n\nDrag one into the scene, and input your data. This feature is great for presentations, and sales pitches.\n\nWe understand that businesses want to upload their own assets into GoAnimate. Our simple import tool helps you upload images, audio files, outside videos, fonts, and logos right into the video maker.\n\nAfter finishing your video, click save.\n\nYou'll be redirected to the videos page.\n\nPublishing your video is a snap. Download the videos directly, export them to popular video hosting, and courseware authoring sites, and post them on social media channels.\n\nThat's it, we hope this quick tour has shown you how easy it is to get started with GoAnimate. Can I see that report?\n\nHappy video making, from your friends at GoAnimate.","description":"a Help Center - RETIRED video"}</script>
+<!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+    
+  
+            
+          
+        
+      
+    
+    
+      
+    
+  
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="https://web-static.archive.org/_static/images/loading.gif" alt="loading"></div>
+    </div>
+    </div>
+  </div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20150101131907/http://goanimate.com:80/videomaker</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://goanimate.com/videomaker","20150101131907",1996,"https://web-static.archive.org/_static/",["https://web-static.archive.org/_static/css/banner-styles.css?v=S1zqJCYt","https://web-static.archive.org/_static/css/iconochive.css?v=qtvMKcIJ"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<script type="text/javascript">
+if (self !== top) {
+            jQuery('body').hide();
+    }
+</script>
+<div id="fb-root" class=" fb_reset fb_reset"><script async="" src="http://web.archive.org/web/20150101131907/http://connect.facebook.net/en_US/all.js"></script><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" scrolling="no" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="http://static.ak.facebook.com/connect/xd_arbiter/7r8gQb8MIqE.js?version=41#channel=f1046bfe2be9464&amp;origin=http%3A%2F%2Flocalhost%3A4343" style="border: none;"></iframe><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="https://s-static.ak.facebook.com/connect/xd_arbiter/7r8gQb8MIqE.js?version=41#channel=f1046bfe2be9464&amp;origin=http%3A%2F%2Flocalhost%3A4343" style="border: none;"></iframe></div></div><script async="" src="http://web.archive.org/web/20150101131907/http://connect.facebook.net/en_US/all.js"></script><script async="" src="http://web.archive.org/web/20150101131907/http://connect.facebook.net/en_US/all.js"></script><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" scrolling="no" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="http://static.ak.facebook.com/connect/xd_arbiter/7r8gQb8MIqE.js?version=41#channel=f33a23d1a566308&amp;origin=http%3A%2F%2Flocalhost%3A4343" style="border: none;" allow="autoplay 'self'; fullscreen 'self'"></iframe><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="https://s-static.ak.facebook.com/connect/xd_arbiter/7r8gQb8MIqE.js?version=41#channel=f33a23d1a566308&amp;origin=http%3A%2F%2Flocalhost%3A4343" style="border: none;" allow="autoplay 'self'; fullscreen 'self'"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+<script type="text/javascript">
+  window.fbAsyncInit = function() {
+    FB.init({appId: '177116303202', cookie: true, status: true, xfbml: true});
+    jQuery(document).ready(function() {
+      jQuery(document).trigger('facebook.init');
+    });
+  };
+  (function() {
+    var e = document.createElement('script'); e.async = true;
+    e.src = document.location.protocol +
+      '//web.archive.org/web/20150101131907/http://connect.facebook.net/en_US/all.js';
+    document.getElementById('fb-root').appendChild(e);
+  }());
+</script>
+
+<script type="text/javascript">
+        jQuery.extend(CCStandaloneBannerAdUI, {"actionshopSWF":"https:\/\/web.archive.org\/web\/20150101131907\/http:\/\/lightspeed.goanimate.com\/animation\/ede6dec9e6a3128c\/actionshop.swf","apiserver":"https:\/\/web.archive.org\/web\/20150101131907\/http:\/\/goanimate.com\/","clientThemePath":"https:\/\/web.archive.org\/web\/20150101131907\/http:\/\/lightspeed.goanimate.com\/static\/9d5f1cea99a593a3\/<client_theme>","userId":""});
+</script>
+
+<div class="page-container">
+
+<!-- HEADER -->
+<div class="site-header">
+    <div class="container site-header-inside clearfix">
+        <a class="site-logo" href="/home" title="GoAnimate">
+            <img alt="Make a Video Online with GoAnimate.com" src="http://web.archive.org/web/20160919225242im_/https://d3v4eglovri8yt.cloudfront.net/static/1fdaca43a7fb9aad/go/img/business_video/home/logo.png">
+        </a>
+
+        <button type="button" class="top-nav-toggle" data-toggle="collapse" data-target="#top-nav">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+            <ul id="top-nav" class="top-nav collapse">
+                <li><a href="/yourvideos">Video List</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" href="#" data-toggle="dropdown">Explore <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">Help Center</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="bright" href="#">Plans &amp; Pricing</a>
+                </li>
+                <li class="top-nav-vm-btn">
+                    <span><a class="btn btn-orange" href="/videomaker">Make a Video</a></span>
+                </li>
+            </ul>
+
+    </div>
+</div>
+
+<!-- END OF HEADER -->
+
+<div class="vm-tutorial">
+    <div class="container">
+        <div class="tutorial-video" style="display: none;">
+<div id="wistia_ay95ar1ct3" class="wistia_embed wistia_embed_initialized" style="width:860px;height:484px;"><div id="wistia_chrome_28" class="w-chrome" style="display: inline-block; height: 100%; margin: 0px; padding: 0px; position: relative; vertical-align: top; width: 100%; zoom: 1; outline: none; overflow: hidden; box-sizing: content-box;"><div id="wistia_grid_64_wrapper" style="display: block;"><div id="wistia_grid_64_above"></div><div id="wistia_grid_64_main"><div id="wistia_grid_64_behind"></div><div id="wistia_grid_64_center"></div><div id="wistia_grid_64_front"></div><div id="wistia_grid_64_top_inside"><div id="wistia_grid_64_top"></div></div><div id="wistia_grid_64_bottom_inside"><div id="wistia_grid_64_bottom"></div></div><div id="wistia_grid_64_left_inside"><div id="wistia_grid_64_left"></div></div><div id="wistia_grid_64_right_inside"><div id="wistia_grid_64_right"></div></div></div><div id="wistia_grid_64_below"></div><style id="wistia_65_style" type="text/css" class="wistia_injected_style">#wistia_grid_64_wrapper{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;font-family:Arial,sans-serif;font-size:14px;height:100%;position:relative;text-align:left;width:100%;}
+#wistia_grid_64_wrapper *{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}
+#wistia_grid_64_above{position:relative;}
+#wistia_grid_64_main{display:block;height:100%;position:relative;}
+#wistia_grid_64_behind{height:100%;left:0;position:absolute;top:0;width:100%;}
+#wistia_grid_64_center{height:100%;overflow:hidden;position:relative;width:100%;}
+#wistia_grid_64_front{display:none;height:100%;left:0;position:absolute;top:0;width:100%;}
+#wistia_grid_64_top_inside{position:absolute;left:0;top:0;width:100%;}
+#wistia_grid_64_top{width:100%;position:absolute;bottom:0;left:0;}
+#wistia_grid_64_bottom_inside{position:absolute;left:0;bottom:0;width:100%;}
+#wistia_grid_64_bottom{width:100%;position:absolute;top:0;left:0;}
+#wistia_grid_64_left_inside{height:100%;position:absolute;left:0;top:0;}
+#wistia_grid_64_left{height:100%;position:absolute;right:0;top:0;}
+#wistia_grid_64_right_inside{height:100%;right:0;position:absolute;top:0;}
+#wistia_grid_64_right{height:100%;left:0;position:absolute;top:0;}
+#wistia_grid_64_below{position:relative;}</style></div></div></div>
+<script charset="ISO-8859-1" src="//web.archive.org/web/20180104005511js_/https://fast.wistia.com/assets/external/E-v1.js"></script>
+<script>
+wistiaEmbed = Wistia.embed("ay95ar1ct3");
+</script>
+<script charset="ISO-8859-1" src="//web.archive.org/web/20180104005511js_/https://fast.wistia.com/embed/medias/ay95ar1ct3/metadata.js"></script>
+
+        </div>
+        <div class="vm-tutorial-trigger-container">
+            <a class="vm-tutorial-trigger" href="http://embed.wistia.com/deliveries/9a02eeba5933792f1ccf585dceb9df8b03081d4c/file.mp4" target="_blank">
+                <span class="on">Watch Tutorial</span>
+                <span class="off">Close</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="vm-bf-wrapper">
+<div class="vm-bf" id="topbanner-bf" style="display: block;">
+    <div class="container">
+        <h1>Create Animated Videos For Your Business. Easily.</h1>
+        <p class="subtitle"><strong>Everything you need in a wide range of styles</strong></p>
+
+        <div class="vm-bf-content">
+            <p>Our themes are carefully-produced sets of matching assets, such as characters, actions, backgrounds, props, and smart sets each with a unique visual style. Our flagship theme, Business Friendly, offers the widest selection, providing hundreds of actions across numerous occupations and activities, with more added all the time.</p>
+
+            <div class="actions">
+                <a class="btn-flat btn-flat-orange btn-flat-banner" type="button" href="/go_full?tray=business" business="" friendly="" video="" maker"="" data-original-title="" title="">
+                    Make a Video <small>Start From Scratch</small>
+                
+                </a><a class="btn-flat vm-bf-cc" type="button" href="/cc_browser?themeId=business" business="" friendly="" character="" creator"="" data-original-title="" title=""><i class="i-cc-large"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="vm-bf whiteboard" id="topbanner-wb" style="display: none;">
+    <div class="container">
+        <h1>Create Animated Videos For Your Business. Easily.</h1>
+        <p class="subtitle"><strong>Everything you need in a wide range of styles</strong></p>
+
+        <div class="vm-bf-content">
+            <p>Our themes are carefully-produced sets of matching assets, such as characters, actions, backgrounds, props, and smart sets each with a unique visual style. Our flagship theme, Whiteboard Animation, offers the widest selection, providing hundreds of actions across numerous occupations and activities, with more added all the time.</p>
+
+            <div class="actions">
+                <a class="btn-flat btn-flat-orange btn-flat-banner" type="button" href="/go_full?tray=whiteboard" whiteboard="" animation="" video="" maker"="" data-original-title="" title="">
+                    Make a Video <small>Start From Scratch</small>
+                
+                </a><a class="btn-flat vm-bf-cc" type="button" href="/cc_browser?themeId=whiteboard" whiteboard="" animation="" character="" creator"="" data-original-title="" title=""><i class="i-cc-large"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="vm-bf-dots-wrapper">
+    <ul class="vm-bf-dots">
+        <li class="dot bf on"><a href="#"></a></li>
+        <li class="dot wb"><a href="#"></a></li>
+    </ul>
+</div>
+</div>
+
+<script>
+$('.vm-bf-dots a').click(function(e) {
+    e.preventDefault();
+    var $li = $(this).parent();
+    if ($li.hasClass('on')) return;
+    $li.addClass('on').siblings().removeClass('on');
+    $li.parent('.vm-bf-dots').toggleClass('wb', $li.hasClass('wb'));
+    if ($li.hasClass('wb')) {
+        $('#topbanner-bf').fadeOut();
+        $('#topbanner-wb').fadeIn();
+    } else {
+        $('#topbanner-wb').fadeOut();
+        $('#topbanner-bf').fadeIn();
+    }
+});
+</script>
+
+<div class="container themes-section">
+    <div class="header">
+        <div class="header-content">
+            <h2>Select A Theme</h2>
+            Pick a video-making theme based on its visual style, or use the filter to choose based on features.        </div>
+        <div class="filter-dropdown-container">
+            <div class="filter-dropdown dropdown">
+                <a class="filter-dropdown-toggle" data-toggle="dropdown" href="#">Filter <span class="caret"></span></a>
+                <ul class="dropdown-menu pull-right" role="menu" aria-labelledby="dLabel">
+                    <li>
+                        <a class="filter-item" href="#" data-filter="lipsync">
+                            <div class="filter-icon"><img src="https://web.archive.org/web/20150101131907im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/videomaker/filter_lip.png" alt=""></div>
+                            <div class="filter-body">
+                                <div class="filter-name"><strong>Lip-sync</strong></div>
+                                <span class="filter-desc">Characters automatically lip-sync their dialog when lines are assigned to them.</span>
+                            </div>
+                            <div class="filter-checkbox-container">
+                                <span class="filter-checkbox"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="filter-item" href="#" data-filter="ext_lib">
+                            <div class="filter-icon"><img src="https://web.archive.org/web/20150101131907im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/videomaker/filter_library.png" alt=""></div>
+                            <div class="filter-body">
+                                <div class="filter-name"><strong>Extensive Library</strong></div>
+                                <span class="filter-desc">Collections of characters, backgrounds and props corresponding to a wide variety of locations, occupations and industries.</span>
+                            </div>
+                            <div class="filter-checkbox-container">
+                                <span class="filter-checkbox"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="filter-item" href="#" data-filter="starters">
+                            <div class="filter-icon"><img src="https://web.archive.org/web/20150101131907im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/videomaker/filter_starter.png" alt=""></div>
+                            <div class="filter-body">
+                                <div class="filter-name"><strong>Scene Starters</strong></div>
+                                <span class="filter-desc">Pre-made sequences that help you get started (or finished) quickly!  You can also save your own frequently-used sequences as starters.</span>
+                            </div>
+                            <div class="filter-checkbox-container">
+                                <span class="filter-checkbox"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="filter-item" href="#" data-filter="qvm">
+                            <div class="filter-icon"><img src="https://web.archive.org/web/20150101131907im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/videomaker/filter_template.png" alt=""></div>
+                            <div class="filter-body">
+                                <div class="filter-name"><strong>Template</strong></div>
+                                <span class="filter-desc">Super-fast tool for creating simple, dialog-based videos.  Be finished in minutes!</span>
+                            </div>
+                            <div class="filter-checkbox-container">
+                                <span class="filter-checkbox"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="filter-item" href="#" data-filter="char_creator">
+                            <div class="filter-icon"><img src="https://web.archive.org/web/20150101131907im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/videomaker/filter_cc.png" alt=""></div>
+                            <div class="filter-body">
+                                <div class="filter-name"><strong>Character Creator</strong></div>
+                                <span class="filter-desc">Customize your characters!  Adapt existing characters to meet your needs or build completely from scratch.</span>
+                            </div>
+                            <div class="filter-checkbox-container">
+                                <span class="filter-checkbox"></span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="filter-results" id="filter-results" style="display: none;">
+        <b class="filter-count">15</b> matching themes based on filters:
+        <ul class="filter-crumb-list"></ul>
+        <a class="filter-crumb-list-clear" href="#">Clear all</a>
+    </div>
+
+    <div class="themes clearfix" id="themes">
+
+        <div class="theme" id="thm-business" data-tags="char_creator lipsync starters ext_lib qvm" style="display: block;">
+            <div class="theme-cell">
+                <div class="theme-cover launch">
+                    <img src="https://web.archive.org/web/20150101131907im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/videomaker/themes/Business_Friendly.jpg" alt="Business Friendly">
+                </div>
+                <div class="theme-meat">
+                    <h3>Business Friendly</h3>
+                    <div class="apps">
+                        <a class="btn btn-orange pull-left" href=" /go_full?tray=business" data-original-title="" title="">Make a Video</a>
+                        <a class="btn btn-icon" type="button" href=" /cc_browser?themeId=business" character="" creator"="" data-original-title="" title=""><i class="i-cc"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="theme-tag biz">Business Exclusive</div>
+        </div>
+
+        <div class="theme" id="thm-whiteboard" data-tags="char_creator lipsync" style="display: block;">
+            <div class="theme-cell">
+                <div class="theme-cover launch">
+                    <img src="https://web.archive.org/web/20150101131907im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/videomaker/themes/Whiteboard_Animation.jpg" alt="Whiteboard Animation">
+                </div>
+                <div class="theme-meat">
+                    <h3>Whiteboard Animation</h3>
+                    <div class="apps">
+                        <a class="btn btn-orange pull-left" href=" /go_full?tray=whiteboard" data-original-title="" title="">Make a Video</a>
+                        <a class="btn btn-icon" type="button" href=" /cc_browser?themeId=whiteboard" character="" creator"="" data-original-title="" title=""><i class="i-cc"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="theme-tag biz">Business Exclusive</div>
+        </div>
+
+        <div class="theme" id="thm-infographics" data-tags="" style="display: block;">
+            <div class="theme-cell">
+                <div class="theme-cover launch">
+                    <img src="https://dominicjennings.github.io/old-goanimate-files/Video_Infographics.jpg" alt="Video Infographics">
+                </div>
+                <div class="theme-meat">
+                    <h3>Video Infographics</h3>
+                    <div class="apps">
+                        <a class="btn btn-orange pull-left" href=" /go_full?tray=infographics" data-original-title="" title="">Make a Video</a>
+                        <a class="btn btn-icon" type="button" href=" /cc_browser?themeId=infographics" character="" creator"="" data-original-title="" title=""><i class="i-cc"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="theme-tag biz">Business Exclusive</div>
+        </div>
+
+        <div class="theme" id="thm-commoncraft" data-tags="" style="display: block;">
+            <div class="theme-cell">
+                <div class="theme-cover launch">
+                    <img src="https://web.archive.org/web/20150101131907im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/videomaker/themes/Commoncraft.jpg" alt="Common Craft">
+                </div>
+                <div class="theme-meat">
+                    <h3>Common Craft</h3>
+                    <div class="apps">
+                        <a class="btn btn-orange pull-left" href=" /go_full?tray=commoncraft" data-original-title="" title="">Make a Video</a>
+                    </div>
+                </div>
+            </div>
+            <div class="theme-tag biz">Business Exclusive</div>
+        </div>
+
+        <div class="theme" id="thm-custom" data-tags="lipsync qvm char_creator" style="display: block;">
+            <div class="theme-cell">
+                <div class="theme-cover launch">
+                    <img src="https://web.archive.org/web/20150101131907im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/videomaker/themes/Comedy_World.jpg" alt="Comedy World">
+                </div>
+                <div class="theme-meat">
+                    <h3>Comedy World</h3>
+                    <div class="apps">
+                        <a class="btn btn-orange pull-left" href=" /go_full?tray=custom" data-original-title="" title="">Make a Video</a>
+                        <a class="btn btn-icon" type="button" href=" /cc_browser?themeId=family" character="" creator"="" data-original-title="" title=""><i class="i-cc"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="theme" id="thm-action" data-tags="lipsync qvm char_creator" style="display: block;">
+            <div class="theme-cell">
+                <div class="theme-cover launch">
+                    <img src="https://web.archive.org/web/20150101131907im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/videomaker/themes/lil_Peepz.jpg" alt="Lil' Peepz">
+                </div>
+                <div class="theme-meat">
+                    <h3>Lil' Peepz</h3>
+                    <div class="apps">
+                        <a class="btn btn-orange pull-left" href=" /go_full?tray=action" data-original-title="" title="">Make a Video</a>
+                        <a class="btn btn-icon" type="button" href=" /cc_browser?themeId=cc2" character="" creator"="" data-original-title="" title=""><i class="i-cc"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="theme" id="thm-sticklybiz" data-tags="" style="display: block;">
+            <div class="theme-cell">
+                <div class="theme-cover launch">
+                    <img src="https://web.archive.org/web/20150101131907im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/videomaker/themes/Stickly_Business.jpg" alt="Stickly Business">
+                </div>
+                <div class="theme-meat">
+                    <h3>Stickly Business</h3>
+                    <div class="apps">
+                        <a class="btn btn-orange pull-left" href=" /go_full?tray=sticklybiz" data-original-title="" title="">Make a Video</a>
+                    </div>
+                </div>
+            </div>
+            <div class="theme-tag biz">Business Exclusive</div>
+
+        </div>
+        <div class="theme" id="thm-bizmodels" data-tags="" style="display: block;">
+            <div class="theme-cell">
+                <div class="theme-cover launch">
+                    <img src="https://dominicjennings.github.io/old-goanimate-files/Business_Models.jpg" alt="Business Models">
+                </div>
+                <div class="theme-meat">
+                    <h3>Business Models</h3>
+                    <div class="apps">
+                        <a class="btn btn-orange pull-left" href=" /go_full?tray=bizmodels" data-original-title="" title="">Make a Video</a>
+                    </div>
+                </div>
+            </div>
+            <div class="theme-tag biz">Business Exclusive</div>
+        </div>
+
+        <div class="theme" id="thm-retro" data-tags="" style="display: block;">
+            <div class="theme-cell">
+                <div class="theme-cover launch">
+                    <img src="https://web.archive.org/web/20150101131907im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/videomaker/themes/Cartoon_Classics.jpg" alt="Cartoon Classics">
+                </div>
+                <div class="theme-meat">
+                    <h3>Cartoon Classics</h3>
+                    <div class="apps">
+                        <a class="btn btn-orange pull-left" href=" /go_full?tray=retro" data-original-title="" title="">Make a Video</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="theme" id="thm-politics2" data-tags="lipsync qvm" style="display: block;">
+            <div class="theme-cell">
+                <div class="theme-cover launch">
+                    <img src="https://web.archive.org/web/20150101131907im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/videomaker/themes/Election_2012.jpg" alt="White Houserz">
+                </div>
+                <div class="theme-meat">
+                    <h3>White Houserz</h3>
+                    <div class="apps">
+                        <a class="btn btn-orange pull-left" href=" /go_full?tray=politics2" data-original-title="" title="">Make a Video</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="theme" id="thm-anime" data-tags="char_creator lipsync qvm" style="display: block;">
+            <div class="theme-cell">
+                <div class="theme-cover launch">
+                    <img src="https://web.archive.org/web/20150101131907im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/videomaker/themes/Anime.jpg" alt="Anime">
+                </div>
+                <div class="theme-meat">
+                    <h3>Anime</h3>
+                    <div class="apps">
+                        <a class="btn btn-orange pull-left" href=" /go_full?tray=anime" data-original-title="" title="">Make a Video</a>
+                        <a class="btn btn-icon" type="button" href=" /cc_browser?themeId=anime" character="" creator"="" data-original-title="" title=""><i class="i-cc"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="theme" id="thm-ninjaanime" data-tags="char_creator lipsync" style="display: block;">
+            <div class="theme-cell">
+                <div class="theme-cover launch">
+                    <img src="https://web.archive.org/web/20150101131907im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/videomaker/themes/Ninja_Anime.jpg" alt="Ninja Anime">
+                </div>
+                <div class="theme-meat">
+                    <h3>Ninja Anime</h3>
+                    <div class="apps">
+                        <a class="btn btn-orange pull-left" href=" /go_full?tray=ninjaanime" data-original-title="" title="">Make a Video</a>
+                        <a class="btn btn-icon" type="button" href=" /cc_browser?themeId=ninjaanime" character="" creator"="" data-original-title="" title=""><i class="i-cc"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="theme" id="thm-spacecitizen" data-tags="lipsync" style="display: block;">
+            <div class="theme-cell">
+                <div class="theme-cover launch">
+                    <img src="https://web.archive.org/web/20150101131907im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/videomaker/themes/Space_Citizens.jpg" alt="Space Citizens">
+                </div>
+                <div class="theme-meat">
+                    <h3>Space Citizens</h3>
+                    <div class="apps">
+                        <a class="btn btn-orange pull-left" href=" /go_full?tray=spacecitizen" data-original-title="" title="">Make a Video</a>
+                        <a class="btn btn-icon" type="button" href=" /cc_browser?themeId=spacecitizen" character="" creator"="" data-original-title="" title=""><i class="i-cc"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="theme" id="thm-chibi" data-tags="lipsync qvm char_creator" style="display: block;">
+            <div class="theme-cell">
+                <div class="theme-cover launch">
+                    <img src="https://web.archive.org/web/20150101131907im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/videomaker/themes/Chibi_Peepz.jpg" alt="Chibi Peepz">
+                </div>
+                <div class="theme-meat">
+                    <h3>Chibi Peepz</h3>
+                    <div class="apps">
+                        <a class="btn btn-orange pull-left" href=" /go_full?tray=chibi" data-original-title="" title="">Make a Video</a>
+                        <a class="btn btn-icon" type="button" href=" /cc_browser?themeId=chibi" character="" creator"="" data-original-title="" title=""><i class="i-cc"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="theme" id="thm-ninja" data-tags="lipsync qvm char_creator" style="display: block;">
+            <div class="theme-cell">
+                <div class="theme-cover launch">
+                    <img src="https://web.archive.org/web/20150101131907im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/videomaker/themes/Chibi_Ninjas.jpg" alt="Chibi Ninjas">
+                </div>
+                <div class="theme-meat">
+                    <h3>Chibi Ninjas</h3>
+                    <div class="apps">
+                        <a class="btn btn-orange pull-left" href=" /go_full?tray=ninja" data-original-title="" title="">Make a Video</a>
+                        <a class="btn btn-icon" type="button" href=" /cc_browser?themeId=ninja" character="" creator"="" data-original-title="" title=""><i class="i-cc"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="theme" id="thm-space" data-tags="lipsync qvm" style="display: block;">
+            <div class="theme-cell">
+                <div class="theme-cover launch">
+                    <img src="https://web.archive.org/web/20150101131907im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/videomaker/themes/Space_Peepz.jpg" alt="Space Peepz">
+                </div>
+                <div class="theme-meat">
+                    <h3>Space Peepz</h3>
+                    <div class="apps">
+                        <a class="btn btn-orange pull-left" href=" /go_full?tray=space" data-original-title="" title="">Make a Video</a>
+                        <a class="btn btn-icon" type="button" href=" /cc_browser?themeId=space" character="" creator"="" data-original-title="" title=""><i class="i-cc"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="theme" id="thm-stick" data-tags="" style="display: block;">
+            <div class="theme-cell">
+                <div class="theme-cover launch">
+                    <img src="https://web.archive.org/web/20150101131907im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/videomaker/themes/Stick_Figure.jpg" alt="Stick Figure">
+                </div>
+                <div class="theme-meat">
+                    <h3>Stick Figure</h3>
+                    <div class="apps">
+                        <a class="btn btn-orange pull-left" href=" /go_full?tray=stick" data-original-title="" title="">Make a Video</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="theme" id="thm-monstermsh" data-tags="lipsync qvm" style="display: block;">
+            <div class="theme-cell">
+                <div class="theme-cover launch">
+                    <img src="https://dominicjennings.github.io/old-goanimate-files/Monsters_Mayhem.png" alt="Monsters Mayhem">
+                </div>
+                <div class="theme-meat">
+                    <h3>Monsters Mayhem</h3>
+                    <div class="apps">
+                        <a class="btn btn-orange pull-left" href=" /go_full?tray=monstermsh" data-original-title="" title="">Make a Video</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="theme" id="thm-animal" data-tags="lipsync qvm" style="display: block;">
+            <div class="theme-cell">
+                <div class="theme-cover launch">
+                    <img src="https://web.archive.org/web/20150101131907im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/videomaker/themes/Lil_Petz_World.jpg" alt="Lil' Petz">
+                </div>
+                <div class="theme-meat">
+                    <h3>Lil' Petz</h3>
+                    <div class="apps">
+                        <a class="btn btn-orange pull-left" href=" /go_full?tray=animal" data-original-title="" title="">Make a Video</a>
+                        <a class="btn btn-icon" type="button" href=" /cc_browser?themeId=animal" character="" creator"="" data-original-title="" title=""><i class="i-cc"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="theme" id="thm-christmas" data-tags="lipsync qvm" style="display: block;">
+            <div class="theme-cell">
+                <div class="theme-cover launch">
+                    <img src="https://dominicjennings.github.io/old-goanimate-files/Holiday_and_Seasonal.png" alt="Holiday &amp; Seasonal">
+                </div>
+                <div class="theme-meat">
+                    <h3>Holiday &amp; Seasonal</h3>
+                    <div class="apps">
+                        <a class="btn btn-orange pull-left" href=" /go_full?tray=christmas" data-original-title="" title="">Make a Video</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="theme" id="thm-politic" data-tags="lipsync qvm" style="display: block;">
+            <div class="theme-cell">
+                <div class="theme-cover launch">
+                    <img src="https://dominicjennings.github.io/old-goanimate-files/Politics_and_Celebrity.png" alt="Politics &amp; Celebrity">
+                </div>
+                <div class="theme-meat">
+                    <h3>Politics &amp; Celebrity</h3>
+                    <div class="apps">
+                        <a class="btn btn-orange pull-left" href=" /go_full?tray=politic" data-original-title="" title="">Make a Video</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="theme" id="thm-startrek" data-tags="lipsync qvm" style="display: block;">
+            <div class="theme-cell">
+                <div class="theme-cover launch">
+                    <img src="https://dominicjennings.github.io/old-goanimate-files/Star_Trek_Quags.JPG" alt="Star Trek Quogs">
+                </div>
+                <div class="theme-meat">
+                    <h3>Star Trek Quogs</h3>
+                    <div class="apps">
+                        <a class="btn btn-orange pull-left" href=" /go_full?tray=startrek" data-original-title="" title="">Make a Video</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="theme" id="thm-vietnam" data-tags="lipsync qvm" style="display: block;">
+            <div class="theme-cell">
+                <div class="theme-cover launch">
+                    <img src="https://project-files.picsart.com/project_files/498eeae1-ab10-4617-bdfe-c989aa991d6a.png?type=webp&amp;to=min&amp;r=252.5" alt="Jungle Warfare">
+                </div>
+                <div class="theme-meat">
+                    <h3>Jungle Warfare</h3>
+                    <div class="apps">
+                        <a class="btn btn-orange pull-left" href=" /go_full?tray=vietnam" data-original-title="" title="">Make a Video</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="theme" id="thm-toonadv" data-tags="lipsync qvm" style="display: block;">
+            <div class="theme-cell">
+                <div class="theme-cover launch">
+                    <img src="https://dominicjennings.github.io/old-goanimate-files/Toon_Adventure.PNG" alt="Toon Adventure">
+                </div>
+                <div class="theme-meat">
+                    <h3>Toon Adventure</h3>
+                    <div class="apps">
+                        <a class="btn btn-orange pull-left" href=" /go_full?tray=toonadv" data-original-title="" title="">Make a Video</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<script>
+$(function() {
+    $('.vm-tutorial-trigger').click(function(e) {
+        e.preventDefault();
+
+        var $tutorial = $('.vm-tutorial');
+
+        if ($tutorial.hasClass('expand')) {
+            $('.tutorial-video').hide();
+            wistiaEmbed && wistiaEmbed.pause();
+        } else {
+            setTimeout(function() {
+                $('.tutorial-video').show();
+                wistiaEmbed && wistiaEmbed.play();
+            }, 400);
+        }
+
+        $tutorial.toggleClass('expand');
+    });
+
+    $('.theme-cell').each(function() {
+        var $button = $('.apps > .btn:first-child', this);
+        var launch, url;
+
+        $('.theme-cover', this).click(function(e) {
+            e.preventDefault();
+
+            if ($button.attr('href') != undefined) {
+                window.location.href = $button.attr('href');
+            } else {
+                $button.trigger('click');
+            }
+        }).addClass('launch');
+    });
+
+    $('.vm-bf-content .btn-flat, .themes .apps > .btn').tooltip();
+});
+
+var tagNames = {"lipsync":"Lip-sync","ext_lib":"Extensive Library","starters":"Scene Starters","qvm":"Template","char_creator":"Character Creator"};
+</script>
+<script src="https://web.archive.org/web/20150101131907js_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/js/video_maker.js"></script>
+
+<div id="biz-preview-overlay" class="modal hide">
+    <div class="modal-header">
+        <button class="close" type="button" data-dismiss="modal" aria-hidden="true">Ãƒâ€”</button>
+        <h3 class="modal-title">Preview the <span class="theme-name"></span> <span class="app-type"></span></h3>
+    </div>
+
+    <div class="modal-body text-center">
+        <div>
+            <br>
+            <img src="https://web.archive.org/web/20150101131907im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/videomaker/img_previewnsave.png">
+            <br><br>
+        </div>
+
+        <p>The <span class="theme-name"></span> <span class="app-type"></span> is available to <em>business subscribers only</em>.</p>
+
+        <p>Preview it for free, then <a href="https://web.archive.org/web/20150101131907/http://goanimate.com/business/videoplans/?hook=preview.site">subscribe to a business plan</a><br> if you'd like to keep your video or character.</p>
+    </div>
+
+    <div class="modal-footer">
+        <button class="btn btn-orange btn-cta" data-dismiss="modal">Preview</button>
+
+        <a class="btn btn-upsell" href="https://web.archive.org/web/20150101131907/http://goanimate.com/business/videoplans?hook=preview.site">View Business Plans</a>
+    </div>
+</div>
+
+<div id="trial-expired-overlay" class="modal hide">
+    <div class="modal-header">
+        <button class="close" type="button" data-dismiss="modal" aria-hidden="true">Ãƒâ€”</button>
+        <h3 class="modal-title">Oh, your subscription has expired</h3>
+    </div>
+
+    <div class="modal-body text-center">
+        <div class="trial-upsell trial-upsell-expired">
+            <h2><img src="https://web.archive.org/web/20150101131907im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/trial/lock.png" alt=""> Subscribe now to unlock your account</h2>
+
+            <p class="text-feature">
+                Edit and download your videos in HD<br>
+                Access all GoAnimate templates<br>
+                Create unlimited characters<br>
+                Use 1-click publishing            </p>
+        </div>
+
+    </div>
+
+    <div class="modal-footer">
+        <a class="btn btn-orange" href="https://web.archive.org/web/20150101131907/http://goanimate.com/business/videoplans?hook=preview.site">View Plans &amp; Pricing</a>
+    </div>
+</div>
+<div id="payment-license-overlay" class="modal hide"></div>
+
+
+<!-- FOOTER -->
+
+<div class="site-footer">
+    <div class="container clearfix">
+
+        <div class="site-footer-nav clearfix">
+            <div class="col" style="border-left: none;">
+                <h5><span>About GoAnimate Online In 2025</span></h5>
+                <ul>
+                    <li><a href="#">Who we are</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Browse all videos</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h5><span>GoAnimate Online Solutions In 2025</span></h5>
+                <ul>
+                    <li><a href="#">Plans and Pricing</a></li>
+                    <li><a href="https://goanimate4schools2024.glitch.me">GoAnimate For Schools 2024</a></li>
+                    <li><a href="/theaters.html">Movie Theaters</a></li>
+                    <li><a href="https://www.youtube.com/@DJDominicJennings">Dominic Jennings YouTube Channel</a></li>
+                    <li><a href="/settings">Settings</a></li>
+                    <li class="dummy">&nbsp;</li>
+                    
+                    <li class="dummy">&nbsp;</li><li class="dummy">&nbsp;</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h5><span>Usage Guidelines In 2025</span></h5>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">About Licensed Themes</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cancellation Policy</a></li>
+                    <li class="dummy">&nbsp;</li>
+                </ul>
+            </div>
+            <div class="col" style="border-right: none;">
+                <h5>Getting Help</h5>
+                <ul>
+                    <li><a href="#">Video Maker Tips In 2025</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="/go_full?tray=custom&amp;tutorial=0">Tutorial</a></li>
+                    <li><a href="/creator?filter=cc">Creator GoAnimate SkoleTube CC</a></li>
+                    <li><a href="/creator">Creator GoAnimate SkoleTube</a></li>
+                    <li class="dummy">&nbsp;</li>
+                    <li class="dummy">&nbsp;</li>
+                    <li class="dummy">&nbsp;</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+
+
+        <div class="clearfix">
+            <div class="site-footer-socials-container">
+                Follow us on:
+                <ul class="site-footer-socials clearfix">
+                    <li><a class="facebook" href="https://web.archive.org/web/20150101131339/http://www.facebook.com/GoAnimateInc">Facebook</a></li>
+                    <li><a class="twitter" href="https://web.archive.org/web/20150101131339/http://twitter.com/GoAnimate">Twitter</a></li>
+                    <li><a class="linkedin" href="https://web.archive.org/web/20150101131339/http://www.linkedin.com/company/goanimate">Linked In</a></li>
+                    <li><a class="gplus" href="https://web.archive.org/web/20150101131339/https://plus.google.com/+goanimate">Google+</a></li>
+                    <li><a class="youtube" href="https://web.archive.org/web/20150101131339/http://www.youtube.com/user/GoAnimate">YouTube</a></li>
+                </ul>
+            </div>
+            <div class="site-footer-copyright">
+                <img src="https://web.archive.org/web/20150101131339im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/footer/logo_norton.png" alt="Norton Secured">
+                <img src="https://web.archive.org/web/20150101131339im_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/img/footer/logo_amazon.png" alt="AWS Partner Network">
+                &nbsp;&nbsp;&nbsp;
+                GoAnimate Online © 2025
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="studio_container" style="display: none;">
+    <div id="studio_holder"><!-- Full Screen Studio -->
+        <div style="top: 50%; position: relative;">
+            This content requires the Adobe Flash Player 10.3. <a href="https://web.archive.org/web/20150101131339/http://get.adobe.com/flashplayer/">Get Flash</a>
+        </div>
+    </div>
+</div>
+
+</div>
+<!-- END OF PAGE STRUCTURE -->
+
+
+<script>
+var IE = {
+  Version: function() {
+    var version = 999; // we assume a sane browser
+    if (navigator.appVersion.indexOf("MSIE") != -1)
+      // bah, IE again, lets downgrade version number
+      version = parseFloat(navigator.appVersion.split("MSIE")[1]);
+    return version;
+  }
+}
+
+var UserData = function() {
+  this.userData = null;
+  this.name = location.hostname;
+
+  if (IE.version > 6 && !this.userData) {
+    try {
+      this.userData = document.createElement('INPUT');
+      this.userData.type = "hidden";
+      this.userData.style.display = "none";
+      this.userData.addBehavior ("#default#userData");
+      document.body.appendChild(this.userData);
+      var expires = new Date();
+      expires.setDate(expires.getDate()+365);
+      this.userData.expires = expires.toUTCString();
+    } catch(e) {
+    }
+  }
+
+    this.setItem = function(key, value) {
+
+            this.userData.load(this.name);
+            this.userData.setAttribute(key, value);
+            this.userData.save(this.name);
+    }
+    this.getItem = function(key) {
+            this.userData.load(this.name);
+            return this.userData.getAttribute(key);
+    }
+    this.remove = function(key) {
+            this.userData.load(this.name);
+            this.userData.removeAttribute(key);
+            this.userData.save(this.name);
+    }
+
+}
+
+function locStorage(action, key, value){
+    var result;
+    if (typeof(localStorage) == 'undefined' ) {
+            // localStorge not supported
+    } else {
+        try {
+            switch(action){
+                case 'setItem':
+                    localStorage.setItem(key, value);
+                break;
+                case 'getItem':
+                    result = localStorage.getItem(key);
+                break;
+                case 'removeItem':
+                    localStorage.removeItem(key);
+                break;
+            }
+        return result;
+        } catch (e) {
+            if (e == QUOTA_EXCEEDED_ERR) {
+                //data wasn't successfully saved due to quota exceed so throw an error
+            }
+        }
+    }
+}
+function bannedUser(value){
+    if (value == "true"){
+        document.body.innerHTML="";
+    }
+}
+</script>
+<div style="height:0;overflow:hidden;"><object width="1" height="1">   <param name="vap" value="http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/swf/VAP.swf">   <param name="bgcolor" value="#000000"><param name="allowFullScreen" value="true">   <param name="FlashVars" value="detect=true">   <param name="allowscriptaccess" value="always">   <ruffle-embed src="https://web.archive.org/web/20150101131339mp_/http://lightspeed.goanimate.com/static/9d5f1cea99a593a3/go/swf/VAP.swf" flashvars="detect=true" type="application/x-shockwave-flash" width="1" height="1" bgcolor="#ffffff" allowscriptaccess="always" allowfullscreen="true"></ruffle-embed></object></div>    <script>
+    //check userdata (IE)
+    if (IE.version > 6) {
+        var ud = new UserData();
+        var ud_expiry = ud.getItem("vap");
+        if (ud_expiry > 1420118020){
+            document.body.innerHTML='';
+        }
+    }
+    //check localStorage
+    var ls_expiry = locStorage("getItem", "vap");
+    if (ls_expiry > 1420118020){
+        document.body.innerHTML='';
+    }
+    </script>
+
+<div id="container"></div>
+
+<div id="offer_container">
+</div>
+<script type="text/javascript">
+    </script>
+
+<!-- Start Quantcast tag -->
+<script type="text/javascript">
+    var _qevents = _qevents || [];
+    (function() {
+        var elem = document.createElement('script');
+        elem.src = (document.location.protocol == "https:" ? "https://web.archive.org/web/20150101131339/https://secure" : "https://web.archive.org/web/20150101131339/http://edge")
+            + ".quantserve.com/quant.js";
+        elem.async = true;
+        elem.type = "text/javascript";
+        var scpt = document.getElementsByTagName('script')[0];
+        scpt.parentNode.insertBefore(elem, scpt);
+    })();
+</script>
+<script type="text/javascript">
+    _qevents.push( {"qacct":"p-66CFnJxwubvnE"} );
+</script>
+<noscript>
+<div style="display: none;">
+    <img src="https://web.archive.org/web/20150101131339im_/http://pixel.quantserve.com/pixel/p-66CFnJxwubvnE.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
+
+<!-- Start of Async HubSpot Analytics Code -->
+<script type="text/javascript">
+(function(d,s,i,r) {
+if (d.getElementById(i)){return;}
+var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+n.id=i;n.src='//web.archive.org/web/20150101131339/http://js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/427840.js';
+e.parentNode.insertBefore(n, e);
+})(document,"script","hs-analytics",300000);
+</script>
+<!-- End of Async HubSpot Analytics Code -->
+
+<script type="text/javascript">
+    function logSendShareToGA() {
+        _gaq.push(['_trackPageview', "/pageTracker/goals/reg/contactform"]);
+    }
+
+</script>
+
+<div style="height:0;overflow:hidden;">
+<!-- Google Code for Remarketing tag -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1066565985;
+var google_conversion_label = "zfxRCPeZtAQQ4YLK_AM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//web.archive.org/web/20150101131339js_/http://www.googleadservices.com/pagead/conversion.js">
+</script><iframe name="google_conversion_frame" title="Google conversion frame" width="300" height="13" src="https://web.archive.org/web/20150101131339if_/http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066565985/?random=1420118019544&amp;cv=7&amp;fst=1420118019544&amp;num=1&amp;fmt=1&amp;label=zfxRCPeZtAQQ4YLK_AM&amp;guid=ON&amp;u_h=864&amp;u_w=1536&amp;u_ah=824&amp;u_aw=1536&amp;u_cd=24&amp;u_his=4&amp;u_tz=0&amp;u_java=false&amp;u_nplug=4&amp;u_nmime=6&amp;frm=0&amp;url=http%3A//localhost%3A4343/home&amp;vis=1" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no"><img height="1" width="1" border="0" alt="" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066565985/?frame=0&random=1420118019544&cv=7&fst=1420118019544&num=1&fmt=1&label=zfxRCPeZtAQQ4YLK_AM&guid=ON&u_h=864&u_w=1536&u_ah=824&u_aw=1536&u_cd=24&u_his=4&u_tz=0&u_java=false&u_nplug=4&u_nmime=6&frm=0&url=http%3A//localhost%3A4343/home&vis=1" /></iframe><iframe name="google_conversion_frame" title="Google conversion frame" width="300" height="13" src="https://web.archive.org/web/20150101131339if_/http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066565985/?random=1420118019415&amp;cv=7&amp;fst=1420118019415&amp;num=1&amp;fmt=1&amp;label=zfxRCPeZtAQQ4YLK_AM&amp;guid=ON&amp;u_h=864&amp;u_w=1536&amp;u_ah=824&amp;u_aw=1536&amp;u_cd=24&amp;u_his=2&amp;u_tz=0&amp;u_java=false&amp;u_nplug=4&amp;u_nmime=6&amp;frm=0&amp;url=http%3A//localhost%3A4343/home&amp;vis=1" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no"><img height="1" width="1" border="0" alt="" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066565985/?frame=0&random=1420118019415&cv=7&fst=1420118019415&num=1&fmt=1&label=zfxRCPeZtAQQ4YLK_AM&guid=ON&u_h=864&u_w=1536&u_ah=824&u_aw=1536&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=4&u_nmime=6&frm=0&url=http%3A//localhost%3A4343/home&vis=1" /></iframe><iframe name="google_conversion_frame" title="Google conversion frame" width="300" height="13" src="https://web.archive.org/web/20150101131339if_/http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066565985/?random=1420118019485&amp;cv=7&amp;fst=1420118019485&amp;num=1&amp;fmt=1&amp;label=zfxRCPeZtAQQ4YLK_AM&amp;guid=ON&amp;u_h=864&amp;u_w=1536&amp;u_ah=824&amp;u_aw=1536&amp;u_cd=24&amp;u_his=4&amp;u_tz=0&amp;u_java=false&amp;u_nplug=4&amp;u_nmime=6&amp;frm=0&amp;url=http%3A//localhost%3A4343/home&amp;vis=1" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no"><img height="1" width="1" border="0" alt="" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066565985/?frame=0&random=1420118019485&cv=7&fst=1420118019485&num=1&fmt=1&label=zfxRCPeZtAQQ4YLK_AM&guid=ON&u_h=864&u_w=1536&u_ah=824&u_aw=1536&u_cd=24&u_his=4&u_tz=0&u_java=false&u_nplug=4&u_nmime=6&frm=0&url=http%3A//localhost%3A4343/home&vis=1" /></iframe><iframe name="google_conversion_frame" title="Google conversion frame" width="300" height="13" src="https://web.archive.org/web/20150101131339if_/http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066565985/?random=1420118019411&amp;cv=7&amp;fst=1420118019411&amp;num=1&amp;fmt=1&amp;label=zfxRCPeZtAQQ4YLK_AM&amp;guid=ON&amp;u_h=864&amp;u_w=1536&amp;u_ah=824&amp;u_aw=1536&amp;u_cd=24&amp;u_his=4&amp;u_tz=0&amp;u_java=false&amp;u_nplug=4&amp;u_nmime=6&amp;frm=0&amp;url=http%3A//localhost%3A4343/home&amp;vis=1" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" data-ruffle-polyfilled=""><img height="1" width="1" border="0" alt="" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066565985/?frame=0&random=1420118019411&cv=7&fst=1420118019411&num=1&fmt=1&label=zfxRCPeZtAQQ4YLK_AM&guid=ON&u_h=864&u_w=1536&u_ah=824&u_aw=1536&u_cd=24&u_his=4&u_tz=0&u_java=false&u_nplug=4&u_nmime=6&frm=0&url=http%3A//localhost%3A4343/home&vis=1" /></iframe><iframe name="google_conversion_frame" title="Google conversion frame" width="300" height="13" src="https://web.archive.org/web/20150101131339if_/http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066565985/?random=1420118019382&amp;cv=7&amp;fst=1420118019382&amp;num=1&amp;fmt=1&amp;label=zfxRCPeZtAQQ4YLK_AM&amp;guid=ON&amp;u_h=864&amp;u_w=1536&amp;u_ah=824&amp;u_aw=1536&amp;u_cd=24&amp;u_his=7&amp;u_tz=0&amp;u_java=false&amp;u_nplug=4&amp;u_nmime=6&amp;frm=0&amp;url=http%3A//localhost%3A4343/home%23&amp;vis=1" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" data-ruffle-polyfilled=""><img height="1" width="1" border="0" alt="" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066565985/?frame=0&random=1420118019382&cv=7&fst=1420118019382&num=1&fmt=1&label=zfxRCPeZtAQQ4YLK_AM&guid=ON&u_h=864&u_w=1536&u_ah=824&u_aw=1536&u_cd=24&u_his=7&u_tz=0&u_java=false&u_nplug=4&u_nmime=6&frm=0&url=http%3A//localhost%3A4343/home%23&vis=1" /></iframe><iframe name="google_conversion_frame" title="Google conversion frame" width="300" height="13" src="https://web.archive.org/web/20150101131339if_/http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066565985/?random=1420118024250&amp;cv=7&amp;fst=1420118024250&amp;num=1&amp;fmt=1&amp;label=zfxRCPeZtAQQ4YLK_AM&amp;guid=ON&amp;u_h=864&amp;u_w=1536&amp;u_ah=824&amp;u_aw=1536&amp;u_cd=24&amp;u_his=5&amp;u_tz=0&amp;u_java=false&amp;u_nplug=4&amp;u_nmime=6&amp;frm=0&amp;url=http%3A//localhost%3A4343/home&amp;vis=1" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" data-ruffle-polyfilled=""><img height="1" width="1" border="0" alt="" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066565985/?frame=0&random=1420118024250&cv=7&fst=1420118024250&num=1&fmt=1&label=zfxRCPeZtAQQ4YLK_AM&guid=ON&u_h=864&u_w=1536&u_ah=824&u_aw=1536&u_cd=24&u_his=5&u_tz=0&u_java=false&u_nplug=4&u_nmime=6&frm=0&url=http%3A//localhost%3A4343/home&vis=1" /></iframe><iframe name="google_conversion_frame" title="Google conversion frame" width="300" height="13" src="https://web.archive.org/web/20150101131339if_/http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066565985/?random=1420118019270&amp;cv=7&amp;fst=1420118019270&amp;num=1&amp;fmt=1&amp;label=zfxRCPeZtAQQ4YLK_AM&amp;guid=ON&amp;u_h=864&amp;u_w=1536&amp;u_ah=824&amp;u_aw=1536&amp;u_cd=24&amp;u_his=20&amp;u_tz=0&amp;u_java=false&amp;u_nplug=4&amp;u_nmime=6&amp;frm=0&amp;url=http%3A//localhost%3A4343/home%23&amp;vis=1" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" data-ruffle-polyfilled=""><img height="1" width="1" border="0" alt="" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066565985/?frame=0&random=1420118019270&cv=7&fst=1420118019270&num=1&fmt=1&label=zfxRCPeZtAQQ4YLK_AM&guid=ON&u_h=864&u_w=1536&u_ah=824&u_aw=1536&u_cd=24&u_his=20&u_tz=0&u_java=false&u_nplug=4&u_nmime=6&frm=0&url=http%3A//localhost%3A4343/home%23&vis=1" /></iframe><iframe name="google_conversion_frame" title="Google conversion frame" width="300" height="13" src="https://web.archive.org/web/20150101131339if_/http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066565985/?random=1420118019274&amp;cv=7&amp;fst=1420118019274&amp;num=1&amp;fmt=1&amp;label=zfxRCPeZtAQQ4YLK_AM&amp;guid=ON&amp;u_h=864&amp;u_w=1536&amp;u_ah=824&amp;u_aw=1536&amp;u_cd=24&amp;u_his=23&amp;u_tz=0&amp;u_java=false&amp;u_nplug=4&amp;u_nmime=6&amp;frm=0&amp;url=http%3A//localhost%3A4343/home.html&amp;vis=1" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" data-ruffle-polyfilled=""><img height="1" width="1" border="0" alt="" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066565985/?frame=0&random=1420118019274&cv=7&fst=1420118019274&num=1&fmt=1&label=zfxRCPeZtAQQ4YLK_AM&guid=ON&u_h=864&u_w=1536&u_ah=824&u_aw=1536&u_cd=24&u_his=23&u_tz=0&u_java=false&u_nplug=4&u_nmime=6&frm=0&url=http%3A//localhost%3A4343/home.html&vis=1" /></iframe><iframe name="google_conversion_frame" title="Google conversion frame" width="300" height="13" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066565985/?random=1729028477964&amp;cv=7&amp;fst=1729028477964&amp;num=1&amp;fmt=1&amp;label=zfxRCPeZtAQQ4YLK_AM&amp;guid=ON&amp;u_h=864&amp;u_w=1536&amp;u_ah=824&amp;u_aw=1536&amp;u_cd=24&amp;u_his=2&amp;u_tz=-360&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;frm=0&amp;url=http%3A//localhost%3A4343/home.html&amp;vis=2" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" data-ruffle-polyfilled=""><img height="1" width="1" border="0" alt="" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066565985/?frame=0&random=1729028477964&cv=7&fst=1729028477964&num=1&fmt=1&label=zfxRCPeZtAQQ4YLK_AM&guid=ON&u_h=864&u_w=1536&u_ah=824&u_aw=1536&u_cd=24&u_his=2&u_tz=-360&u_java=false&u_nplug=3&u_nmime=4&frm=0&url=http%3A//localhost%3A4343/home.html&vis=2" /></iframe><iframe name="google_conversion_frame" title="Google conversion frame" width="300" height="13" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066565985/?random=1729028101910&amp;cv=7&amp;fst=1729028101910&amp;num=1&amp;fmt=1&amp;label=zfxRCPeZtAQQ4YLK_AM&amp;guid=ON&amp;u_h=864&amp;u_w=1536&amp;u_ah=824&amp;u_aw=1536&amp;u_cd=24&amp;u_his=2&amp;u_tz=-360&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;frm=0&amp;url=http%3A//localhost%3A4343/home.html&amp;ref=http%3A//localhost%3A4343/business/videoplans.html&amp;vis=1" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" data-ruffle-polyfilled=""><img height="1" width="1" border="0" alt="" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066565985/?frame=0&random=1729028101910&cv=7&fst=1729028101910&num=1&fmt=1&label=zfxRCPeZtAQQ4YLK_AM&guid=ON&u_h=864&u_w=1536&u_ah=824&u_aw=1536&u_cd=24&u_his=2&u_tz=-360&u_java=false&u_nplug=3&u_nmime=4&frm=0&url=http%3A//localhost%3A4343/home.html&ref=http%3A//localhost%3A4343/business/videoplans.html&vis=1" /></iframe>
+<noscript>
+<div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//web.archive.org/web/20150101131339im_/http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066565985/?value=0&amp;label=zfxRCPeZtAQQ4YLK_AM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+</div>
+
+
+
+<!-- Bing ad tracking code -->
+<script type="text/javascript"> if (!window.mstag) mstag = {loadTag : function(){},time : (new Date()).getTime()};</script> <script id="mstag_tops" type="text/javascript" src="//web.archive.org/web/20150101131339js_/http://flex.atdmt.com/mstag/site/9b6ffab3-4c45-48fb-8351-579a59bc477f/mstag.js"></script><script type="text/javascript" src="https://web.archive.org/web/20150101131339js_///flex.atdmt.com/mstag/mstag.1003102000.js"></script><script type="text/javascript" src="https://web.archive.org/web/20150101131339js_///flex.atdmt.com/mstag/mstag.1003102000.js"></script><script type="text/javascript" src="https://web.archive.org/web/20150101131339js_///flex.atdmt.com/mstag/mstag.1003102000.js"></script><script type="text/javascript" src="https://web.archive.org/web/20150101131339js_///flex.atdmt.com/mstag/mstag.1003102000.js"></script><script type="text/javascript" src="https://web.archive.org/web/20150101131339js_///flex.atdmt.com/mstag/mstag.1003102000.js"></script><script type="text/javascript" src="https://web.archive.org/web/20150101131339js_///flex.atdmt.com/mstag/mstag.1003102000.js"></script><script type="text/javascript" src="https://web.archive.org/web/20150101131339js_///flex.atdmt.com/mstag/mstag.1003102000.js"></script><script type="text/javascript" src="https://web.archive.org/web/20150101131339js_///flex.atdmt.com/mstag/mstag.1003102000.js"></script><script type="text/javascript" src="//web.archive.org/web/mstag.1003102000.js"></script><script type="text/javascript" src="//web.archive.org/web/mstag.1003102000.js"></script> <script type="text/javascript"> mstag.loadTag("analytics", {dedup:"1",domainId:"2303149",type:"1",nonadvertisingcost:"",revenue:"",actionid:"122891"})</script><script type="text/javascript" src="https://web.archive.org/web/20150101131339js_///flex.atdmt.com/mstag/tag/9b6ffab3-4c45-48fb-8351-579a59bc477f/analytics.js?ver=1304250512"></script><script type="text/javascript" src="https://web.archive.org/web/20150101131339js_///flex.atdmt.com/mstag/tag/9b6ffab3-4c45-48fb-8351-579a59bc477f/analytics.js?ver=1304250512"></script><script type="text/javascript" src="https://web.archive.org/web/20150101131339js_///flex.atdmt.com/mstag/tag/9b6ffab3-4c45-48fb-8351-579a59bc477f/analytics.js?ver=1304250512"></script><script type="text/javascript" src="https://web.archive.org/web/20150101131339js_///flex.atdmt.com/mstag/tag/9b6ffab3-4c45-48fb-8351-579a59bc477f/analytics.js?ver=1304250512"></script><script type="text/javascript" src="https://web.archive.org/web/20150101131339js_///flex.atdmt.com/mstag/tag/9b6ffab3-4c45-48fb-8351-579a59bc477f/analytics.js?ver=1304250512"></script><script type="text/javascript" src="https://web.archive.org/web/20150101131339js_///flex.atdmt.com/mstag/tag/9b6ffab3-4c45-48fb-8351-579a59bc477f/analytics.js?ver=1304250512"></script><script type="text/javascript" src="https://web.archive.org/web/20150101131339js_///flex.atdmt.com/mstag/tag/9b6ffab3-4c45-48fb-8351-579a59bc477f/analytics.js?ver=1304250512"></script><script type="text/javascript" src="https://web.archive.org/web/20150101131339js_///flex.atdmt.com/mstag/tag/9b6ffab3-4c45-48fb-8351-579a59bc477f/analytics.js?ver=1304250512"></script> <noscript> <iframe src="//web.archive.org/web/20150101131339if_/http://flex.atdmt.com/mstag/tag/9b6ffab3-4c45-48fb-8351-579a59bc477f/analytics.html?dedup=1&amp;domainId=2303149&amp;type=1&amp;nonadvertisingcost=&amp;revenue=&amp;actionid=122891" frameborder="0" scrolling="no" width="1" height="1" style="visibility:hidden;display:none"> </iframe> </noscript>
+
+
+
+<!--
+     FILE ARCHIVED ON 13:13:39 Jan 01, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:58:22 Mar 27, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots: 1.563 (7)
+  exclusion.robots.policy: 1.459 (7)
+  cdx.remote: 0.669 (7)
+  esindex: 0.091 (7)
+  LoadShardBlock: 834.055 (24)
+  PetaboxLoader3.datanode: 462.89 (25)
+  load_resource: 122.829
+  PetaboxLoader3.resolve: 22.472
+--></body></html>

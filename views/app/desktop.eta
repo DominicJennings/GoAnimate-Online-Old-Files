@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" href="/favicon.ico" type="image/png" />
+		<title>Video Editor</title>
+		<link rel="stylesheet" type="text/css" href="/pages/desktop css/modern-normalize.css">
+		<link rel="stylesheet" type="text/css" href="/pages/desktop css/global.css">
+		<link rel="stylesheet" type="text/css" href="/pages/desktop css/flash.css">
+		<style>
+			body {
+				background: #eee;
+			}
+
+		</style>
+		<script src="/pages/desktop js/jquery.js"></script>
+		<script src="/pages/desktop js/filesize.js"></script>
+		<script src="/pages/desktop js/global.js"></script>
+		<script>
+			const STORE_URL = "<%= it.env.STORE_URL %>";
+			const CLIENT_URL = "<%= it.env.CLIENT_URL %>";
+
+		</script>
+	</head>
+
+	<body style="margin:0px">
+		<main>
+			<nav id="importer">
+				<nav id="import_head">
+					<label id="import-toggle" for="importer-files" class="button_big">UPLOAD FILES</label>
+					<h3 class="close-button" onclick="hideImporter()">✖</h3>
+					<form>
+						<input id="importer-files" type="file" name="file" title="Upload Files" accept=".mp3,.wav,.swf,.gif,.png,.jpg,.mp4" style="display:none" />
+					</form>
+				</nav>
+				<div id="importer-queue"></div>
+			</nav>
+			<%~ it.object(it.attrs, it.params) %>
+		</main>
+		<div id="previewer" style="display:none">
+			<div id="preview_head">
+				<h2 id="preview-video">Preview Video</h2>
+				<h2 class="close-button" onclick="hidePreviewer()">✖</h2>
+			</div>
+			<object id="preview_player" data="<%= it.env.SWF_URL %>/player.swf" type="application/x-shockwave-flash"
+				width="800" height="450">
+				<param name="flashvars" />
+				<param name="allowScriptAccess" value="always" />
+				<param name="allowFullScreen" value="true" />
+			</object>
+		</div>
+	</body>
+
+	<script src="/pages/desktop js/studio.js"></script>
+</html>

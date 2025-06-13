@@ -1,0 +1,75 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" href="/favicon.ico" type="image/png" />
+		<title>The Premium Video Maker from Wrapper Online Diamond - Create Polished Videos &amp; Animations</title>
+		<link rel="stylesheet" type="text/css" href="/pages/css/modern-normalize.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/global.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/flash.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/importer.css">
+		<style>
+			body {
+				background: #eee;
+			}
+
+		</style>
+		<script src="/pages/js/jquery.js"></script>
+		<script src="/pages/js/filesize.js"></script>
+		<script src="/pages/js/global.js"></script>
+		<script>
+			const STORE_URL = "<%= it.env.STORE_URL %>";
+			const CLIENT_URL = "<%= it.env.CLIENT_URL %>";
+			const IS_STUDIO = true;
+
+		</script>
+	</head>
+
+	<body style="margin:0px">
+		<main>
+			<nav id="importer">
+				<nav id="import_head">
+					<button id="import-toggle" onclick="document.getElementById('importer-files').click()" class="btn btn_primary">UPLOAD FILES</button>
+					<h3 class="close_button" onclick="hideImporter()">✖</h3>
+					<form>
+						<input id="importer-files" type="file" name="file" title="Upload Files" multiple="multiple" style="display:none"/>
+					</form>
+				</nav>
+				<div class="importer_hint drag_hint">Release file to upload</div>
+				<div id="importer-queue"></div>
+			</nav>
+			<object id="obj" data="/animation/Wrapper Online Diamond/go_full.swf" type="application/x-shockwave-flash" width="100%" height="100%"><param name="flashvars" value="appCode=go&collab=0&ctc=go&goteam_draft_only=1&isLogin=Y&isWide=1&lid=0&nextUrl=&page=&retut=1&siteId=go&tray=custom&tlang=en_US&ut=60&apiserver=http%3A%2F%2Flocalhost:4343%2F&storePath=%2Fstore%2F3a981f5cb2739137%2F%3Cstore%3E&clientThemePath=%2Fstatic%2Fad44370a650793d9%2F%3Cclient_theme%3E"> <param name="allowScriptAccess" value="always"></object>		</main>
+		<div id="cc_window" style="display:none">
+			<div class="popup_inside">
+				<h2 class="popup_heading">Character Creator</h2>
+			
+				<iframe id="cc-iframe" src="" title="browser"></iframe> 
+				<div class="buttons">
+					<button class="btn btn_popup" type="button" onclick="hideCCWindow();">BACK TO EDITING</button>
+				</div>
+
+				<a class="close-button" onclick="hideCCWindow()">×</a>
+			</div>
+		</div>
+		<div id="previewer" style="display:none">
+			<div class="popup_inside">
+				<h2 class="popup_heading">Preview Video</h2>
+			
+				<object id="preview_player" data="/animation/Wrapper Online Diamond/player.swf" type="application/x-shockwave-flash"
+					width="640" height="360">
+					<param name="flashvars"/>
+					<param name="allowScriptAccess" value="always"/>
+					<param name="allowFullScreen" value="true"/>
+				</object>
+				<div class="buttons">
+					<button class="btn btn_popup" type="button" onclick="hidePreviewer();">BACK TO EDITING</button>
+					<button class="btn btn_primary btn_popup" type="button" onclick="publishStudio();">SAVE NOW</button>
+				</div>
+
+				<a class="close-button" onclick="hidePreviewer()">×</a>
+			</div>
+		</div>
+	</body>
+
+	<script src="/pages/js/importer.js"></script>
+	<script src="/pages/js/studio.js"></script>
+</html>

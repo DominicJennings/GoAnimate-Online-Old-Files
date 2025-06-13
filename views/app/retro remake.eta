@@ -1,0 +1,108 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script type="text/javascript" src="Video%20Editor_files/bundle-playback.js" charset="utf-8"></script>
+<script type="text/javascript" src="Video%20Editor_files/wombat.js" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="Video%20Editor_files/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://wrapperretroremake.herokuapp.com/go_full?tray=retro","20220726155446","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1658850886");
+</script>
+<link rel="stylesheet" type="text/css" href="Video%20Editor_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="Video%20Editor_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+		<script>
+			document.title='Video Editor',flashvars={"apiserver":"/","storePath":"https://web.archive.org/web/20220726155446/https://josephanimate2021.github.io/store/50/<store>","isEmbed":1,"ctc":"go","ut":60,"bs":"default","appCode":"go","page":"","siteId":"go","lid":13,"isLogin":"Y","retut":0,"clientThemePath":"https://web.archive.org/web/20220726155446/https://josephanimate2021.github.io/static/477/<client_theme>","themeId":"custom","tray":"retro","tlang":"en_US","presaveId":"m-8","goteam_draft_only":1,"isWide":0,"collab":0,"nextUrl":"../pages/html/list.html","noSkipTutorial":1}
+		</script><title>Video Editor</title>
+		<script src="Video%20Editor_files/stuff.js"></script>
+		<script>
+			if(window.location.pathname == '/player' || window.location.pathname == '/go_full' || window.location.pathname == '/recordWindow' || window.location.pathname == '/go_full/tutorial') {
+				function hideHeader() {
+					document.getElementById("header").remove();
+				}
+			}
+		</script>
+		<link rel="stylesheet" type="text/css" href="Video%20Editor_files/modern-normalize.css">
+		<link rel="stylesheet" type="text/css" href="Video%20Editor_files/global.css">
+		<link rel="stylesheet" type="text/css" href="Video%20Editor_files/swf.css">
+	</head>
+	
+	<body onload="hideHeader()"><header id="header">
+		<a href="https://web.archive.org/web/20220726155446/http://wrapperretroremake.herokuapp.com/">
+			<h1 style="margin:0"><img id="logo" src="Video%20Editor_files/list_logo.svg" alt="Wrapper: Offline"></h1>
+		</a>
+		<nav id="headbuttons">
+			<div class="dropdown_contain button_small">
+				<div class="dropdown_button upload_button">UPLOAD</div>
+				<nav class="dropdown_menu">
+					<a onclick="document.getElementById('file').click()">Movie</a>
+					<a onclick="document.getElementById('file2').click()">Character</a>
+				</nav>
+			</div>
+			<a href="https://web.archive.org/web/20220726155446/http://wrapperretroremake.herokuapp.com/pages/html/create.html" class="button_big">CREATE</a>
+		</nav>
+	</header>
+	
+	
+		<main>
+			<object data="animation/810/go_full.swf" type="application/x-shockwave-flash" id="video_maker"><param name="flashvars" value="apiserver=%2F&amp;storePath=https%3A%2F%2Fjosephanimate2021.github.io%2Fstore%2F50%2F%3Cstore%3E&amp;isEmbed=1&amp;ctc=go&amp;ut=60&amp;bs=default&amp;appCode=go&amp;page=&amp;siteId=go&amp;lid=13&amp;isLogin=Y&amp;retut=0&amp;clientThemePath=https%3A%2F%2Fjosephanimate2021.github.io%2Fstatic%2F477%2F%3Cclient_theme%3E&amp;themeId=custom&amp;tray=retro&amp;tlang=en_US&amp;presaveId=m-8&amp;goteam_draft_only=1&amp;isWide=0&amp;collab=0&amp;nextUrl=..%2Fpages%2Fhtml%2Flist.html&amp;noSkipTutorial=1"> <param name="allowScriptAccess" value="always"> <param name="allowFullScreen" value="true"></object>
+		</main>
+
+		<form enctype="multipart/form-data" action="/web/20220726155446/http://wrapperretroremake.herokuapp.com/upload_movie" method="post">
+			<input id="file" onchange="this.form.submit()" name="import" type="file">
+		</form>
+
+		<form enctype="multipart/form-data" action="/web/20220726155446/http://wrapperretroremake.herokuapp.com/upload_character" method="post">
+			<input id="file2" onchange="this.form.submit()" name="import" type="file">
+		</form>
+	<iframe style="display:none" name="dummy"></iframe><form style="display:none" id="uploadbanner" enctype="multipart/form-data" method="post" action="/web/20220726155446/http://wrapperretroremake.herokuapp.com/upload_asset" target="dummy"><input name="params" type="text"><input id="fileupload" name="import" onchange="importComplete(this)" accept=".mp3,.wav,.png,.jpg" type="file"> <input value="submit" id="submit" type="submit"></form><script>interactiveTutorial={neverDisplay:function(){return
+ true}};function studioLoaded(arg){console.log(arg)}function 
+exitStudio(){window.location='pages/html/list.html'}const 
+fu=document.getElementById('fileupload'),sub=document.getElementById('submit');function
+ showImporter(){fu.click()};function importComplete(obj){const 
+file=obj.files[0];if(file!=undefined){const 
+ext=file.name.substring(file.name.lastIndexOf('.')+1);var 
+params=flashvars.presaveId+'.';if(ext=='mp3'||ext=='wav'){var 
+c;while(c!='vo'&&c!='se'&&c!='mu'){c=prompt('Would you like to upload 
+this as a voiceover ("vo"), sound effect ("se"), or as music 
+("mu")?').toLowerCase()}params+=c}else if(ext=='jpg'||ext=='png'){var 
+c;while(c!='bg'&&c!='prop'){c=prompt('Would you like to upload this as a
+ background ("bg") or as a prop 
+("prop")?').toLowerCase()}params+=c}obj.parentElement.firstChild.value=params+'.'+ext;sub.click();return
+ true}}</script><div id="previewPlayerContainer" style="display:none"><div class="preview-player" id="previewPlayer"><h2>Preview</h2><div id="playerdiv"></div><div id="h5-playerdiv"></div><div class="buttons clearfix"><button class="preview-button edit" type="button" onclick="switchBackToStudio()">&lt; Back to editing</button></div><a class="close_btn" href="#" onclick="switchBackToStudio();return false">Close ×</a></div></div><script>interactiveTutorial={neverDisplay:function(){return
+ true}};function studioLoaded(a){console.log(a)}function 
+savePreviewData(b){previewPlayerTempData=b}function 
+retrievePreviewPlayerData(){var 
+b=previewPlayerTempData;previewPlayerTempData="";return b}function 
+switchBackToStudio(){$("#previewPlayerContainer").hide();$("#playerdiv").empty();$("#video_maker").height("100%");$("#video_maker").width("100%")}function
+ 
+loadLegacyPreview(){if(movieDataXmlStr===null){return}savePreviewData(movieDataXmlStr);createPreviewPlayer("playerdiv",{height:360,width:640,player_url:"https://web.archive.org/web/20220726155446/https://josephanimate2021.github.io/animation/18/player.swf",quality:"high",wmode:"transparent"},{movieId:flashvars["presaveId"],ut:"60",apiserver:"/",copyable:"0",isPublished:"0",ctc:"go",tlang:"en_US",autostart:"1",appCode:"go",is_slideshow:"0",is_emessage:"0",isEmbed:"1",utm_source:"",uid:"",isTemplate:"1",isInitFromExternal:1,storePath:"https://web.archive.org/web/20220726155446/https://josephanimate2021.github.io/store/50/<store>",clientThemePath:"https://web.archive.org/web/20220726155446/https://josephanimate2021.github.io/static/477/<client_theme>",startFrame:previewStartFrame});$("body").css("background-color:
+ 
+#0f0f0f");$("#video_maker").height("1px");$("#video_maker").width("1px")}function
+ checkPreviewServer(){return 
+previewPlayer._connectionState===PreviewPlayerConstants.STATE_READY}function
+ 
+initPreviewPlayer(d,c,b,a){movieDataXmlStr=d;previewStartFrame=c;filmXmlStr=d.split("<filmxml>")[1].split("</filmxml>")[0];if(typeof
+ 
+c=="undefined"){c=1}else{c=Math.max(1,parseInt(c))}document.getElementById("previewPlayerContainer").setAttribute("style","");loadLegacyPreview();if(!checkPreviewServer()&&(previewPlayerRetryCount>0)){previewPlayer.connect();previewPlayerRetryCount--}}function
+ exitStudio(){window.location="pages/html/list.html"};</script><!--
+     FILE ARCHIVED ON 15:54:46 Jul 26, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:55:21 Aug 17, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.593
+  exclusion.robots: 0.038
+  exclusion.robots.policy: 0.028
+  esindex: 0.011
+  cdx.remote: 248.799
+  LoadShardBlock: 132.471 (3)
+  PetaboxLoader3.datanode: 106.415 (4)
+  PetaboxLoader3.resolve: 148.634 (2)
+  load_resource: 139.695
+--></body></html>

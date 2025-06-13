@@ -1,0 +1,93 @@
+<theme id="business" name="Business Friendly" cc_theme_id="business"><starter id="0pHH-WrskRNI" numScene="1" title="Text - Default" thumbnail="/stock_thumbs/278841979.jpg" enc_asset_id="0tkTvtxum130iuQ0JDOFAuw" itemRef="/alvin-dev/asset/63122">
+		<film copyable="0" duration="300.0" published="0" pshare="0" isWide="1">
+			<meta>
+				<title>Text - Default</title>
+				<tag />
+				<hiddenTag />
+				<desc />
+				<mver><![CDATA[4]]></mver>
+				<studio>d6aa0e223ee416886418814d10813bf3c7b5f50f</studio>
+				<thumbnail index="0" />
+				<palette>
+					<color value="333333" />
+					<color value="999999" />
+					<color value="fbfbfb" />
+					<color value="669999" />
+					<color value="55bbaa" />
+					<color value="7fbb11" />
+					<color value="15709b" />
+					<color value="9a5d1" />
+					<color value="6ab8d6" />
+					<color value="da2021" />
+					<color value="fecd31" />
+					<color value="28c6c1" />
+					<color value="37444f" />
+					<color value="fe30f0" />
+					<color value="c6276f" />
+					<color value="89c627" />
+					<color value="26a5ef" />
+				</palette>
+			</meta>
+			<scene id="SCENE1" adelay="102" lock="N" index="0" color="8370961" guid="732FE15F-7374-96DF-E5B2-C5D62673D3BB">
+				<durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1" />
+				<bg id="BG1851" index="0">
+					<file>business.g4b_mbg041.swf</file>
+					<color r="Color_A">2672321</color>
+				</bg>
+				<char id="AVATOR1849" index="1" raceCode="1">
+					<action face="1" motionface="1">ugc.120491861.hand_up_indicate_2.xml</action>
+					<x>192.2</x>
+					<y>342.6</y>
+					<xscale>2.84</xscale>
+					<yscale>2.84</yscale>
+					<rotation>0</rotation>
+				</char>
+				<bubbleAsset id="BUBBLE10840" index="2" componentRole="title">
+					<x>410.6</x>
+					<y>191.6</y>
+					<xscale>1</xscale>
+					<yscale>1</yscale>
+					<rotation>0</rotation>
+					<fx>easeNone</fx>
+					<fxdur>0</fxdur>
+					<bubble x="-131" y="-26.5" w="282" h="52.9" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+						<body rgb="3621967" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="20" paddingVertical="0" />
+						<text rgb="16514043" alpha="100" font="LeagueGothic" size="40" align="right" bold="false" italic="false" embed="true"><![CDATA[Your title here]]></text>
+						<url target="top" />
+					</bubble>
+				</bubbleAsset>
+				<bubbleAsset id="BUBBLE10841" index="3" componentRole="subtitle">
+					<x>406.5</x>
+					<y>218.1</y>
+					<xscale>1</xscale>
+					<yscale>1</yscale>
+					<rotation>0</rotation>
+					<fx>easeNone</fx>
+					<fxdur>0</fxdur>
+					<bubble x="-135.1" y="-12.6" w="270.2" h="25.2" rotate="0" type="BLANK" hasTail="0" colorStyle="1" autoTextResize="true">
+						<body rgb="16514043" shadow="1" bgAlpha="0" linergb="0" tailx="90" taily="65" paddingHorizontal="0" paddingVertical="0" />
+						<text rgb="3621967" alpha="100" font="Lato" size="17" align="right" bold="false" italic="false" embed="true"><![CDATA[Your subtitle here]]></text>
+						<url target="top" />
+					</bubble>
+				</bubbleAsset>
+				<effectAsset id="EFFECT4" themecode="common" index="4">
+					<effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false" />
+					<x>47</x>
+					<y>24</y>
+					<width>550</width>
+					<height>354</height>
+					<speech>0</speech>
+				</effectAsset>
+				<trans id="null" index="5">
+					<fx dur="24" type="fl.Fade.out" ease="null" />
+				</trans>
+				<aTranList>
+					<aTran id="752" target="BUBBLE10840" type="Slide" atype="BubbleAsset" direction="0" section="5" timing="0" duration="18" delay="0">
+						<aTranSetting dest="6" />
+					</aTran>
+					<aTran id="753" target="BUBBLE10841" type="Slide" atype="BubbleAsset" direction="0" section="5" timing="3" duration="24" delay="0">
+						<aTranSetting dest="6" />
+					</aTran>
+				</aTranList>
+			</scene>
+		</film></starter></theme>

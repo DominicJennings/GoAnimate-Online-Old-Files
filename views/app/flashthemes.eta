@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="dns-prefetch" href="/">
+<title>FlashThemes - Create</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="/static/ft/css/sailec.css" rel="stylesheet" type="text/css">
+<link href="/static/ft/css/common_combined.css.gz.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="/static/ft/css/timeset.css?l=en_US" type="text/css">
+<link href="/static/ft/css/studio.css" rel="stylesheet" type="text/css">
+<link href="/static/ft/css/video_voice_vendor.css.gz.css" rel="stylesheet" type="text/css">
+<link href="/static/ft/css/worknote.css.gz.css" rel="stylesheet" type="text/css">
+<link href="/static/ft/css/importer.css.gz.css" rel="stylesheet" type="text/css">
+<link href="/static/ft/css/importer_share.css.gz.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+<style text="text/css">
+.top-nav.collapse {height: auto;overflow: visible;}
+</style>
+<![endif]-->
+<script>
+var srv_tz_os = -4, view_name = "go", user_cookie_name = "u_info";
+var user_role = 3;
+</script>
+<script src="/static/ft/js/jquery/jquery.js"></script>
+<script src="/static/ft/js/jquery/jquery.swfobject.min.js"></script>
+<script src="/static/ft/js/bootstrap/bootstrap.min.js"></script>
+<script src="/static/ft/js/bootstrap/bootstrap-switch.min.js"></script>
+<script src="/static/ft/js/go2.js"></script>
+<script src="/static/ft/js/jquery/jquery.blockUI.js"></script>
+<script src="/static/ft/js/jquery/jquery.scrollTo.min.js"></script>
+<script src="/static/ft/js/app.js"></script>
+<script src="/static/ft/js/cookie.js"></script>
+<script src="/static/ft/js/Gettext.js"></script>
+<script src="/static/ft/js/email.js"></script>
+<script type="text/javascript" src="/static/ft/po/ftserver_js-en_US.json"></script>
+<script type="text/javascript">
+var I18N_LANG = 'en_US';
+var GT = new Gettext({'locale_data': json_locale_data});
+</script>
+<script src="/static/ft/js/movie.js"></script>
+<script src="/static/ft/js/studio.js"></script>
+<script src="/static/ft/js/jquery/jquery.tmpl.min.js"></script>
+<script src="/static/ft/js/overlay.js"></script>
+<link href="https://flashthemes.net/static/ft/css/cc.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Glegoo" rel="stylesheet" type="text/css" />
+<link href="https://flashthemes.net/static/ft/css/ccbrowser.css" rel="stylesheet" type="text/css" />
+<script src="https://flashthemes.net/static/ft/js/jquery/jquery.stylish-select.min.js"></script>
+<script src="https://flashthemes.net/static/ft/js/cc.js"></script>
+<script src="https://flashthemes.net/static/ft/js/ccbrowser.js"></script>
+<div style="position:relative;">
+<script>
+    function datetosecondsinday(date) {
+        return (date.getHours() * 3600) + (date.getMinutes() * 60) + date.getSeconds();
+    }
+    function getBg() {
+        var currentTime = Number(datetosecondsinday(new Date()));
+        var percentage = 0;
+        var num = 0;
+        var nextnum = 1;
+        if (new Date().getMonth() === 11) { //december
+          var colors = [
+              ["0, 176, 255", "255, 255, 255"]
+          ]
+          percentage = 100;
+          num = 0;
+          nextnum = 0;
+        }
+        else if (new Date().getMonth() === 9) { //october
+          var colors = [
+              ["63, 29, 100", "220, 83, 21"]
+          ]
+          percentage = 100;
+          num = 0;
+          nextnum = 0;
+        } else {
+            var colors = [
+                ["74, 73, 144", "189, 61, 23"],
+                ["136, 145, 253", "255, 137, 54"],
+                ["100, 137, 242", "207, 107, 214"],
+                ["0, 176, 255", "245, 153, 242"],
+                ["125, 46, 64", "37, 21, 30"],
+                ["59, 43, 99", "29, 21, 70"],
+                ["24, 11, 56", "36, 24, 97"]
+            ];
+            // midnight
+            if (0 <= currentTime && currentTime < 3600) {
+                percentage = 1 - (currentTime / 7200) + 0.5;
+                num = 6;
+                nextnum = 5;
+            }
+            // night
+            if (3600 <= currentTime && currentTime < 14400) {
+                percentage = 1 - (currentTime - 3600) / 10800;
+                num = 5;
+                nextnum = 0;
+            }
+            // dawn
+            if (14400 <= currentTime && currentTime < 21600) {
+                percentage = 1 - (currentTime - 14400) / 7200;
+                num = 0;
+                nextnum = 1;
+            }
+            // sunrise
+            if (21600 <= currentTime && currentTime < 43200) {
+                percentage = 1 - (currentTime - 21600) / 21600;
+                num = 1;
+                nextnum = 2;
+            }
+            // noon
+            if (43200 <= currentTime && currentTime < 61200) {
+                percentage = 1 - (currentTime - 43200) / 18000;
+                num = 2;
+                nextnum = 3;
+            }
+            // sunset
+            if (61200 <= currentTime && currentTime < 64800) {
+                percentage = 1 - (currentTime - 61200) / 3600;
+                num = 3;
+                nextnum = 4;
+            }
+            // dusk
+            if (64800 <= currentTime && currentTime < 79200) {
+                percentage = 1 - (currentTime - 64800) / 10800;
+                num = 4;
+                nextnum = 5;
+            }
+            // night
+            if (79200 <= currentTime && currentTime < 82800) {
+                percentage = 1 - (currentTime - 79200) / 14400;
+                num = 5;
+                nextnum = 6;
+            }
+            // midnight
+            if (82800 <= currentTime && currentTime <= 86400) {
+                percentage = 1 - (currentTime - 82800) / 3600;
+                num = 6;
+                nextnum = 5;
+            }
+        }
+        function rgba2hex(orig) {
+            var a, isPercent,
+                rgb = orig.replace(/\s/g, '').match(
+                    /^rgba?\((\d+),(\d+),(\d+),?([^,\s)]+)?/i),
+                alpha = (rgb && rgb[4] || "").trim(),
+                hex = rgb ?
+                (rgb[1] | 1 << 8).toString(16).slice(1) +
+                (rgb[2] | 1 << 8).toString(16).slice(1) +
+                (rgb[3] | 1 << 8).toString(16).slice(1) : orig;
+            if (alpha !== "") {
+                a = alpha;
+            } else {
+                a = 01;
+            }
+            hex = hex + a;
+            return hex;
+        }
+        $('html').attr('style',
+            'background: url(/static/ft/img/index/fade.png) repeat-x, linear-gradient(rgba(' +
+            colors[num][0] + ', ' + percentage + '), rgba(' + colors[num][
+            1] + ', ' + percentage + ')), linear-gradient(rgba(' + colors[
+                nextnum][0] + ', 1), rgba(' + colors[nextnum][1] +
+            ', 1)), linear-gradient(rgba(' + colors[num][1] + ', ' +
+            percentage + '), rgba(' + colors[num][1] + ',' + percentage +
+            ')), rgba(' + colors[nextnum][1] +
+            ', 1); background-color: white; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=\'' +
+            rgba2hex("rgba('" + colors[num][0] + "', '" + percentage +
+            "')") + '\', endColorstr=\'' + rgba2hex("rgba('" + colors[num][
+                1] + "', '" + percentage + "')") + '\', GradientType=1 ); ')
+    }
+    getBg();
+    /*setInterval(() => {
+      getBg();
+    }, 1000)*/
+</script> <script>
+        
+    </script>
+<div id="studioBlock" style="height: 0px;"><!-- --></div>
+<div id="playerBlock"></div>
+<div id="previewPlayerContainer" style="display: none;">
+<div class="preview-player" id="previewPlayer">
+<h2>Preview Video</h2>
+<div id="playerdiv"></div>
+<div id="h5-playerdiv">
+<video class="hidden" id="h5-preview-player" width="100%" height="100%"></video>
+<div class="player-overlay loading">
+<div class="loading-icon">
+<div class="loading-message"></div>
+</div>
+<div class="replay-button"></div>
+</div>
+<div class="video-controls">
+<div class="playback-button">
+<div class="icon-image"></div>
+</div>
+<div class="seek-bar">
+<div class="value-bar total-bar"></div>
+<div class="value-bar buffered-bar"></div>
+<div class="value-bar played-bar"></div>
+<div class="slider-thumb"></div>
+<div class="time-tooltip">00:00</div>
+</div>
+<div class="time-display">
+<div class="text">00:00 / 00:00</div>
+</div>
+<div class="volume-control">
+<div class="volume-icon">
+<div class="icon-image"></div>
+</div>
+<div class="volume-slider">
+<div class="slider-track">
+<div class="track-value-bar"></div>
+</div>
+<div class="slider-thumb"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="buttons clearfix">
+<button class="preview-button edit" type="button" onclick="switchBackToStudio();">Back to editing</button>
+<button class="preview-button save" type="button" onclick="publishStudio();">Save Now</button> </div>
+<a class="close_btn" href="#" onclick="switchBackToStudio(); return false;">×</a>
+</div>
+<div style="z-index: -1;border: none;margin: 0px;padding: 0px;width: 100%;height: 100%;top: 0px;left: 0px;background-color: rgb(0, 0, 0);opacity: 0.6;cursor: auto;position: fixed;" class="blockUI blockOverlay"></div>
+</div>
+<div id="characterCreatorContainer" style="display: none;">
+<div class="preview-player character-creator" id="characterCreator">
+<h2>Character Creator</h2>
+<div id="ccdiv"></div>
+<a class="close_btn" href="#" onclick="switchBackToStudio(`cc`); return false;">×</a>
+</div>
+<div style="z-index: -1;border: none;margin: 0px;padding: 0px;width: 100%;height: 100%;top: 0px;left: 0px;background-color: rgb(0, 0, 0);opacity: 0.6;cursor: auto;position: fixed;" class="blockUI blockOverlay"></div>
+</div>
+<div class="video-tutorial" id="video-tutorial" style="display: none;">
+<div class="video-tutorial-body">
+<h2>&nbsp;</h2>
+<div class="video-tutorial-player">
+<div id="wistia_player" class="wistia_embed" style="width:860px;height:445px">&nbsp;</div>
+</div>
+<a class="close_btn" href="#" onclick="return false;">×</a>
+</div>
+<div class="video-tutorial-footer clearfix">
+<button class="tutorial-button" type="button">
+Close </button>
+</div>
+</div>
+</div>
+<div style="display:none">
+</div>
+<script>
+        var cctheme = "";
+        
+        interactiveTutorial.isShowTutorial = false;
+
+        var hideHTMLBox = function() {
+            window.close();
+        };
+        
+        function checkCCLocation(location) {
+            if (location.search("browser") != -1) {
+                $('#cciframe').css('height', '1200px')
+            } else {
+                $('#cciframe').css('height', '600px')
+            }
+        }
+
+        function initCharacterCreator(theme, cid = false) {
+            cctheme = theme;
+            previewSceen();
+            $("#characterCreatorContainer").show();
+            if (!cid) {
+                $("#ccdiv").html(`<iframe id="cciframe" src="https://flashthemes.net/embed/character/browser/${theme}" style="border: none; width: 960px; height: 1200px; margin: 0 auto;" onLoad="checkCCLocation(this.contentWindow.location.href)">`)
+            } else {
+                $("#ccdiv").html(`<iframe id="cciframe" src="https://flashthemes.net/embed/character/creator/${theme}/copy/${cid}" style="border: none; width: 960px; height: 600px; margin: 0 auto;" onLoad="checkCCLocation(this.contentWindow.location.href)">`)
+            }
+        }
+
+        function tutorialStarted() {
+            $.ajax({
+                type: 'POST',
+                url: '/ajax/tutorialStatus/started'
+            });
+        }
+        function tutorialStep(sn) {
+            $.ajax({
+                type: 'POST',
+                url: '/ajax/tutorialStatus/step' + sn
+            });
+        }
+        function tutorialCompleted() {
+            $.ajax({
+                type: 'POST',
+                url: '/ajax/tutorialStatus/completed'
+            });
+        }
+        
+             
+
+
+        var enable_full_screen = true;
+        var studio_data = {
+            id: "Studio",
+            swf: "/static/animationnew/414827163ad4eb60/go_fullw.swf",
+            
+            width: "100%",
+            height: "100%",
+
+            align: "middle",
+            allowScriptAccess: "always",
+            allowFullScreen: "true",
+            wmode: "window",
+
+            hasVersion: "10.3"
+        };
+        if (!enable_full_screen) {
+            studio_data.width = 960;
+            studio_data.height = 630;
+            resize_studio = false;
+        }
+
+        studio_data.flashvars = {"apiserver":"https://flashthemes.net/","storePath":"/static/store/<store>","isEmbed":1,"tlist":"2016","has_asset_char":1,"ctc":"go","initcb":"studioLoaded","collab":0,"ut":"50","v":4580,"bs":"default","appCode":"go","siteId":0,"lid":"0","retut":0,"isLogin":"Y","bgload":"/static/animationnew/414827163ad4eb60/go_fullw.swf","userId":4580,"movieOwnerId":4580,"movieOwner":"Dominic Jennings","tlang":"en_US","isWide":"1","tray":"custom","upl":1,"hb":"1","pts":0,"themeId":"custom","tm":"FIN","nextUrl":"https://flashthemes.net/movie/<movieId>","clientThemePath":"/static/ct/ad44370a650793d9/<client_theme>","movieLid":0}
+        var _ccad = null;
+
+        function proceedWithFullscreenStudio() {
+            // These should be executed only when we are really ready to show the studio
+            window.addEventListener('beforeunload', function(event) {
+                    msg = 'You are about to lose all your unsaved changes in the studio.';
+                    event.returnValue = msg;
+            });
+
+            handleunload = 
+            show_cc_ad = false;
+            // CC template studio widget
+            if (show_cc_ad) {
+                _ccad = new CCBannerAd("whiteboard");
+                (function() {
+                    var ccId = undefined;
+                    _ccad
+                        .onBuyCCInsufficientBalance(function() {
+                            $('#Studio').get(0).showBuyGoBuckPopUp();
+                        })
+                        .onBuyCCComplete(function(aid, trackInfo, templateId) {
+                            if (trackInfo) {
+                            var logger = CCStandaloneBannerAdUI.gaLogTx.createCCPartLogger(aid);
+                            if (templateId) {
+                                logger.setTemplateId(templateId);
+                            }
+                            $.grep(trackInfo.parts, function(n, i) {
+                                return $.inArray(n.ctype, [ 'GoUpper', 'GoLower', 'upper_body', 'lower_body', 'hair' ]) >= 0;
+                            }).each(function(n) {
+                                logger.addItem(n);
+                            });
+                            logger.submit();
+                            }
+
+                            ccId = aid;
+                            if (typeof ccId != undefined) {
+                                try {
+                                    $('#Studio').get(0).reloadAllCC(ccId);
+                                } catch (e) {
+                                }
+                                ccId = undefined;
+                            }
+                        });
+                })();
+            }
+
+            show_voice_ad = false;
+            $('#studio_container').append($('div.templates div.voice-vendor-ad').clone());
+            if (show_voice_ad) {
+                showVoiceAdWidget();
+            }
+
+
+            $('div#studioBlock').css('height', '0px');
+            $('#studio_holder').flash(studio_data);
+            full_screen_studio();
+                        ajust_studio();
+                    }
+
+        function hideCCWidget() {
+            show_cc_ad = false;
+            $('div.studiotemplatebrowser').css('display', 'none');
+            var widget_right = 0;
+            if (show_voice_ad) {
+                $('#studio_container div.voice-vendor-ad').css('right', widget_right);
+                widget_right += $('#studio_container div.voice-vendor-ad').css('width');
+            }
+            if (show_worknote) {
+                $('#studio_container div.studio-worknote').css('right', widget_right);
+            }
+            ajust_studio();
+            return false;
+        }
+
+        function showVoiceAdWidget() {
+            show_voice_ad = true;
+            $('#studio_container div.voice-vendor-ad').css('display', 'block');
+            var widget_right = 0;
+            if (show_cc_ad) {
+                widget_right += $('div.studiotemplatebrowser').css('width');
+            }
+            $('#studio_container div.voice-vendor-ad').css('right', widget_right);
+            widget_right += $('#studio_container div.voice-vendor-ad').css('width');
+            if (show_worknote) {
+                $('#studio_container div.studio-worknote').css('right', widget_right);
+            }
+            ajust_studio();
+            return false;
+        }
+
+        function hideVoiceAdWidget() {
+            show_voice_ad = false;
+            $('#studio_container div.voice-vendor-ad').css('display', 'none');
+            var widget_right = 0;
+            if (show_cc_ad) {
+                widget_right += $('div.studiotemplatebrowser').css('width');
+            }
+            if (show_worknote) {
+                $('#studio_container div.studio-worknote').css('right', widget_right);
+            }
+            ajust_studio();
+            return false;
+        }
+
+        function showWorknoteWidget() {
+            show_worknote = true;
+            $('#studio_container div.studio-worknote').css('display', 'block');
+            var widget_right = 0;
+            if (show_cc_ad) {
+                widget_right += $('div.studiotemplatebrowser').css('width');
+            }
+            if (show_voice_ad) {
+                widget_right += $('#studio_container div.voice-vendor-ad').css('width');
+            }
+            $('#studio_container div.studio-worknote').css('right', widget_right);
+            ajust_studio();
+            return false;
+        }
+
+        function hideWorknoteWidget() {
+            show_worknote = false;
+            $('#studio_container div.studio-worknote').css('display', 'none');
+            ajust_studio();
+            return false;
+        }
+
+        function toggleWorknoteContent() {
+            $('#studio_container .studio-worknote').toggleClass('collapsed expand');
+            ajust_studio();
+            return false;
+        }
+
+        var studioApiReady = false;
+        function studioLoaded() {
+            studioApiReady = true;
+            $(document).trigger('studioApiReady');
+        };
+
+        var studioWorknoteModule = null;
+
+        var studioModule = null;
+
+        var videoTutorial = null;
+
+        $(document).ready(function() {
+            if (enable_full_screen) {
+                if (!false) {
+                    $('#studio_container').css('top', '0px');
+                }
+                $('#studio_container').show();
+                $('.site-footer').hide();
+                $('#studioBlock').css('height', '1800px');
+
+                if (false) {
+                    checkCopyMovie('javascript:proceedWithFullscreenStudio()', '');
+                } else if (false) {
+                    checkEditMovie('');
+                } else {
+                    proceedWithFullscreenStudio();
+                }
+                                $(window).on('resize', function() {
+                    ajust_studio();
+                });
+                $(window).on('studio_resized', function() {
+                    if (show_cc_ad) {
+                        _ccad.refreshThumbs();
+                    }
+                });
+                
+                if (studioApiReady) {
+                    var api = studioApi($('#studio_holder'));
+                    api.bindStudioEvents();
+                    studioModule = new StudioModule();
+                }
+
+                $('.ga-importer').prependTo($('#studio_container'));
+            } else {
+                $('#studioBlock').flash(studio_data);
+            }
+
+            // Video Tutorial
+            //videoTutorial = new VideoTutorial($("#video-tutorial"));
+            videoTutorial = false;
+        })
+        // restore studio when upsell overlay hidden
+        .on('hidden.bs.modal', '#upsell-modal', function(e) {
+            if ($(e.target).attr('id') == 'upsell-modal') {
+                restoreStudio();
+            }
+        })
+        .on('studioApiReady', function() {
+            var api = studioApi($('#studio_holder'));
+            api.bindStudioEvents();
+            studioModule = new StudioModule();
+            
+        })
+
+   // var previewPlayer = new PreviewPlayer("wss://preview.vyond.com", true),
+    //    previewPlayerRetryCount = 5;
+
+   // previewPlayer.setVideoElement(document.getElementById('h5-preview-player'));
+    //previewPlayer.setMovieId('');
+    //previewPlayer.setUserAuthenticationToken('1:54b3970303df7149e17260a955867d8c99764df8782c6ce50d702251a373b055:LKn9iqCpqgSzmzK7OFNPUPjEZOWLhFINsaLy87m4nl8=');
+    //previewPlayer.setFromPptConversion(false);
+    //previewPlayer.connect();
+
+</script>
+<script>
+$("#previewPlayerContainer, #video-tutorial").hide();
+
+var movieDataXmlStr = null,
+    filmXmlStr = null,
+    previewStartFrame = 0;
+
+function checkBrowser() {
+    return window.WebSocket && window.MediaSource;
+}
+
+function checkTheme(themeList) {
+    if (themeList === undefined) {
+        return true;
+    }
+
+    var themeCount = themeList.length,
+        h5Themes = {
+            'common' : true,
+            'infographics': true,
+            'business': true,
+            'whiteboard': true,
+            'commoncraft': true
+        };
+
+    for (var i = 0; i < themeCount; i++) {
+        if (h5Themes[themeList[i]] === undefined) {
+            return false;
+        }
+    }
+
+    return true;
+}
+
+function checkPreviewServer() {
+    return previewPlayer._connectionState === PreviewPlayerConstants.STATE_READY;
+}
+
+function loadH5Preview() {
+    if (filmXmlStr === null) {
+        return;
+    }
+
+    $('#h5-playerdiv').data('previewPlayerControl').reset();
+    previewPlayer.preview(filmXmlStr, previewStartFrame);
+    $('#previewPlayer').addClass('using-h5');
+}
+
+function loadLegacyPreview() {
+    if (movieDataXmlStr === null) {
+        return;
+    }
+    
+    pauseH5PreviewPlayer();
+    
+
+    savePreviewData(movieDataXmlStr);
+    createPreviewPlayer("playerdiv", {
+        
+        height: 360,
+        width: 640,
+        
+        
+            player_url: "/static/animationnew/414827163ad4eb60/player.swf",
+        
+        quality: "high"
+    }, {
+        movieOwner: "", movieOwnerId: "", movieId: "", ut: "-1",
+        movieLid: "8", movieTitle: "", movieDesc: "", userId: "", username: "", uemail: "",
+        apiserver: "https://flashthemes.net/", thumbnailURL: "", copyable: "0", isPublished: "0", ctc: "go", tlang: "en_US", is_private_shared: "0",
+        autostart: "1", appCode: "go", is_slideshow: "0", originalId: "0", is_emessage: "0", isEmbed: "0", refuser: "",
+        utm_source: "", uid: "", isTemplate: "1", showButtons: "0", chain_mids: "", showshare: "0", averageRating: "",
+                ratingCount: "", numContact: 0, isInitFromExternal: 1, storePath: "/static/store/<store>", 
+                    
+                        clientThemePath: "/static/ct/ad44370a650793d9//<client_theme>", 
+                        animationPath: "/static/animationnew/414827163ad4eb60/",
+                        
+        startFrame: previewStartFrame
+    });
+    $('#previewPlayer').removeClass('using-h5');
+}
+
+function initPreviewPlayer(dataXmlStr, startFrame, containsChapter, themeList) {
+    movieDataXmlStr = dataXmlStr;
+    previewStartFrame = startFrame;
+
+    filmXmlStr = dataXmlStr.split("<filmxml>")[1].split("</filmxml>")[0];
+
+    if (typeof startFrame == 'undefined') {
+        startFrame = 1;
+    } else {
+        startFrame = Math.max(1, parseInt(startFrame));
+    }
+
+    if (containsChapter) {
+        $("#preview-alert-block").show();
+    } else {
+        $("#preview-alert-block").hide();
+    }
+
+    previewSceen();
+
+    $("#previewPlayerContainer").show();
+
+    var isThemeSupport = checkTheme(themeList);
+
+    if (checkBrowser()) { // Preview with next
+        loadLegacyPreview();
+    } else {
+        // fallback to legacy preview
+        loadLegacyPreview();
+
+        if (!checkPreviewServer() && (previewPlayerRetryCount > 0)) { // Retry on WebSocket connection problem
+            previewPlayer.connect();
+            previewPlayerRetryCount--;
+        }
+    }
+}
+
+function pauseH5PreviewPlayer() {
+    $("#h5-preview-player").get(0).pause();
+}
+
+function switchBackToStudio(from = "preview") {
+    if (from == "preview") {
+        try {
+            ($("#previewPlayerContainer #Player").get(0) || {pause:function(){}}).pause();
+        } catch (err) {};
+
+        pauseH5PreviewPlayer();
+
+        $("#previewPlayerContainer").hide();
+                restoreStudio();
+                document.getElementById("Studio").onExternalPreviewPlayerCancel();
+        return;
+    }
+    $("#characterCreatorContainer").hide();
+        restoreStudio();
+        document.getElementById("Studio").onExternalCharacterCreatorCancel(cctheme);
+}
+function publishStudio() {
+    try {
+        ($("#previewPlayerContainer #Player").get(0) || {pause:function(){}}).pause();
+    } catch (err) {};
+
+    pauseH5PreviewPlayer();
+
+    $("#previewPlayerContainer").hide();
+        restoreStudio();
+        document.getElementById("Studio").onExternalPreviewPlayerPublish();
+}
+function exitStudio(share) {
+    loadedFullscreenStudio = false;
+}
+
+function studioUpsellUpgrade() {
+    $('#upsell-modal').modal('hide');
+    restoreStudio();
+    document.getElementById("Studio").onUpsellUpgrade();
+}
+
+function customFontBanner() {
+    var plansAndPricingUrl = 'https://www.vyond.com/pricing';
+    window.open(plansAndPricingUrl, '_blank');
+}
+//window.addEventListener(PreviewPlayerEvent.ANIMATION_INCOMPATIBLE, function() {
+ //   loadLegacyPreview();
+//});
+
+VideoTutorial.tutorials.composition = {
+    title: 'Composition Tutorial',
+    wistiaId: 'nuy96pslyp',
+};
+VideoTutorial.tutorials.enterexit = {
+    title: 'Enter and Exit Effects Tutorial',
+    wistiaId: 'fvjsa3jnzc',
+}
+</script>
+<script id="importer-share-asset-tmpl" type="text/x-jquery-tmpl">
+<li class="share-asset clearfix">
+    <div class="share-asset-selection">
+        <input type="checkbox" checked>
+    </div>
+    <div class="share-asset-icon"></div>
+    <div class="share-asset-body">
+        <div class="filename"></div>
+        <div class="actions clearfix">
+            <span class="category small"></span>
+            <div class="share-type none">
+                <span class="none" title="Not shared" data-placement="left"><span class="glyph-pro glyph-lock"></span></span>
+                <span class="team" title="All members" data-placement="left"><span class="glyph-pro glyph-group"></span></span>
+                <span class="shared" title="Custom..." data-placement="left"><span class="glyph-pro glyph-parents"></span></span>
+            </div>
+        </div>
+    </div>
+</li>
+</script>
+<script id="importer-file-tmpl" type="text/x-jquery-tmpl">
+<li class="ga-importer-file clearfix fade">
+    <div class="ga-importer-file-icon"><div class="ga-importer-file-progress-bar"><div class="upload-progress"></div></div></div>
+    <div class="ga-importer-file-body">
+        <div class="filename"></div>
+        <div class="actions clearfix">
+            <span class="menu"></span>
+            <span class="category"></span>
+            <a class="cancel" href="#" data-action="cancel-upload" title="Cancel">&times;</a>
+            <a class="clear" href="#" data-action="clear-file" title="Clear">&times;</a>
+            <a class="add-to-scene" href="#" data-action="add-to-scene">Add to scene</a>
+            <a class="add-to-frame" href="#" data-action="add-to-frame">Add to frame</a>
+            <span class="processing">
+                <span class="processing-video">Processing. Please wait...</span>
+                <span class="processing-font">Processing time: ~5 Seconds</span>
+            </span>
+            <span class="error"></span>
+            <div class="share-asset-selection showpublish" id="publish" style="float: right; width: 100px; margin-top: -30px;">         
+                <a style="margin-right: 4px;">Publish</a>  
+                <input type="checkbox" name="publish">
+            </div>
+        </div>
+    </div>
+</li>
+</script>
+<script id="importer-select-sound-tmpl" type="text/x-jquery-tmpl">
+<div class="dropdown">
+<a class="import-as-btn dropdown-toggle" data-toggle="dropdown" href="#">Import as <span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+    <li><a tabindex="-1" href="#" data-subtype="bgmusic">Music</a></li>
+    <li><a tabindex="-1" href="#" data-subtype="soundeffect">Sound Effect</a></li>
+    <li><a tabindex="-1" href="#" data-subtype="voiceover">Voice-Over</a></li>
+</ul>
+</div>
+</script>
+<script id="importer-select-prop-tmpl" type="text/x-jquery-tmpl">
+<div class="dropdown">
+<a class="import-as-btn dropdown-toggle" data-toggle="dropdown" href="#">Import as <span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+    <li><a tabindex="-1" href="#" data-subtype="prop">Prop</a></li>
+    <li><a tabindex="-1" href="#" data-subtype="bg">Backdrop</a></li>
+</ul>
+</div>
+</script>
+<script src="/static/ft/js/importer_share.js.gz.js"></script>
+<script src="/static/ft/js/importer.js.gz.js"></script>
+<script>window.searchTermsDataUrl = '/static/store/common/terms.json';</script>
+<script src="/static/ft/js/search-suggestion.js.gz.js"></script>
+<script src="/static/ft/js/preview-player-control.js.gz.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+ImporterFile.defaults.options.accept_mime = ["image\/png","image\/jpeg","image\/gif","image\/bmp","image/webp","application/x-shockwave-flash","audio\/mpeg","audio\/wav","audio\/x-wav","audio\/vnd.wave","audio\/wave","audio\/mp3","audio\/mp4","audio\/ogg","audio\/vorbis","audio/flac","audio\/aac","audio\/m4a","audio\/x-m4a","video\/mp4","video\/mpeg4","video\/x-flv","video\/x-ms-wmv","application\/mp4", "font\/x-font-ttf","font\/vnd.ms-opentype", "application\/x-font-ttf", "application\/vnd.ms-opentype", "font\/ttf", "application\/ogg", "audio/opus", "video/ogg"];
+ImporterFile.defaults.options.restricted_mime = [];
+ImporterFile.defaults.options.video_status_interval = 5000;
+ImporterFile.defaults.options.font_status_interval = 5000;
+</script>
+<script charset="ISO-8859-1" src="/static/ft/js/E-v1.js" async></script>
+<script type="text/javascript" async src="/static/ft/js/amplitude-4.1.1-min.gz.js"></script>
+<script type="text/javascript" src="/static/ft/js/go_amp.js.gz.js"></script>
+<script>
+    (function() {
+
+        'use strict';
+
+        var studioMode = 'full',
+            themeName = 'whiteboard',
+            copiedId = '',
+            editType = null;
+
+        switch (studioMode) {
+            case 'full':
+                editType = AMPLITUDE_EVENT_PROPERTIES.VM_NEW;
+                break;
+            case 'edit':
+                editType = AMPLITUDE_EVENT_PROPERTIES.VM_EDIT;
+                break;
+            case 'copy':
+                editType = AMPLITUDE_EVENT_PROPERTIES.VM_COPY;
+                break;
+            case 'remix':
+                editType = AMPLITUDE_EVENT_PROPERTIES.VM_REMIX;
+                break;
+            default:
+                break;
+        }
+        if (editType !== null) {
+            $(window).on('amplitude_loaded', function() {
+                logAmplitudeEvent(AMPLITUDE_EVENT.LAUNCH_VM, {
+                    theme: themeName,
+                    edit_type: editType,
+                    video_id: '',
+                    copied_id: copiedId
+                }, {
+                    latest_vm_launched: AMPLITUDE_EVENT_PROPERTIES.LEGACY_VM,
+                    latest_vm_launched_legacy_date: '2019-08-23 15:36:05'
+                });
+            });
+        }
+    }());
+
+    // Amplitude interface for Flash player.
+    function logAmplitudeEvent(eventName, eventProperties, userData) {
+        if (typeof amplitude === 'object') {
+            if (eventName === AMPLITUDE_EVENT.PLAYS_VIDEO) {
+                eventProperties["referral"] = document.referrer;
+            }
+            if (userData !== undefined) {
+                amplitude.getInstance().setUserProperties(userData);
+            }
+            amplitude.getInstance().logEvent(eventName, eventProperties);
+        }
+    }
+</script>
+
+<div id="studio_container" style="top: 0px; width: 1583px; height: 740px;"><div class="ga-importer">
+<div class="ga-importer-header">
+<form class="ga-importer-base-form" action="/goapi/upload_asset/" method="post">
+<a class="ga-importer-collapse" href="https://ga.vyond.com/videomaker/full/whiteboard#" title="Collapse" onclick="hideImporter(); return false;">×</a>
+<div class="fileinputs">
+<div class="importer-button file-trigger">SELECT FILES</div>
+<input class="ga-importer-file-input" type="file" name="file" multiple>
+</div>
+<span class="hints">
+<i class="fa fa-question-circle"></i>
+<div class="tooltip in" style="display: none;">
+<div class="tooltip-arrow"></div>
+<div class="tooltip-inner">
+<ul>
+<li>Maximum file size: 15MB</li>
+<li>Images: JPG, PNG, WEBP, SWF<br>To cover the whole stage in a 1080p video, use an image at least 1920px x 1080px.</li>
+<li>Audio: MP3, WAV, M4A, OGG</li>
+<li>Video: MP4, FLV</li>
+<li>Fonts: TTF, OTF</li>
+</ul>
+</div>
+</div>
+</span>
+<input type="hidden" name="subtype" value>
+</form>
+</div>
+<div class="ga-importer-content" style="height: 689px;">
+<div class="ga-importer-start">
+<div class="ga-importer-start-draghere">Drag files here</div>
+<div class="ga-importer-instruction general">
+<ul>
+<li><strong>Maximum file size:</strong> 15MB</li>
+<li><strong>Images:</strong> JPG, PNG, WEBP, SWF<br>To cover the whole stage in a 1080p video, use an image at least 1920px x 1080px.</li>
+<li><strong>Audio:</strong> MP3, WAV, M4A, OGG</li>
+<li><strong>Video:</strong> MP4, FLV</li>
+<li><strong>Fonts:</strong> TTF, OTF</li>
+</ul>
+</div>
+</div>
+<div class="ga-importer-results" style="display: none;">
+<div class="ga-importer-notice clearfix">
+<div class="ga-importer-notice-count">
+Files added. <a class="open-your-library">View Library</a>
+</div>
+</div>
+<ul class="ga-importer-files"></ul>
+</div>
+<div class="ga-importer-queue-message">
+Assign a category to start importing
+<span class="hints pull-right">
+<i class="i-help"></i>
+<div class="tooltip in" style="display:none;">
+<div class="tooltip-arrow"></div>
+<div class="tooltip-inner">
+<p>Imported files are categorized to simplify browsing.</p>
+<p>Use the "IMPORT AS" drop down to see the available categories based on the format of the file you import.</p>
+</div>
+</div>
+</span>
+</div>
+<ul class="ga-importer-queue"></ul>
+</div>
+<div class="ga-import-dnd-hint">
+Release to start uploading </div>
+</div>
+<div id="studio_holder" style="width: 1583px;" class>
+<div class="noflash_div" style>
+<div class="noflash" style>
+<h1 style="margin: 0;">No Flash Player Detected</h1>
+<h3>This content requires the Flash Player: <a href="https://flashthemes.net/getflash">Get Flash</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div id="ccbrowserdiv" style="visibility: hidden;display:none;justify-content: center;align-items: center;width: 100%;height: 750px;">
+</div>
+
+<div id="offer_container">
+</div>
+<script type="text/javascript">
+    </script>
+<style id="usercss"></style>
+<div id="darkenScreenObject" style="display:none;"></div>
+<div style="display: none; position: absolute; margin-top: 0px; height: 355px; width: 550px; left: 230px; top: 0px; background: none; z-index: 50;" id="overlayObjectGlobal">
+</div>
+<div style="display: none; position: absolute; margin-top: 150px; height: 355px; width: 550px; left: 50%; transform: translateX(-50%); top: 125px; background: none;" id="overlayObject">
+<div id="overlayReportBox" style="display:none; position: absolute;">
+<div id="overlayReportBoxTitle">
+<span id="overlayReportBoxTitle"></span>
+</div>
+<div id="overlay_close" onclick="javascript:hideReportBox();">&nbsp;</div>
+<div class="overlaybody" style="float:left;padding: 10px 15px;width: 350px;">
+<span id="reportBoxMessage"></span>
+<br>
+<br>
+<textarea id="reportTextBox" rows="4" cols="42" required maxlength="255"></textarea>
+<br>
+<div id="overlayReportSendBtn">
+<input type="button" value="Confirm" onclick="javascript:hideInputBox();">
+</div>
+<div id="overlayReportCancelBtn">
+<input type="button" value="Cancel" onclick="javascript:hideInputBox();">
+</div>
+</div>
+</div>
+<div id="overlayAlertBox" style="display:none; position: absolute;">
+<div id="overlayAlertBoxTitle">
+<span id="overlayAlertBoxTitle"></span>
+</div>
+<div id="overlay_close" onclick="javascript:hideAlertBox();">&nbsp;</div>
+<div class="overlaybody" style="text-align: left;float:left; padding: 10px 15px;">
+<span id="alertBoxMessage"></span>
+<br>
+<div id="overlayAlertBoxBtn">
+<input type="button" value="OK" onclick="javascript:hideAlertBox();">
+</div>
+</div>
+</div>
+<div id="overlayConfirmBox" style="display:none; position: absolute;">
+<div id="overlayConfirmBoxTitle"></div>
+<div id="overlay_close" onclick="javascript:hideConfirmBox();">&nbsp;</div>
+<div class="overlaybody" style="text-align: left;float:left; padding: 10px 15px;">
+<span id="confirmBoxMessage"></span>
+<br>
+<div id="overlayConfirmConfirmBtn">
+<input type="button" value="Confirm" onclick="javascript:hideConfirmBox();">
+</div>
+<div id="overlayConfirmCancelBtn">
+<input type="button" value="Cancel" onclick="javascript:hideConfirmBox();">
+</div>
+</div>
+</div>
+<div id="overlayInputBox" style="display:none; position: absolute;">
+<div id="overlayInputBoxTitle">
+<span id="overlayInputBoxTitle"></span>
+</div>
+<div id="overlay_close" onclick="javascript:hideInputBox();">&nbsp;</div>
+<div class="overlaybody" style="text-align: left;float:left; padding: 10px 15px;">
+<span id="inputBoxMessage"></span>
+<br>
+<input type="text" id="inputTextBox" style="width: 290px; margin: 15px 8px 0 8px;">
+<br>
+<div id="overlayInputSaveBtn">
+<input type="button" value="Confirm" onclick="javascript:hideInputBox();">
+</div>
+<div id="overlayInputCancelBtn">
+<input type="button" value="Cancel" onclick="javascript:hideInputBox();">
+</div>
+</div>
+</div>
+<div class="lightbox" id="claim_badge_overlay" style="display:none;">
+<div class="lightbox_wrapper">
+<a onclick="jQuery.unblockUI();" class="close_btn">×</a>
+<h1 id="badge_text_editable"></h1>
+<hr>
+<div class="inputRow">
+<div class="inputData">
+<div class="badges_div" id="claim_badge_overlay_claim">
+<div class="badges_list">
+</div>
+</div>
+<div class="badges_div" id="claim_badge_overlay_claimed" style="display:none;">
+<div class="big_badge_claim_overlay">
+<div class="xpbig">
+<div class="points"></div>
+</div>
+<div class="ftbig">
+<div class="points"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="overlayProgressBox" style="display:none; position: absolute;">
+<div id="overlayProgressBoxTitle">
+<span id="overlayProgressBoxTitle"></span>
+</div>
+<div id="overlay_close" onclick="javascript:hideProgressBox();">&nbsp;</div>
+<div class="overlaybody" style="text-align: left;float:left; padding: 10px 15px;">
+<span id="progressBoxMessage"></span>
+<br>
+<span id="progressBoxMessage2">Initializing.. </span>
+<br>
+<span id="progressBoxDownload" style="display:none"></span>
+<br>
+<div class="loadingBar"><div class="loadingBarFilled"></div></div>
+<br>
+<div id="overlayProgressBoxBtn">
+<input type="button" value="OK" onclick="javascript:hideProgressBox();">
+</div>
+</div>
+</div>
+<div id="overlayHTMLBox" style="display:none; position: absolute;">
+<div id="overlayHTMLBoxTitle">
+<span id="overlayHTMLBoxTitle"></span>
+</div>
+<div id="overlayHTML_close" onclick="javascript:hideHTMLBox();">&nbsp;</div>
+<div class="overlaybody" style="text-align: left;float:left; padding: 10px 15px;clear:both;width:470px;">
+<span id="HTMLBoxMessage"></span>
+</div>
+<div id="HTMLBoxTP" style="display:none"></div>
+</div>
+<div id="overlayGeneral" style="display:none;width:700px;position:relative;">
+<div class="overlay_header">
+<div class="overlayheader">
+<div class="overlay_header_title"><span id="OG_title"></span></div>
+<div class="overlayClose" style="margin: 0;">
+<a href="javascript:goVoid();" onclick="javascript:hideLogin();"></a>
+</div>
+</div>
+</div>
+<div style="float:left; margin:0px; padding: 0px; width:700px;">
+<div style="float:left; margin:0px; padding: 0px; width:700px;">
+<span id="tracker_id" style="display:none"></span>
+<div class="overlayClose" id="OG_close_btn">
+<a href="javascript:goVoid();" onclick="javascript:hideOG();"></a>
+</div>
+<div style="background-color:#fff; position:relative;float:left;width:700px;">
+<span id="OG_content"></span>
+</div>
+</div>
+</div>
+</div>
+<div id="overlayWaiting" style="display:none; position: absolute;">
+<div id="overlayWaitingTitle"></div>
+<div class="overlaybody" style="text-align: left;padding-left:103px">
+Please wait <span id="WaitingDotDotDot"></span>
+</div>
+</div>
+<div id="overlayShareEmail" style="display:none; position: absolute;">
+<div id="overlayShareEmailClose">
+<a href="javascript:showContactOverlay(false);"></a>
+</div>
+<div id="eaf_movie_enc_id" style="display:none">04CNTHizGWiA</div>
+<span id="eaf_body"></span>
+</div>
+<div id="overlayLogin" style="display:none;">
+<div class="overlayLoginContent">
+<div class="overlayheader">
+<div class="overlay_header_title">Login</div>
+<div class="overlayClose" style="margin: 0;">
+<a href="javascript:goVoid();" onclick="javascript:hideLogin();"></a>
+</div>
+</div>
+<div class="overlayLoginForm">
+<form id="loginform" name="loginform" method="post" action="javascript:siteLogin('loginform');">
+<div id="loginErr" class="loginErr"></div>
+<input type="hidden" name="lc" value="en_US">
+<input type="hidden" value="/" name="returnto">
+<div class="slabel">Email</div>
+<div class="field">
+<div class="fieldcontent">
+<input class="fieldinput" maxlength="255" name="email" id="siteLoginBox" autocomplete="email" placeholder="Your Email Address">
+</div>
+</div>
+<div class="slabel">Password</div>
+<div class="field">
+<div class="fieldcontent">
+<input class="fieldinput" type="password" maxlength="50" name="password" onkeypress="javascript:checkEnter(event, 'siteLogin', '\'loginform\'');" autocomplete="current-password" placeholder="Your Password">
+</div>
+</div>
+<div class="slabel"></div>
+<div class="field">
+<a class="sitebtn" href="javascript:siteLogin('loginform');">
+<div id="site_login_button" class="site_login_button">
+<li id="site_login_buttoncenterinactive">
+<span class="site_login_button_text">Login</span>
+</li>
+</div>
+</a>
+<input type="hidden" value="Login" name="submit" id="login_submit">
+</div>
+<div class="forgot_password">
+<a href="/forgotpassword">Forgot your password?</a>
+</div>
+<div class="verify_email">
+<a href="/verifyemail">Didn't get your verification email?</a>
+</div>
+</form>
+</div>
+</div>
+</div>
+<div id="overlaySignup" style="display:none;">
+<div class="overlayLoginContent">
+<div class="overlayheader">
+<div class="overlay_header_title">Sign Up</div>
+<div class="overlayClose" style="margin: 0;">
+<a href="javascript:goVoid();" onclick="javascript:hideSignup();"></a>
+</div>
+</div>
+<div style="padding: 0 10px;float:left;">
+<div class="overlay_tag_title">Sign up today! It's free and easy!</div>
+</div>
+<div class="overlayLoginForm">
+<form id="signupform" name="signupform" action="javascript:siteSignup('signup');" method="post">
+<input type="hidden" name="lc" value="en_US" />
+<input type="hidden" value="/" name="returnto">
+<div id="email_Err" class="loginErr">&nbsp;</div>
+<div class="slabel">Email</div>
+<div class="field">
+<div style="WIDTH: 214px;height:26px;border:2px solid #BBB;padding:5px;">
+<input style="WIDTH: 214px;height:26px;border:0px;font-size:20px;" maxlength="255" name="email" autocomplete="email" placeholder="Your Email Address">
+</div>
+</div>
+<div id="nickname_Err" class="loginErr">&nbsp;</div>
+<div class="slabel">Display Name</div>
+<div class="field">
+<div style="WIDTH: 214px;height:26px;border:2px solid #BBB;padding:5px;">
+<input style="WIDTH: 214px;height:26px;border:0px;font-size:20px;" maxlength="21" name="username" autocomplete="username" placeholder="Your Display Name">
+</div>
+</div>
+<div id="password_Err" class="loginErr">&nbsp;</div>
+<div class="slabel">Password</div>
+<div class="field">
+<div style="WIDTH: 214px;height:26px;border:2px solid #BBB;padding:5px;">
+<input style="WIDTH: 214px;height:26px;border:0px;font-size:20px;" type="password" maxlength="50" name="password1" onkeypress="javascript:checkEnter(event, 'siteSignup', '\'signup\'');" autocomplete="new-password" placeholder="Your Password">
+</div>
+</div>
+<div class="slabel">Confirm Password</div>
+<div class="field">
+<div style="WIDTH: 214px;height:26px;border:2px solid #BBB;padding:5px;">
+<input style="WIDTH: 214px;height:26px;border:0px;font-size:20px;" type="password" maxlength="50" name="password2" onkeypress="javascript:checkEnter(event, 'siteSignup', '\'signup\'');" autocomplete="new-password" placeholder="Confirm Password">
+</div>
+</div>
+<div class="slabel" style="DISPLAY: none">Gender</div>
+<div class="field" style="DISPLAY: none">
+<input type="radio" checked value="m" name="gender">male
+<input type="radio" value="f" name="gender">female
+</div>
+<div id="terms_Err" class="loginErr">&nbsp;</div>
+<div class="signupLink" style="WIDTH: 300px; float:left; padding-top:10px; padding-left:195px; font-size:14px;">
+<input type="checkbox" name="termsofuse">I agree to the
+<a href="/termsofuse">Terms of Use</a>.
+</div>
+<div class="slabel"></div>
+<div class="field" style="float:left;width:300px;padding-top:10px;padding-left:195px;">
+<a class="sitebtn" href="javascript:siteSignup('signup');">
+<div id="site_signup_button" class="site_login_button">
+<li id="site_login_buttoncenterinactive">
+<span class="site_login_button_text">Sign Up</span>
+</li>
+</div>
+</a>
+<input type="hidden" value="Sign Up" name="submit" id="signup_submit">
+</div>
+<div style="float:left;width:190px;padding-top:5px;padding-left:10px;font-size:12px;">Registered?
+<a href="javascript:hideSignup();javascript:showLogin(350);">Login here</a>.
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id="growlfeedback_block" class="growlUI" style="display:none">
+<div id="growlnotify"><img src="https://flashthemes.net/static/ft/img/common/feedback/tick.png" width="52" height="52" onload="javascript:iePngFix(this,52,52);"></div>
+<div id="growlerror"><img src="https://flashthemes.net/static/ft/img/common/feedback/cross.png" width="52" height="52" onload="javascript:iePngFix(this,52,52);"></div>
+<div class="growlcontent">
+<div class="growltitle">Notification</div>
+<div id="growlfeedback"></div>
+</div>
+</div>
+<script>
+    $(document).ready(function() {
+        if (window.location.href.includes("?feedback=")) {
+            var params = new URLSearchParams(window.location.search);
+            displayFeedback(params.get('feedback').split('/')[0]);
+        }
+        if (window.location.href.includes("?showlogin=")) {
+            showLogin(250);
+        }
+        if (window.location.href.includes("?showsignup=")) {
+            showSignup(250);
+        }
+    })
+</script>
+</body></html>

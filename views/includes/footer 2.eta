@@ -1,0 +1,12 @@
+<footer>
+	<nav id="foot-left">
+		<a>v<%= it.env.WRAPPER_VER %></a>
+		<a href="/">Go To Video List</a>
+		<a href="/character/creator">SkoleTube Character Creator</a>
+		<a href="/oldcc">Old cc</a>
+		<a href="/go_full?tray=custom&tutorial=0">Tutorial</a>
+		<a href="/studio_full?tray=custom&tutorial=0">SkoleTube Tutorial</a>
+	</nav>
+
+	<nav id="foot-right"></nav>
+</footer>

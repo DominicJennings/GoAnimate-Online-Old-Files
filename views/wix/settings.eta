@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="icon" href="/favicon.ico" type="image/png" />
+		<title>Settings - GoAnimate: Online</title>
+		<meta name="description" content="GoAnimate: Online's settings"/>
+		<link rel="stylesheet" type="text/css" href="/pages/css/global.css"/>
+		<link rel="stylesheet" type="text/css" href="/pages/css/importer.css"/>
+		<script src="/pages/js/jquery.js"></script>
+		<script src="/pages/js/global.js"></script>
+		<script>const IS_STUDIO = false;</script>
+	</head>
+
+	<body>
+		<%~ includeFile("./includes/header", { env: it.env }) %>
+
+		<main>			
+			<nav class="tabs_contain">
+				<div class="tab_buttons">
+					<h1 id="settings">Settings</h1>
+					<a href="#" class="selected" data-triggers="0">Features</a>
+					<a href="#" data-triggers="1">Appearance</a>
+					<a href="#" data-triggers="2">Your Library</a>
+				</div>
+				<nav class="tab" style="display:block">
+					<h2>Features</h2>
+
+					<h3>Discord Rich Presence</h3>
+					<p>It's Used To Show When You're Using GoAnimate Online In Your "Playing A Game" Status On Discord,<br/>
+					Much Like How Lots Of Modern Computer Games Will Show On Your Discord Status When You're Playing<br/>
+					Them. Turning This Off Will Make Offline Stop Saying When You're Using it On Discord.</p>
+					<input class="setting" type="checkbox" id="DISCORD_RPC"></input>
+
+					<h3>Truncated Themelist</h3>
+					<p>Cuts Down The Amount Of Themes That Clog Up The Themelist In The Videomaker.<br/>
+					Keeping This On Is Highly Suggested.<br/>
+					However, If You Want To See Everything The Program Has To Offer, Turn This Off.<br/>
+					(The 2010 lvm Can't Have This Off As The Themelist Clips Out Due To It Not Supporting More Assets)
+					</p>
+					<input class="setting" type="checkbox" id="TRUNCATED_THEMELIST"></input>
+
+					<h3>Show Waveforms</h3>
+					<p>By Default, Waveforms For Audio Are Generated In The Video Editor.<br/>
+					While Useful, The Editor Freezes While It Generates, Which Could Be Too Annoying Or Slow For Some.<br/>
+					Turning This Off Will Simply Add A Repeating Pre-Made Pattern In Place Of True Waveforms.</p>
+					<input class="setting" type="checkbox" id="SHOW_WAVEFORMS"></input>
+
+					<h3>Enable Selecting lvms From Creating a video</h3>
+					<p>When You Make A Video With This Checked. It Prompts You To Choose A Video Maker.<br/>
+					While Useful, You Can Get Annoyed Pretty Quick By Having To Select Something Everytime.<br/>
+					Turning This Off Will Use The Default Video Maker Settings For Your lvm.</p>
+					<input class="setting" type="checkbox" id="SELECTION" data-local="true"></input>
+					
+					<h3>Default Watermark</h3>
+					<p>The Video Player Has 4 Choices For Default Watermarks.<br/>
+					Default Watermarks Are Shown When You Choose A GoAnimate Watermark.</p>
+					<select class="setting" id="DEFAULT_WATERMARK">
+						<option value="default">GoAnimate</option>
+						<option value="twoLines">Go Make Your Own</option>
+						<option value="g4s">GoAnimate For Schools</option>
+						<option value="freeTrial">Free Trial</option>
+						<option value="wix">GoAnimate Wix</option>
+					</select>
+
+					<h3>Theme Type</h3>
+					<p>The 2010 LVM Has 3 Client Themes That Change The Style Of The LVM.</p>
+					<select class="setting" id="CLIENT_THEME">
+						<option value="go">Normal</option>
+						<option value="domo">Domo Animate</option>
+						<option value="cn">Ben 10</option>
+					</select>
+
+ 					<h3>Default LVM Version</h3>
+					<p>Which Is Your Style?<br/>
+					Different Versions Can Act Differently.</p>
+					<select class="setting" id="VERSION">
+						<option value="1ad2d37a0a7a918d">1ad2d37a0a7a918d</option>
+						<option value="1d1b959bb1edf297">1d1b959bb1edf297</option>
+						<option value="2db57614929275fd">2db57614929275fd</option>
+						<option value="3b571ee56b59600c">3b571ee56b59600c</option>
+						<option value="4bd9a7c97397c789">4bd9a7c97397c789</option>
+						<option value="5f8fbdde9a1ce4bc">5f8fbdde9a1ce4bc</option>
+						<option value="6f3f4c619bea5f66">6f3f4c619bea5f66</option>
+						<option value="9f15d7bb73a58578">9f15d7bb73a58578</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option value="17">17</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+						<option value="21">21</option>
+						<option value="22">22</option>
+						<option value="23">23</option>
+						<option value="24">24</option>
+						<option value="25">25</option>
+						<option value="26">26</option>
+						<option value="27">27</option>
+						<option value="28">28</option>
+						<option value="29">29</option>
+						<option value="61fd8288d31cf568">61fd8288d31cf568</option>
+						<option value="65f35cc17432ecba">65f35cc17432ecba</option>
+						<option value="211">211</option>
+						<option value="403">403</option>
+						<option value="454">454</option>
+						<option value="457">457</option>
+						<option value="459">459</option>
+						<option value="460">460</option>
+						<option value="503">503</option>
+						<option value="750">750</option>
+						<option value="790">790</option>
+						<option value="803">803</option>
+						<option value="808">808</option>
+						<option value="810">810</option>
+						<option value="813">813</option>
+						<option value="813 (2021)">813 (2021)</option>
+						<option value="813 New">813 New</option>
+						<option value="833">833</option>
+						<option value="834">834</option>
+						<option value="835">835</option>
+						<option value="836">836</option>
+						<option value="837">837</option>
+						<option value="838">838</option>
+						<option value="839">839</option>
+						<option value="840">840</option>
+						<option value="841">841</option>
+						<option value="842">842</option>
+						<option value="843">843</option>
+						<option value="844">844</option>
+						<option value="845">845</option>
+						<option value="857">857</option>
+						<option value="857 New">857 New</option>
+						<option value="871">871</option>
+						<option value="877">877</option>
+						<option value="877 (2021)">877 (2021)</option>
+						<option value="877 New">877 New</option>
+						<option value="877 With 2016 Load">877 With 2016 Load</option>
+						<option value="930">930</option>
+						<option value="1345e0abfc608b6">1345e0abfc608b6</option>
+						<option value="2010">2010</option>
+						<option value="2010 FlashThemes">2010 FlashThemes</option>
+						<option value="2010 Remake">2010 Remake</option>
+						<option value="2011">2011</option>
+						<option value="2011 Wrapper Classic">2011 Wrapper Classic</option>
+						<option value="2012">2012</option>
+						<option value="2012 (New)">2012 (New)</option>
+						<option value="2012 FlashThemes">2012 FlashThemes</option>
+						<option value="2012 Wrapper Classic">2012 Wrapper Classic</option>
+						<option value="2013">2013</option>
+						<option value="2013 (New) Remake">2013 (New) Remake</option>
+						<option value="2013 (New) Remake No Starters">2013 (New) Remake No Starters</option>
+						<option value="2013 FlashThemes">2013 FlashThemes</option>
+						<option value="2013 Import Not Working">2013 Import Not Working</option>
+						<option value="2013 Without Import">2013 Without Import</option>
+						<option value="2013 Oct Remake">2013 Oct Remake</option>
+						<option value="2013 Wrapper Classic">2013 Wrapper Classic</option>
+						<option value="2014">2014</option>
+						<option value="2014 (New)">2014 (New)</option>
+						<option value="2014 (New) (Version 1)">2014 (New) (Version 1)</option>
+						<option value="2014 (New) (Version 2)">2014 (New) (Version 2)</option>
+						<option value="2014 (Version 1)">2014 (Version 1)</option>
+						<option value="2014 (Version 2)">2014 (Version 2)</option>
+						<option value="2014 Wrapper Offline">2014 Wrapper Offline</option>
+						<option value="2014 Wrapper Offline New">2014 Wrapper Offline New</option>
+						<option value="2014 Wrapper Offline New Version 1">2014 Wrapper Offline New Version 1</option>
+						<option value="2014 Wrapper Offline New Version 2">2014 Wrapper Offline New Version 2</option>
+						<option value="2014 Wrapper Offline Version 2">2014 Wrapper Offline Version 2</option>
+						<option value="2014 FlashThemes">2014 FlashThemes</option>
+						<option value="2014 Wrapper Classic">2014 Wrapper Classic</option>
+						<option value="2015">2015</option>
+						<option value="2015 (New)">2015 (New)</option>
+						<option value="2015 (New) (Version 1)">2015 (New) (Version 1)</option>
+						<option value="2015 (New) (Version 2)">2015 (New) (Version 2)</option>
+						<option value="2015 Christmas">2015 Christmas</option>
+						<option value="2015 Version">2015 Version</option>
+						<option value="2015 Wrapper Classic">2015 Wrapper Classic</option>
+						<option value="2016">2016</option>
+						<option value="2016 (New)">2016 (New)</option>
+						<option value="2016 FlashThemes">2016 FlashThemes</option>
+						<option value="2016 Regular">2016 Regular</option>
+						<option value="2019">2019</option>
+						<option value="2019-Vyond-Cloudfront">2019-Vyond-Cloudfront</option>
+						<option value="2020">2020</option>
+						<option value="2024">2024</option>
+						<option value="2024 (Version 1)">2024 (Version 1)</option>
+						<option value="2024 Prototype">2024 Prototype</option>
+						<option value="8389acc5d2f2b548">8389acc5d2f2b548</option>
+						<option value="66453a3ba2cc5e1a">66453a3ba2cc5e1a</option>
+						<option value="66453a3ba2cc5e1b">66453a3ba2cc5e1b</option>
+						<option value="66453a3ba2cc5e1bvyond">66453a3ba2cc5e1bvyond</option>
+						<option value="86658a59dd3c75ab">86658a59dd3c75ab</option>
+						<option value="92837old82msk">92837old82msk</option>
+						<option value="903250bc57e8102a">903250bc57e8102a</option>
+						<option value="414827163ad4eb60">414827163ad4eb60</option>
+						<option value="414827163ad4eb60 FlashThemes">414827163ad4eb60 FlashThemes</option>
+						<option value="414827163ad4eb60 FreeAnimate">414827163ad4eb60 FreeAnimate</option>
+						<option value="414827163ad4eb60/15">414827163ad4eb60/15</option>
+						<option value="414827163ad4eb60/16">414827163ad4eb60/16</option>
+						<option value="414827163ad4eb60/17">414827163ad4eb60/17</option>
+						<option value="414827163ad4eb60/18">414827163ad4eb60/18</option>
+						<option value="414827163ad4eb60/19">414827163ad4eb60/19</option>
+						<option value="414827163ad4eb60/20">414827163ad4eb60/20</option>
+						<option value="414827163ad4eb60/21">414827163ad4eb60/21</option>
+						<option value="414827163ad4eb60/22">414827163ad4eb60/22</option>
+						<option value="414827163ad4eb60/23">414827163ad4eb60/23</option>
+						<option value="414827163ad4eb60/24">414827163ad4eb60/24</option>
+						<option value="414827163ad4eb60/25">414827163ad4eb60/25</option>
+						<option value="414827163ad4eb60/26">414827163ad4eb60/26</option>
+						<option value="414827163ad4eb60/27">414827163ad4eb60/27</option>
+						<option value="414827163ad4eb60/28">414827163ad4eb60/28</option>
+						<option value="414827163ad4eb60/29">414827163ad4eb60/29</option>
+						<option value="414827163ad4eb60/BACKUP">414827163ad4eb60/BACKUP</option>
+						<option value="414827163ad4eb60 wrapper">414827163ad4eb60 wrapper</option>
+						<option value="414827163ad4eb60blueanimate">414827163ad4eb60blueanimate</option>
+						<option value="414827163ad4eb60-dark">414827163ad4eb60-dark</option>
+						<option value="414827163ad4eb60GoAnimateWrapper">414827163ad4eb60GoAnimateWrapper</option>
+						<option value="414827163ad4eb60gold">414827163ad4eb60gold</option>
+						<option value="414827163ad4eb60golegacy">414827163ad4eb60golegacy</option>
+						<option value="414827163ad4eb60kennywrapper">414827163ad4eb60kennywrapper</option>
+						<option value="414827163ad4eb60macplayzwrapper">414827163ad4eb60macplayzwrapper</option>
+						<option value="414827163ad4eb60nathe_goanimatefan">414827163ad4eb60nathe_goanimatefan</option>
+						<option value="414827163ad4eb60OldGoAnimate">414827163ad4eb60OldGoAnimate</option>
+						<option value="414827163ad4eb60OldGoAnimate1">414827163ad4eb60OldGoAnimate1</option>
+                                                <option value="414827163ad4eb60oldgold">414827163ad4eb60oldgold</option>
+                                                <option value="414827163ad4eb60phpwrapper">414827163ad4eb60phpwrapper</option>
+                                                <option value="414827163ad4eb60redesinged">414827163ad4eb60redesinged</option>
+                                                <option value="414827163ad4eb60redhoodieguyscwoffline">414827163ad4eb60redhoodieguyscwoffline</option>
+						<option value="414827163ad4eb60revision">414827163ad4eb60revision</option>
+						<option value="414827163ad4eb60-revision">414827163ad4eb60-revision</option>
+						<option value="414827163ad4eb60revision black & red">414827163ad4eb60revision black & red</option>
+						<option value="414827163ad4eb60schools">414827163ad4eb60schools</option>
+						<option value="414827163ad4eb60schoolsRemastered">414827163ad4eb60schoolsRemastered</option>
+						<option value="414827163ad4eb60schoolsts">414827163ad4eb60schoolsts</option>
+						<option value="414827163ad4eb60schoolsunpatchable">414827163ad4eb60schoolsunpatchable</option>
+						<option value="414827163ad4eb60vyond4schoolsrewritten">414827163ad4eb60vyond4schoolsrewritten</option>
+						<option value="414827163ad4eb60vyondlegacyremastered">414827163ad4eb60vyondlegacyremastered</option>
+						<option value="414827163ad4eb60wo4sbeta">414827163ad4eb60wo4sbeta</option>
+						<option value="414827163ad4eb60wo4sbeta1">414827163ad4eb60wo4sbeta1</option>
+						<option value="414827163ad4eb60wo4sr">414827163ad4eb60wo4sr</option>
+						<option value="414827163ad4eb60Wrapper">414827163ad4eb60Wrapper</option>
+						<option value="414827163ad4eb60-wrapper">414827163ad4eb60-wrapper</option>
+						<option value="414827163ad4eb60-wrapper-dark">414827163ad4eb60-wrapper-dark</option>
+						<option value="414827163ad4eb60WrapperDX">414827163ad4eb60WrapperDX</option>
+						<option value="414827163ad4eb60WrapperOffline">414827163ad4eb60WrapperOffline</option>
+						<option value="414827163ad4eb60wrapperoffline1.3.0">414827163ad4eb60wrapperoffline1.3.0</option>
+						<option value="414827163ad4eb60WrapperOffline2.1.0">414827163ad4eb60WrapperOffline2.1.0</option>
+						<option value="414827163ad4eb600">414827163ad4eb600</option>
+						<option value="414827163ad4eb601">414827163ad4eb601</option>
+						<option value="414827163ad4eb602">414827163ad4eb602</option>
+						<option value="414827163ad4eb603">414827163ad4eb603</option>
+						<option value="414827163ad4eb604">414827163ad4eb604</option>
+						<option value="414827163ad4eb605">414827163ad4eb605</option>
+						<option value="414827163ad4eb606">414827163ad4eb606</option>
+						<option value="414827163ad4eb607">414827163ad4eb607</option>
+						<option value="40313133293b1755">40313133293b1755</option>
+						<option value="6467476576547567">6467476576547567</option>
+						<option value="a0ecfa2ef0a868c4">a0ecfa2ef0a868c4</option>
+						<option value="a6a59f12d985fe21">a6a59f12d985fe21</option>
+						<option value="Animation-Swf-Files-main">Animation-Swf-Files-main</option>
+						<option value="Animium-Swfs-main">Animium-Swfs-main</option>
+						<option value="b43e8da7f57c8183">b43e8da7f57c8183</option>
+						<option value="b126edb569d7f6db">b126edb569d7f6db</option>
+						<option value="cce25167cb1d3404">cce25167cb1d3404</option>
+						<option value="cdfa59b73ed75014">cdfa59b73ed75014</option>
+						<option value="Chocolate Online">Chocolate Online</option>
+						<option value="current">current</option>
+						<option value="custom-swfs-main">custom-swfs-main</option>
+						<option value="Domo">Domo</option>
+						<option value="e5789c4e7a6e385b">e5789c4e7a6e385b</option>
+						<option value="e4693861bf2b9913">e4693861bf2b9913</option>
+						<option value="en_US">en_US</option>
+						<option value="f0694094c5d27ed9">f0694094c5d27ed9</option>
+						<option value="GA4S">GA4S</option>
+						<option value="GoAniFire-Assets">GoAniFire-Assets</option>
+						<option value="GoAnimate Desktop">GoAnimate Desktop</option>
+						<option value="GoAnimate Offline">GoAnimate Offline</option>
+						<option value="GoAnimate Werid">GoAnimate Werid</option>
+						<option value="goanimate4schools">goanimate4schools</option>
+						<option value="GoAnimate-2014-Stable">GoAnimate-2014-Stable</option>
+						<option value="GoAnimate-Remastered-Assets">GoAnimate-Remastered-Assets</option>
+						<option value="GoAnimators">GoAnimators</option>
+						<option value="JewmberAnimate">JewmberAnimate</option>
+						<option value="lang_common">lang_common</option>
+						<option value="LVM">LVM</option>
+						<option value="old">old</option>
+						<option value="old goanimate">old goanimate</option>
+						<option value="oldfilesnolongerneeded">oldfilesnolongerneeded</option>
+						<option value="Prototype">Prototype</option>
+						<option value="redrawn">redrawn</option>
+						<option value="remastered">remastered</option>
+						<option value="silv8549kjfokg">silv8549kjfokg</option>
+						<option value="Space">Space</option>
+						<option value="sphynxtesting">sphynxtesting</option>
+						<option value="static">static</option>
+						<option value="SWF LVM">SWF LVM</option>
+						<option value="swfs">swfs</option>
+						<option value="u8o489ua89tgg343">u8o489ua89tgg343</option>
+						<option value="Vyond Legacy 1.3.0">Vyond Legacy 1.3.0</option>
+						<option value="Vyond Legacy 2020">Vyond Legacy 2020</option>
+						<option value="vyond remastered">vyond remastered</option>
+						<option value="Vyond-Legacy-Assets">Vyond-Legacy-Assets</option>
+						<option value="vyond-studio-assets-main">vyond-studio-assets-main</option>
+						<option value="Wrapper Classic">Wrapper Classic</option>
+						<option value="Wrapper Offline">Wrapper Offline</option>
+						<option value="wrapper offline desktop">wrapper offline desktop</option>
+						<option value="wrapper online">wrapper online</option>
+						<option value="Wrapper Online Diamond">Wrapper Online Diamond</option>
+						<option value="wrapper online gold">wrapper online gold</option>
+						<option value="Wrapper-Galaxy">Wrapper-Galaxy</option>
+						<option value="Wrapper-Online-Gold">Wrapper-Online-Gold</option>
+						<option value="WrapperOnlineRebornAssets">WrapperOnlineRebornAssets</option>
+						<option value="Wrapper-Retro">Wrapper-Retro</option>
+						<option value="YouTube">YouTube</option>
+					</select>
+
+					<h3>14:9 or 16:9 Aspect Ratio</h3>
+					<p>By Default, The Video Player Uses The 16:9 Aspect Ratio<br/>
+					However, You Can Toggle This Settings To Make It 14:9, Like A Video<br/>
+					Made With GoAnimate Before 2024.</p>
+					<select class="setting" id="IS_WIDE">
+						<option value="0">14:9</option>
+						<option value="1">16:9</option>
+					</select>
+					<h3>Wix Watermark</h3>
+					<p>By Turning This On, You Will Get The Wix Watermark Your Videos</p>
+					<select class="setting" id="WIX_WATERMARK">
+						<option value="0">Off</option>
+						<option value="1">On</option>
+					</select>
+				</nav>
+				<nav class="tab">
+					<h2>Appearance</h2>
+
+					<h3>Dark Mode</h3>
+					<p>Self-Explanatory. Makes The Video List Dark.</p>
+					<input class="setting" type="checkbox" id="DARK_MODE" data-local="true"></input>
+				</nav>
+				<nav class="tab">
+					<h2>Your Library</h2>
+
+					<nav id="importer">
+						<nav id="import_head">
+							<button id="import-toggle" onclick="document.getElementById('importer-files').click()" class="import-button">SELECT FILES</button>
+							<form>
+								<input id="importer-files" type="file" name="file" title="Upload Files" accept=".mp3,.wav,.ogg,.wma,.swf,.gif,.png,.jpg,.mp4" style="display:none" />
+							</form>
+						</nav>
+						<div id="importer-queue"></div>
+					</nav>
+				</nav>
+			</nav>
+		</main>
+
+		<%~ includeFile("./includes/footer", { env: it.env }) %>
+	</body>
+
+	<script src="/pages/js/importer.js"></script>
+	<script src="/pages/js/filesize.js"></script>
+	<script>
+		new AssetImporter(importer);
+		// this is a mess of type conversion
+
+		/**
+		 * list
+		 */
+		let list = [];
+		for (const elem of $(".setting")) list.push(elem.id);
+
+		$.getJSON("/api/settings/list", (d) => {
+			for (const [key, val] of Object.entries(d)) {
+				const index = list.indexOf(key);
+				if (index < 0) {
+					continue;
+				}
+				list.splice(index, 1);
+				show(key, val);
+			}
+			// get local settings
+			list.forEach((key) => {
+				show(key, localStorage.getItem(key) == "true");
+			});
+		});
+		$.getJSON("/api/assets/list", (d) => {
+			for (const info of d) {
+				switch (info.type) {
+					case "bg":
+					case "prop": {
+						$(`
+							<div class="importer_asset">
+								<div class="asset_metadata">
+									<img class="asset_preview" src="${
+										info.id.includes("swf") ? 
+											"/pages/img/importer/image.png" : 
+											info.subtype == "video" ? 
+												"/pages/img/importer/video.png" :
+												`/assets/${info.id}`
+									}" />
+									<div>
+										<h4 class="asset_name">${info.title}</h4>
+										<p class="asset_subtype">${info.type} | ${info.subtype}</p>
+									</div>
+								</div>
+							</div>
+						`).appendTo($("#importer-queue"));
+						break;
+					}
+					case "sound": {
+						$(`
+							<div class="importer_asset">
+								<div class="asset_metadata">
+									<img class="asset_preview" src="/pages/img/importer/sound.png" />
+									<div>
+										<h4 class="asset_name">${info.title}</h4>
+										<p class="asset_subtype">${info.type} | ${info.subtype}</p>
+									</div>
+								</div>
+							</div>
+						`).appendTo($("#importer-queue"));
+						break;
+					}
+				}
+			}
+		});
+
+		/**
+		 * toggle
+		 */
+		$(".setting").on("change", (event) => {
+			const elem = $(event.target);
+			const setting = elem.attr("id");
+			const value = elem.prop("tagName") == "SELECT" ? 
+				elem.val() : elem.prop("checked");
+
+			if (elem.attr("data-local") == "true") {
+				if (elem.attr("id") == "DARK_MODE") toggleDarkMode();
+				localStorage.setItem(setting, value);
+			} else {
+				$.post("/api/settings/update", { setting, value })
+					.done((d) => {
+						if (d.status != "ok") {
+							alert("That didn't work.");
+							return;
+						}
+					});
+			}
+			show(setting, value);
+		});
+
+		function show(key, value) {
+			const elem = $(`#${key}`);
+
+			if (elem.prop("tagName") == "SELECT") {
+				elem.find(`option[value='${value}']`).prop("selected", true);
+			} else {
+				elem.prop("checked", value);
+			}
+		}
+	</script>
+</html>

@@ -1,0 +1,909 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Make a Video about shopping, movies, tv and travel! - FlashThemes</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="Transform the mundane into high art.  Make a video that celebrates the &quot;nuthin'&quot; in &quot;whatcha doin'?&quot;  Click, Drag, Action!">
+<meta property="og:title" content="Make a Video about shopping,movies, tv and travel!  FlashThemes">
+<meta property="og:url" content="https://web.archive.org/web/20130728075925/http://goanimate.com/text2video/everydaylife">
+<meta property="og:image" content="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/img_fbthumb.jpg" />
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="FlashThemes">
+<link rel="alternate" href="https://web.archive.org/web/20130728075925/http://feeds.feedburner.com/GoAnimate" type="application/rss+xml" title="GoAnimate Blog">
+<link rel="alternate" href="https://web.archive.org/web/20130728075925/http://feeds.feedburner.com/GoAnimate/WhatsNew" type="application/rss+xml" title="GoAnimate - Recently Released Content">
+<link rel="alternate" href="https://web.archive.org/web/20130728075925/http://feeds.feedburner.com/GoAnimate/MostWatched" type="application/rss+xml" title="GoAnimate - Most Watched">
+<link href="https://flashthemes.net/static/ft/css/buttons.css" rel="stylesheet" type="text/css">
+<link href="https://flashthemes.net/static/ft/css/script2cartoon/everydaylife.css" rel="stylesheet" type="text/css">
+<link href="https://flashthemes.net/static/ft/css/script2cartoon/voiceselectionwidget.css" rel="stylesheet" type="text/css">
+<link href="https://flashthemes.net/static/ft/css/DroidSans.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+<link href="http://lightspeed.goanimate.com/static/425/go/css/script2cartoon/ie.css" rel="stylesheet" type="text/css">
+<![endif]-->
+<link href="https://flashthemes.net/static/ft/css/watermark.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/static/ft/js/jquery/jquery.js"></script>
+<script type="text/javascript" src="https://flashthemes.net/static/ft/js/jquery/jquery.blockUI.js"></script>
+<script type="text/javascript" src="https://flashthemes.net/static/ft/js/jquery/jquery.scrollTo.min.js"></script>
+<script type="text/javascript" src="https://flashthemes.net/static/ft/js/jquery/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="https://flashthemes.net/static/ft/js/jquery/jquery.tmpl.min.js"></script>
+<script type="text/javascript" src="https://flashthemes.net/static/ft/js/lite.js"></script>
+<script type="text/javascript" src="https://flashthemes.net/static/ft/js/voiceselectionwidget.js"></script>
+<script type="text/javascript" src="https://flashthemes.net/static/ft/js/Gettext.js"></script>
+<script type="text/javascript" src="https://flashthemes.net/static/ft/po/ftserver_js-en_US.json"></script>
+<script type="text/javascript">
+var srv_tz_os = -4;
+var view_name = "ft";
+var user_cookie_name = "u_info";
+var golite_theme = "everydaylife";
+
+var I18N_LANG = 'en_US';
+var GT = new Gettext({'locale_data': json_locale_data});
+</script>
+</head>
+<body id="go">
+<script type="text/javascript">
+GoLite.settings.player = {
+	swf: "https://flashthemes.net/static/animationnew/414827163ad4eb60/player.swf",
+	height: 384,
+	width: 550
+}
+GoLite.settings.thumbnailChooser = {
+	swf: "https://flashthemes.net/static/animation/thumbnailChooser.swf",
+	height: 170,
+	width: 295
+}
+VoiceRecorder.defaultSettings.swf = "https://flashthemes.net/static/ft/img/script2cartoon/common/dialog/MyMicRecorder.swf";
+jQuery.extend(VoiceRecorder.defaultSettings.flashvars, {
+	apiserver: "https://flashthemes.net/",
+	clientThemePath: "https://flashthemes.net/static/ct/30/<client_theme>",
+	u_info: ""
+});
+
+// scroll to target step
+function stepTo(step) {
+	var settings = {
+		duration: 1500,
+		offset: {top: 10}
+	};
+	// auto focus dialog input
+	if (step == '#step3') {
+		settings.onAfter = function() { jQuery('#dialogs .focus .dialog_input').focus(); };
+	}
+	jQuery.scrollTo(step, settings);
+}
+</script>
+<div id="bg"></div>
+<div id="container">
+<div id="nav_links">
+<div class="inside">
+<ul>
+<li class="home" title="Back to Home"><a href="https://flashthemes.net/create" onclick="return confirm('You will lose your work if you leave this page. Are you sure?');">Home</a></li>
+<li class="seperate">&nbsp;</li>
+<li class="intro on"><a onclick="stepTo('#intro')">0</a></li>
+<li class="step1"><a onclick="stepTo('#step1');">1</a></li>
+<li class="step2"><a onclick="stepTo('#step2');">2</a></li>
+<li class="step3"><a onclick="stepTo('#step3');">3</a></li>
+<li class="step4"><a onclick="GoLite.preview();stepTo('#step4');">4</a></li>
+<li class="seperate">&nbsp;</li>
+<li class="next" title="Next step"><a>Next</a></li>
+<li class="prev" title="Previous step"><a>Previous</a></li>
+</ul>
+<div class="clear"></div>
+</div>
+</div>
+<div id="intro" class="section">
+<div class="inside">
+<h1 class="hide">Slices of Daily Life</h1>
+<p>FlashThemes brings you a collection of scenes from daily life for you to re-enact and make up comical, satirical or even dramatic stories.</p>
+<p>The drill? 1. Select a template / 2. Choose characters / 3. Pull a script out of your best life observations / 4. Watch your masterpiece!</p>
+</div>
+<a class="btn_next" href="#step1" onclick="stepTo('#step1'); return false;">Next</a>
+</div>
+<div id="seperator0"></div>
+<div id="step1" class="section">
+<h2>1. Choose a Setting</h2>
+<a class="previous_step" href="#intro" onclick="stepTo('#intro'); return false;">Back</a>
+<div class="inside">
+<div id="template_name"></div>
+<div id="template_desc"></div>
+<div id="templates" class="item_selector">
+<a class="select_button prev" href="#">&lt;</a>
+<div class="items">
+<div class="item" data-tid="0QTMzfHyS19c" data-thumb="http://fs.goanimate.com/files/thumbnails/movie/1426/1309426/3789637.jpg" title="Honey. We have to talk..." data-desc="It's time for serious couple talk... or maybe not. This is just a bedroom chat." data-char-thumb-a="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg01_a.jpg" data-char-thumb-b="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg01_b.jpg" data-plus="true">
+<img src="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step01/bg01.jpg">
+</div>
+<div class="item" data-tid="0QEPlkDiYo08" data-thumb="http://fs.goanimate.com/files/thumbnails/movie/1426/1309426/3789967.jpg" title="You forgot the eggs, didn't you!?" data-desc="Get imaginative. You need to deal with this kitchen face-off." data-char-thumb-a="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg02_a.jpg" data-char-thumb-b="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg02_b.jpg" data-plus="true">
+<img src="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step01/bg02.jpg">
+</div>
+<div class="item selected" data-tid="09h_UMlKYzFw" data-thumb="http://fs.goanimate.com/files/thumbnails/movie/1426/1309426/3790066.jpg" title="Chilling Out in the Office" data-desc="Your characters are taking a break from a stressful day in the pantry. Now what could they be talking about?!" data-char-thumb-a="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg03_a.jpg" data-char-thumb-b="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg03_b.jpg">
+<img src="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step01/bg03.jpg">
+</div>
+<div class="item" data-tid="0As2I29jl9_E" data-thumb="http://fs.goanimate.com/files/thumbnails/movie/1426/1309426/3790277.jpg" title="B.F.D.E.?" data-desc="Is this going to be the best or the worst first date ever? Or... is it just not a first date at all? Up to you!" data-char-thumb-a="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg05_a.jpg" data-char-thumb-b="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg05_b.jpg">
+<img src="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step01/bg05.jpg">
+</div>
+<div class="item" data-tid="06cTyAda8oFI" data-thumb="http://fs.goanimate.com/files/thumbnails/movie/1426/1309426/3807452.jpg" title="I'll get a small latte..." data-desc="Small? You mean tall, right? Or maybe you want to spend a little more for a grande?!" data-char-thumb-a="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg08_a.jpg" data-char-thumb-b="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg08_b.jpg" data-plus="true">
+<img src="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step01/bg08.jpg">
+</div>
+<div class="item" data-tid="0Q2Ef6a8xKeA" data-thumb="http://fs.goanimate.com/files/thumbnails/movie/1426/1309426/3807709.jpg" title="Emergency coffee shop meeting" data-desc="A friend in distress asked to meet in a coffee shop. Now, what's all this about?" data-char-thumb-a="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg09_a.jpg" data-char-thumb-b="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg09_b.jpg" data-plus="true">
+<img src="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step01/bg09.jpg">
+</div>
+<div class="item" data-tid="0P5LYkpBdgO0" data-thumb="http://fs.goanimate.com/files/thumbnails/movie/1426/1309426/3808006.jpg" title="A round for everyone!" data-desc="Why is it that everyone loves to tell their life story to bartenders?" data-char-thumb-a="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg10_a.jpg" data-char-thumb-b="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg10_b.jpg" data-plus="true">
+<img src="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step01/bg10.jpg">
+</div>
+<div class="item" data-tid="0lpc8poFgqOE" data-thumb="http://fs.goanimate.com/files/thumbnails/movie/1426/1309426/3809304.jpg" title="Done Your homework?" data-desc="The bell has rung, but the teacher won't end class until the students answer some tough questions." data-char-thumb-a="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg15_a.jpg" data-char-thumb-b="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg15_b.jpg" data-plus="true">
+<img src="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step01/bg15.jpg">
+</div>
+<div class="item" data-tid="02rxyE_Goxag" data-thumb="http://fs.goanimate.com/files/thumbnails/movie/1426/1309426/3809337.jpg" title="Subway Encounter" data-desc="Talking to strangers in the subway sounds like a great idea... NOT! Well, it happens anyway..." data-char-thumb-a="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg16_a.jpg" data-char-thumb-b="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg16_b.jpg" data-plus="true">
+<img src="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step01/bg16.jpg">
+</div>
+<div class="item" data-tid="0uytemxR65Vk" data-thumb="http://fs.goanimate.com/files/thumbnails/movie/1426/1309426/3790155.jpg" title="The President" data-desc="It's the oval office. It's time to let the president know what you really think... Let it all out." data-char-thumb-a="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg04_a.jpg" data-char-thumb-b="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg04_b.jpg" data-plus="true">
+<img src="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step01/bg04.jpg">
+</div>
+<div class="item" data-tid="0-RRMMRs_6Rs" data-thumb="http://fs.goanimate.com/files/thumbnails/movie/1426/1309426/3806682.jpg" title="Got any grapes?" data-desc="Now what's with that customer again. Some kind of weird request?" data-char-thumb-a="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg06_a.jpg" data-char-thumb-b="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg06_b.jpg" data-plus="true">
+<img src="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step01/bg06.jpg">
+</div>
+<div class="item" data-tid="0HVRzhb6qAWg" data-thumb="http://fs.goanimate.com/files/thumbnails/movie/1426/1309426/3807098.jpg" title="Do not disturb..." data-desc="Imagine sitting on a toilet and someone bursts into the bathroom!... Done? Now, animate the conversation!" data-char-thumb-a="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg07_a.jpg" data-char-thumb-b="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg07_b.jpg" data-plus="true">
+<img src="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step01/bg07.jpg">
+</div>
+<div class="item" data-tid="0LGJNlvMTngg" data-thumb="http://fs.goanimate.com/files/thumbnails/movie/1426/1309426/3808842.jpg" title="Are you on the list?" data-desc="Striking a conversation while queuing up to get into the new trendy place in town." data-char-thumb-a="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg11_a.jpg" data-char-thumb-b="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg11_b.jpg" data-plus="true">
+<img src="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step01/bg11.jpg">
+</div>
+<div class="item" data-tid="0wQTJg3WC0-c" data-thumb="http://fs.goanimate.com/files/thumbnails/movie/1426/1309426/3809023.jpg" title="Step aside, Sir!" data-desc="A passenger sets the alarm off at the airport security check. Animate the ensuing discussion with the security officer." data-char-thumb-a="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg12_a.jpg" data-char-thumb-b="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg12_b.jpg" data-plus="true">
+<img src="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step01/bg12.jpg">
+</div>
+<div class="item" data-tid="03VXGahQdutY" data-thumb="http://fs.goanimate.com/files/thumbnails/movie/1426/1309426/3809070.jpg" title="She looks better on TV" data-desc="Watching the latest performance from a popular singer, it's hard not to make comments throughout the show." data-char-thumb-a="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg13_a.jpg" data-char-thumb-b="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg13_b.jpg" data-plus="true">
+<img src="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step01/bg13.jpg">
+</div>
+<div class="item" data-tid="0TLTAF5puL0o" data-thumb="http://fs.goanimate.com/files/thumbnails/movie/1426/1309426/3809151.jpg" title="Where's the pilot?" data-desc="Flying in a 747 commercial airplane across the world is piece of cake... as long as you're not in the pilot seat. Oh boy!..." data-char-thumb-a="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg14_a.jpg" data-char-thumb-b="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg14_b.jpg" data-plus="true">
+<img src="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step01/bg14.jpg">
+</div>
+</div>
+<a class="select_button next" href="#">&gt;</a>
+</div>
+</div>
+<a class="btn_next" href="#step2" onclick="stepTo('#step2'); return false;">Next</a>
+<div class="upgrade">
+<a href="javascript:popUpgrade();" class="buttonbase buttonblue dark" style="margin:0 auto;float:none;display:block;">
+<div class="buttontitle">Upgrade Now</div>
+</a>
+</div>
+</div>
+<div id="seperator1"></div>
+<div id="step2" class="section">
+<h2>2. Select Your Actors</h2>
+<a class="previous_step" href="#step1" onclick="stepTo('#step1'); return false;">Back</a>
+<div class="inside">
+<div class="character">
+<div id="character1_title" class="title"><img src="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg03_a.jpg" alt></div>
+<div id="character1" class="item_selector character_selector">
+<a class="select_button prev" href="#">&lt;</a>
+<div class="items">
+
+
+
+<div class="item selected" data-cid="834767" data-name data-gender="M" data-voice data-thumb="https://flashthemes.net/char_thumbs/cc_head/834767.png"><span><img src="https://flashthemes.net/char_thumbs/834767.png" alt></span></div>
+
+
+
+
+
+
+<div class="item" data-cid="877672" data-name data-gender="M" data-voice data-thumb="https://flashthemes.net/char_thumbs/cc_head/877672.png"><span><img src="https://flashthemes.net/char_thumbs/877672.png" alt></span></div>
+
+<div class="item" data-cid="832050" data-name data-gender="M" data-voice data-thumb="https://flashthemes.net/char_thumbs/cc_head/832050.png" data-plus="false"><span><img src="https://flashthemes.net/char_thumbs/832050.png" alt></span></div>
+
+
+<div class="item" data-cid="1411192" data-name data-gender="M" data-voice data-thumb="https://flashthemes.net/char_thumbs/cc_head/1411192.png" data-plus="false"><span><img src="https://flashthemes.net/char_thumbs/1411192.png" alt></span></div>
+<div class="item" data-cid="1344319" data-name data-gender="M" data-voice data-thumb="https://flashthemes.net/char_thumbs/cc_head/1344319.png" data-plus="false"><span><img src="https://flashthemes.net/char_thumbs/1344319.png" alt></span></div>
+
+
+
+
+
+
+<div class="item" data-cid="1484652" data-name data-gender="M" data-voice data-thumb="https://flashthemes.net/char_thumbs/cc_head/1484652.png" data-plus="false"><span><img src="https://flashthemes.net/char_thumbs/1484652.png" alt></span></div>
+</div>
+<a class="select_button next" href="#">&gt;</a>
+</div>
+<div class="name"></div>
+<div class="customlink">
+<a class="isplus" href="javascript:GoLite.showSelectCCOverlay(0)">Use your own character</a>
+<a class="isbasic" href="javascript:customCharSignup()">Use your own character (GoPlus only)</a>
+</div>
+</div>
+<div class="character">
+<div id="character2_title" class="title"><img src="https://flashthemes.net/static/ft/img/script2cartoon/everydaylife/step02/thumbs/bg03_b.jpg" alt></div>
+<div id="character2" class="item_selector character_selector">
+<a class="select_button prev" href="#">&lt;</a>
+<div class="items">
+
+
+
+<div class="item selected" data-cid="834767" data-name data-gender="M" data-voice data-thumb="https://flashthemes.net/char_thumbs/cc_head/834767.png"><span><img src="https://flashthemes.net/char_thumbs/834767.png" alt></span></div>
+
+
+
+
+
+
+<div class="item" data-cid="877672" data-name data-gender="M" data-voice data-thumb="https://flashthemes.net/char_thumbs/cc_head/877672.png"><span><img src="https://flashthemes.net/char_thumbs/877672.png" alt></span></div>
+
+<div class="item" data-cid="832050" data-name data-gender="M" data-voice data-thumb="https://flashthemes.net/char_thumbs/cc_head/832050.png" data-plus="false"><span><img src="https://flashthemes.net/char_thumbs/832050.png" alt></span></div>
+
+
+<div class="item" data-cid="1411192" data-name data-gender="M" data-voice data-thumb="https://flashthemes.net/char_thumbs/cc_head/1411192.png" data-plus="false"><span><img src="https://flashthemes.net/char_thumbs/1411192.png" alt></span></div>
+<div class="item" data-cid="1344319" data-name data-gender="M" data-voice data-thumb="https://flashthemes.net/char_thumbs/cc_head/1344319.png" data-plus="false"><span><img src="https://flashthemes.net/char_thumbs/1344319.png" alt></span></div>
+
+
+
+
+
+
+<div class="item" data-cid="1484652" data-name data-gender="M" data-voice data-thumb="https://flashthemes.net/char_thumbs/cc_head/1484652.png" data-plus="false"><span><img src="https://flashthemes.net/char_thumbs/1484652.png" alt></span></div>
+</div>
+<a class="select_button next" href="#">&gt;</a>
+</div>
+<div class="name"></div>
+<div class="customlink">
+<a class="isplus" href="javascript:GoLite.showSelectCCOverlay(1)">Use your own character</a>
+<a class="isbasic" href="javascript:customCharSignup()">Use your own character (GoPlus only)</a>
+</div>
+</div>
+</div>
+<div class="snippets" style="display: none">
+<strong class="plus-char-txt">GoPlus Character</strong>
+<div class="plus-cover"><div><strong>GoPlus Template</strong> Upgrade to GoPlus to go to the next step.</div></div>
+<div class="item" data-cid data-name data-voice data-thumb><span><img alt></span></div>
+<div class="selectccoverlay lightbox" style="display:none">
+<div class="lightbox_wrapper">
+<h2>1. Select your character:</h2>
+<style type="text/css">
+.selectccoverlay h2 { margin-left: 66px; margin-bottom: 0em; }
+.selectccoverlay .ccbrowsercontainer { width: 545px; height: 210px; padding: 5px 0px; margin-left: 33px; }
+.selectccoverlay .voiceselectorwidget { margin-left: 92px; }
+.selectccoverlay .ccbrowsercontainer .leftarrow, .rightarrow { position: relative; margin-left: auto; margin-right: auto; top: 72px; width: 11px; height: 28px; }
+.selectccoverlay .ccbrowsercontainer .leftarrow { background: url('https://flashthemes.net/static/ft/img/script2cartoon/voiceselectionwidget/btn_arrow_l.png') no-repeat 0px 0px; cursor: pointer; }
+.selectccoverlay .ccbrowsercontainer .disabled .leftarrow { background: none; cursor: default; }
+.selectccoverlay .ccbrowsercontainer .disabled .leftarrow:hover { background: none; cursor: default; }
+.selectccoverlay .ccbrowsercontainer .leftarrow:hover { background: url('https://flashthemes.net/static/ft/img/script2cartoon/voiceselectionwidget/btn_arrow_l.png') no-repeat 0px -28px; }
+.selectccoverlay .ccbrowsercontainer .rightarrow { background: url('https://flashthemes.net/static/ft/img/script2cartoon/voiceselectionwidget/btn_arrow_r.png') no-repeat 0px 0px; cursor: pointer; }
+.selectccoverlay .ccbrowsercontainer .disabled .rightarrow { background: none; cursor: default; }
+.selectccoverlay .ccbrowsercontainer .disabled .rightarrow:hover { background: none; cursor: default; }
+.selectccoverlay .ccbrowsercontainer .rightarrow:hover { background: url('https://flashthemes.net/static/ft/img/script2cartoon/voiceselectionwidget/btn_arrow_r.png') no-repeat 0px -28px; }
+.selectccoverlay .ccbrowsercontainer .leftarrowcontainer { float: left; height: 175px; width: 25px; margin-right: 10px; }
+.selectccoverlay .ccbrowsercontainer .rightarrowcontainer { float: right; height: 175px; width: 25px; margin-left: 5px; }
+.selectccoverlay .ccbrowsercontainer .selectedcc { border-width: 3px; border-style: solid; border-color: #999999 !important; }
+.selectccoverlay .ccbrowsercontainer .cc { overflow: hidden; position: relative; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; background-color: #dddddd; width: 85px; height: 85px; float: left; margin-right: 5px; margin-bottom: 5px; border-width: 3px; border-color: #dddddd; border-style: solid; }
+.selectccoverlay .ccbrowsercontainer .cc.enabled { cursor: pointer; }
+.selectccoverlay .ccbrowsercontainer .cc.enabled:hover { background-color: #eeeeee; border-color: #eeeeee; }
+.selectccoverlay .ccbrowsercontainer .cc img { position: absolute; }
+.selectccoverlay .pagenumdisplay { text-align: center; margin-bottom: 1em; clear: both; font-size: 14px; font-weight: bold; color: #aaaaaa; }
+.selectccoverlay a.bottomcancel { float: left; text-align: center; margin: 30px auto; display: block; color: #666666; font-size: 16px; font-weight: bold; text-decoration: none; }
+.selectccoverlay a.bottomcancel:hover { color: #777777; text-decoration: none; }
+</style>
+<div class="ccbrowsercontainer">
+<div class="leftarrowcontainer"><div class="leftarrow"></div></div>
+<div class="rightarrowcontainer"><div class="rightarrow"></div></div>
+<div class="cc"></div>
+<div class="cc"></div>
+<div class="cc"></div>
+<div class="cc"></div>
+<div class="cc"></div>
+<div class="cc"></div>
+<div class="cc"></div>
+<div class="cc"></div>
+<div class="cc"></div>
+<div class="cc"></div>
+<div class="pagenumdisplay"></div>
+</div>
+<h2>2. Select a voice for your character:</h2>
+<script type="text/javascript">
+  var VoiceCatalog = (function() {
+    var lang_model = {"en":{"desc":"English","options":[{"country":"US","language":"en","gender":"M","source":"cereproc","arg":"Adam","desc":"Adam","id":"adam","lang":"en","sex":"M"},{"country":"GB","language":"en","gender":"F","source":"cereproc","arg":"Amy","desc":"Amy (CereProc)","id":"amy_cereproc","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"M","source":"cereproc","arg":"Andrew","desc":"Andrew","id":"andrew","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","source":"balabolka","arg":"ATT Audrey16","desc":"Audrey","id":"audrey","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","source":"cereproc","arg":"Andy","desc":"Andy","id":"andy","lang":"en","sex":"M"},{"country":"GB","language":"en","gender":"F","source":"cereproc","arg":"Caitlin","desc":"Caitlin","id":"caitlin","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","source":"cereproc","arg":"Carolyn","desc":"Carolyn","id":"carolyn","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"F","source":"cereproc","arg":"Claire","desc":"Claire (CereProc)","id":"claire_cereproc","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"M","source":"cereproc","arg":"Demon","desc":"Demon","id":"demon","lang":"en","sex":"M"},{"country":"GB","language":"en","gender":"M","source":"cereproc","arg":"Dodo-CereWave","desc":"Dodo","id":"dodo","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"cereproc","arg":"Ghost","desc":"Ghost","id":"ghost","lang":"en","sex":"M"},{"country":"GB","language":"en","gender":"M","source":"cereproc","arg":"Giles","desc":"Giles","id":"giles","lang":"en","sex":"M"},{"country":"GB","language":"en","gender":"M","source":"cereproc","arg":"Goblin","desc":"Goblin","id":"goblin","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","source":"cereproc","arg":"Hannah","desc":"Hannah","id":"hannah","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","source":"cereproc","arg":"Isabella","desc":"Isabella","id":"isabella","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"M","source":"cereproc","arg":"Jack","desc":"Jack","id":"jack","lang":"en","sex":"M"},{"country":"GB","language":"en","gender":"F","source":"cereproc","arg":"Jess","desc":"Jess","id":"jess","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","source":"cereproc","arg":"Jordan","desc":"Jordan","id":"jordan","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","source":"cereproc","arg":"Katherine","desc":"Katherine","id":"katherine","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"F","source":"cereproc","arg":"Kirsty","desc":"Kirsty","id":"kirsty","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"F","source":"cereproc","arg":"Lauren","desc":"Lauren","id":"lauren","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"F","source":"cereproc","arg":"Mairi","desc":"Mairi","id":"mairi","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","source":"cereproc","arg":"Megan","desc":"Megan","id":"megan","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","source":"cereproc","arg":"Nathan","desc":"Nathan (CereProc)","id":"nathan_cereproc","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"cereproc","arg":"Nathan-CereWave","desc":"Nathan (CereWave)","id":"nathan_cerewave","lang":"en","sex":"M"},{"country":"FR","language":"en","gender":"F","source":"cereproc","arg":"Nicole","desc":"Nicole (CereProc)","id":"nicole_cereproc","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"F","source":"cereproc","arg":"Pixie","desc":"Pixie","id":"pixie","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"M","source":"cereproc","arg":"Robot","desc":"Robot (CereProc)","id":"robot_cereproc","lang":"en","sex":"M"},{"country":"GB","language":"en","gender":"F","source":"cereproc","arg":"Sarah","desc":"Sarah","id":"sarah","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"M","source":"cereproc","arg":"Stuart","desc":"Stuart","id":"stuart","lang":"en","sex":"M"},{"country":"GB","language":"en","gender":"F","source":"cereproc","arg":"Sue","desc":"Sue","id":"sue","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"M","source":"cereproc","arg":"William","desc":"William (CereProc)","id":"william_cereproc","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"balabolka","arg":"IVONA 2 Eric","desc":"Eric","id":"eric","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","source":"balabolka","arg":"IVONA 2 Jennifer","desc":"Jennifer","id":"jennifer","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","source":"balabolka","arg":"IVONA 2 Skippy the Chipmunk","desc":"Chipmunk","id":"skippy","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","source":"balabolka","arg":"IVONA 2 Ivy","desc":"Ivy","id":"ivy","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","source":"balabolka","arg":"IVONA 2 Joey","desc":"Joey ","id":"joey","lang":"en","sex":"M"},{"country":"GB","language":"en","gender":"M","source":"balabolka","arg":"IVONA 2 Brian","desc":"Brian","id":"brian","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","source":"balabolka","arg":"IVONA 2 Kimberly","desc":"Kimberly","id":"kimberly","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","source":"balabolka","arg":"IVONA 2 Kendra","desc":"Kendra","id":"kendra","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"F","source":"balabolka","arg":"IVONA 2 Amy","desc":"Amy","id":"amy","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"F","source":"balabolka","arg":"IVONA 2 Emma","desc":"Emma","id":"emma","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","source":"balabolka","arg":"IVONA 2 Justin","desc":"Justin","id":"justin","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","source":"acapela","arg":"enu_ella_22k_ns.bvcu","desc":"Ella","id":"ella","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","source":"acapela","arg":"enu_emilioenglish_22k_ns.bvcu","desc":"Emilio (English)","id":"emilio1","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","source":"acapela","arg":"enu_karen_22k_ns.bvcu","desc":"Karen (Acapela)","id":"karen1","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","source":"acapela","arg":"enu_hd_kenny_22k_lf.bvcu","desc":"Kenny","id":"kenny","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","source":"acapela","arg":"enu_hd_laura_22k_lf.bvcu","desc":"Laura","id":"laura2","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","source":"acapela","arg":"enu_josh_22k_ns.bvcu","desc":"Josh","id":"josh","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"acapela","arg":"enu_micah_22k_ns.bvcu","desc":"Micah","id":"micah","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","source":"acapela","arg":"enu_hd_nelly_22k_lf.bvcu","desc":"Nelly","id":"nelly","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","source":"acapela","arg":"enu_hd_rod_22k_lf.bvcu","desc":"Rod","id":"rod","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"acapela","arg":"enu_hd_ryan_22k_lf.bvcu","desc":"Ryan","id":"ryan","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"acapela","arg":"enu_saul_22k_ns.bvcu","desc":"Saul","id":"saul","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"acapela","arg":"enu_scott_22k_ns.bvcu","desc":"Scott","id":"scott","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","source":"acapela","arg":"enu_hd_sharon_22k_lf.bvcu","desc":"Sharon","id":"sharon","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","source":"acapela","arg":"enu_hd_tracy_22k_lf.bvcu","desc":"Tracy","id":"tracy","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","source":"acapela","arg":"enu_valeriaenglish_22k_ns.bvcu","desc":"Valeria (English)","id":"valeriaEN","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","source":"acapela","arg":"enu_hd_will_22k_lf.bvcu","desc":"Will","id":"will","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"acapela","arg":"enu_willbadguy_22k_ns.bvcu","desc":"Will (Bad Guy)","id":"willbadguy","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"acapela","arg":"enu_willfromafar_22k_ns.bvcu","desc":"Will (From A Far)","id":"willfromafar","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"acapela","arg":"enu_willhappy_22k_ns.bvcu","desc":"Will (Happy)","id":"willhappy","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"acapela","arg":"enu_willlittlecreature_22k_ns.bvcu","desc":"Will (Little Creature)","id":"willlittlecreature","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"acapela","arg":"enu_willoldman_22k_ns.bvcu","desc":"Will (Old Man)","id":"willoldman","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"acapela","arg":"enu_willoldman_22k_ns.bvcu","desc":"Will (Sad)","id":"willsad","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"acapela","arg":"enu_willupclose_22k_ns.bvcu","desc":"Will (Up Close)","id":"willupclose","lang":"en","sex":"M"},{"country":"GB","language":"en","gender":"M","source":"acapela","arg":"eng_hd_graham_22k_lf.bvcu","desc":"Graham","id":"graham","lang":"en","sex":"M"},{"country":"GB","language":"en","gender":"F","source":"acapela","arg":"eng_hd_lucy_22k_lf.bvcu","desc":"Lucy","id":"lucy","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"M","source":"acapela","arg":"eng_hd_nizareng_22k_lf.bvcu","desc":"Nizar","id":"nizareng","lang":"en","sex":"M"},{"country":"GB","language":"en","gender":"M","source":"acapela","arg":"eng_hd_peter_22k_lf.bvcu","desc":"Peter","id":"peter","lang":"en","sex":"M"},{"country":"GB","language":"en","gender":"F","source":"acapela","arg":"eng_queenelizabeth_22k_ns.bvcu","desc":"Queen Elizabeth","id":"queenelizabeth","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"F","source":"acapela","arg":"eng_hd_rachel_22k_lf.bvcu","desc":"Rachel","id":"rachel","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"F","source":"acapela","arg":"eng_rosie_22k_ns.bvcu","desc":"Rosie","id":"rosie","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"M","source":"acapela","arg":"eng_harry_22k_ns.bvcu","desc":"Harry","id":"harry","lang":"en","sex":"M"},{"country":"GB","language":"en","gender":"F","source":"acapela","arg":"en_sct_hd_rhona_22k_lf.bvcu","desc":"Rhona (Scottish)","id":"rhona","lang":"en","sex":"F"},{"country":"IN","language":"en","gender":"F","source":"acapela","arg":"en_in_hd_deepa_22k_lf.bvcu","desc":"Deepa","id":"deepa","lang":"en","sex":"F"},{"country":"AU","language":"en","gender":"M","source":"acapela","arg":"en_au_liam_22k_ns.bvcu","desc":"Liam","id":"liam","lang":"en","sex":"M"},{"country":"AU","language":"en","gender":"F","source":"acapela","arg":"en_au_hd_lisa_22k_lf.bvcu","desc":"Lisa (Acapela)","id":"lisa1","lang":"en","sex":"F"},{"country":"AU","language":"en","gender":"M","source":"acapela","arg":"en_au_olivia_22k_ns.bvcu","desc":"Olivia (Acapela)","id":"olivia1","lang":"en","sex":"M"},{"country":"AU","language":"en","gender":"M","source":"acapela","arg":"en_au_hd_tyler_22k_lf.bvcu","desc":"Tyler","id":"tyler","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","source":"balabolka","arg":"IVONA 2 Salli","desc":"Salli","id":"salli","lang":"en","sex":"F"},{"country":"AU","language":"en","gender":"F","source":"balabolka","arg":"IVONA 2 Nicole","desc":"Nicole","id":"nicole","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"F","source":"balabolka","arg":"IVONA 2 Gwyneth","desc":"Gwyneth (English)","id":"gwyneth","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"M","source":"balabolka","arg":"IVONA 2 Geraint","desc":"Geraint","id":"geraint","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","source":"balabolka","arg":"Cepstral Allison","desc":"Allison","id":"allison","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","source":"balabolka","arg":"Cepstral Amy","desc":"Amy (Cepstral)","id":"amy_cepstral","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","source":"voiceforge","arg":"Belle","desc":"Belle","id":"belle","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","source":"balabolka","arg":"Cepstral Callie","desc":"Callie","id":"callie","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","source":"voiceforge","arg":"Charlie","desc":"Charlie (Cepstral)","id":"charlie_cepstral","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"voiceforge","arg":"Dallas","desc":"Dallas","id":"dallas","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"balabolka","arg":"Cepstral Damien","desc":"Scary Voice","id":"damien","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"balabolka","arg":"Cepstral David","desc":"David","id":"david","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","source":"voiceforge","arg":"Diane","desc":"Diane","id":"diane","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","source":"balabolka","arg":"Cepstral Duchess","desc":"Duchess","id":"duchess","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","source":"balabolka","arg":"Cepstral Duncan","desc":"Duncan","id":"duncan","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","source":"balabolka","arg":"Cepstral Emily","desc":"Emily","id":"emily","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","source":"balabolka","arg":"Cepstral Linda","desc":"Linda","id":"linda_cepstral","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","source":"balabolka","arg":"Cepstral Robin","desc":"Tween Girl","id":"robin","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","source":"balabolka","arg":"Cepstral Shouty","desc":"Shouty","id":"shouty","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"balabolka","arg":"Cepstral Walter","desc":"Walter","id":"walter","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"balabolka","arg":"Cepstral William","desc":"William","id":"william","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"balabolka","arg":"Cepstral Whispery","desc":"Whispery","id":"whispery","lang":"en","sex":"M"},{"country":"GB","language":"en","gender":"M","source":"balabolka","arg":"Cepstral Lawrence","desc":"Lawrence","id":"lawrence","lang":"en","sex":"M"},{"country":"GB","language":"en","gender":"F","source":"voiceforge","arg":"Millie","desc":"Millie","id":"millie","lang":"en","sex":"F"},{"country":"AU","language":"en","gender":"M","arg":[2,1,9],"source":"vocalware","desc":"Alan","id":"alan","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","arg":[6,1,5],"source":"vocalware","desc":"Child","id":"child","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","arg":[6,1,20],"source":"vocalware","desc":"Choir Boy","id":"choirboy","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","arg":[6,1,10],"source":"vocalware","desc":"Colossus","id":"colossus","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","arg":[6,1,13],"source":"vocalware","desc":"Crisp Male","id":"crispmale","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","arg":[6,1,15],"source":"vocalware","desc":"Fast Fred","id":"fastfred","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","arg":[6,1,2],"source":"vocalware","desc":"Giant Male","id":"giantmale","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","arg":[6,1,1],"source":"vocalware","desc":"Large Male","id":"largemale","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","arg":[6,1,3],"source":"vocalware","desc":"Male (SoftVoice)","id":"male_vocalware","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","arg":[6,1,8],"source":"vocalware","desc":"Martian","id":"martian","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","arg":[6,1,12],"source":"vocalware","desc":"Mellow Male","id":"mellowmale","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","arg":[6,1,18],"source":"vocalware","desc":"Milktoast","id":"milktoast","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","arg":[6,1,9],"source":"vocalware","desc":"Munchkin","id":"munchkin","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","arg":[6,1,17],"source":"vocalware","desc":"Nerd","id":"nerd","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","arg":[6,1,7],"source":"vocalware","desc":"Robotoid","id":"robotoid","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","arg":[6,1,19],"source":"vocalware","desc":"Tipsy","id":"tipsy","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","arg":[6,1,4],"source":"vocalware","desc":"Female (SoftVoice)","id":"female_softvoice","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","arg":[6,1,11],"source":"vocalware","desc":"Mellow Female","id":"mellowfemale","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","arg":[6,1,6],"source":"vocalware","desc":"Old Woman","id":"oldwoman","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","arg":[6,1,16],"source":"vocalware","desc":"Troll","id":"troll","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","arg":[2,1,7],"source":"vocalware","desc":"Allison (Oddcast)","id":"allison_vocalware","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"F","arg":[2,1,6],"source":"vocalware","desc":"Catherine","id":"catherine","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","arg":[2,1,2],"source":"vocalware","desc":"Dave","id":"dave","lang":"en","sex":"M"},{"country":"GB","language":"en","gender":"F","arg":[2,1,4],"source":"vocalware","desc":"Elizabeth","id":"elizabeth","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"F","arg":[2,1,10],"source":"vocalware","desc":"Grace","id":"grace","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"M","arg":[2,1,5],"source":"vocalware","desc":"Simon","id":"simon","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","arg":[2,1,8],"source":"vocalware","desc":"Steven (Oddcast)","id":"steven_vocalware","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","arg":[2,1,3],"source":"vocalware","desc":"Kenneth","id":"kenneth","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","arg":[2,1,1],"source":"vocalware","desc":"Susan","id":"susan","lang":"en","sex":"F"},{"country":"IN","language":"en","gender":"F","arg":[2,1,11],"source":"vocalware","desc":"Veena","id":"veena","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","arg":"ATT Crystal16","source":"balabolka","desc":"Crystal","id":"crystal","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","arg":"ATT Mike16","source":"balabolka","desc":"Mike","id":"mike","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","arg":[1,1,3],"source":"vocalware","desc":"Claire (AT&T)","id":"claire_vocalware","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","arg":[1,1,4],"source":"vocalware","desc":"Rich","id":"rich","lang":"en","sex":"M"},{"country":"GB","language":"en","gender":"M","arg":[1,1,6],"source":"vocalware","desc":"Charles","id":"charles","lang":"en","sex":"M"},{"country":"GB","language":"en","gender":"M","arg":"ScanSoft Daniel_Full_22kHz","source":"balabolka","desc":"Daniel","id":"daniel","lang":"en","sex":"M"},{"country":"GB","language":"en","gender":"F","arg":[4,1,12],"source":"vocalware","desc":"Fiona","id":"fiona","lang":"en","sex":"F"},{"country":"AU","language":"en","gender":"M","arg":[7,1,4],"source":"vocalware","desc":"Jackson","id":"jackson","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","arg":[4,1,2],"source":"vocalware","desc":"Jill","id":"jill","lang":"en","sex":"F"},{"country":"AU","language":"en","gender":"F","arg":[4,1,4],"source":"vocalware","desc":"Karen","id":"karen","lang":"en","sex":"F"},{"country":"AU","language":"en","gender":"M","arg":[4,1,10],"source":"vocalware","desc":"Lee","id":"lee","lang":"en","sex":"M"},{"country":"AU","language":"en","gender":"F","arg":[7,1,3],"source":"vocalware","desc":"Matilda","id":"matilda","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"F","arg":[4,1,8],"source":"vocalware","desc":"Moira","id":"moira","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"M","arg":[7,1,2],"source":"vocalware","desc":"Oliver (Oddcast)","id":"oliver_vocalware","lang":"en","sex":"M"},{"country":"GB","language":"en","gender":"F","arg":[7,1,1],"source":"vocalware","desc":"Olivia","id":"olivia","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","arg":[4,1,11],"source":"vocalware","desc":"Samantha (Oddcast)","id":"samantha_vocalware","lang":"en","sex":"F"},{"country":"IN","language":"en","gender":"F","arg":[4,1,9],"source":"vocalware","desc":"Sangeeta","id":"sangeeta","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"F","arg":[4,1,7],"source":"vocalware","desc":"Serena","id":"serena","lang":"en","sex":"F"},{"country":"ZA","language":"en","gender":"F","arg":[4,1,13],"source":"vocalware","desc":"Tessa","id":"tessa","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","arg":[4,1,3],"source":"vocalware","desc":"Tom","id":"tom","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","arg":"VW Ashley","source":"balabolka","desc":"Ashley","id":"ashley","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","arg":[3,1,8],"source":"vocalware","desc":"Beth","id":"beth","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"F","arg":"VW Bridget","source":"balabolka","desc":"Bridget","id":"bridget","lang":"en","sex":"F"},{"country":"GB","language":"en","gender":"M","arg":"VW Hugh","source":"balabolka","desc":"Hugh","id":"hugh","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","arg":"VW James","source":"balabolka","desc":"James","id":"james","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","arg":"VW Julie","source":"balabolka","desc":"Julie","id":"julie","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","arg":"Microsoft Sam","source":"balabolka","desc":"Microsoft Sam","id":"microsoftsam","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","arg":"Microsoft Mary","source":"balabolka","desc":"Microsoft Mary","id":"microsoftmary","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","arg":"Microsoft Mike","source":"balabolka","desc":"Microsoft Mike","id":"microsoftmike","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","arg":"Microsoft David Desktop","source":"balabolka","desc":"Microsoft David Desktop","id":"microsoftdavid","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","arg":"Microsoft Zira Desktop","source":"balabolka","desc":"Microsoft Zira Desktop","id":"microsoftzira","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","arg":[3,1,3],"source":"vocalware","desc":"Julie (vocalware)","id":"julie_vocalware","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","arg":"VW Kate","source":"balabolka","desc":"Kate","id":"kate","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","arg":"VW Paul","source":"balabolka","desc":"Paul","id":"paul","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","source":"voiceforge","arg":"CallieQ","desc":"CallieQ","id":"callieq","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","source":"voiceforge","arg":"Conrad","desc":"Conrad","id":"conrad","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"voiceforge","arg":"Obama","desc":"Obama","id":"obama","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"voiceforge","arg":"Designer","desc":"Designer Dave","id":"designerdave","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"voiceforge","arg":"Diesel","desc":"Diesel","id":"diesel","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"balabolka","arg":"Cepstral Dog","desc":"Dog","id":"dog","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"voiceforge","arg":"Evilgenius","desc":"Evil Genius","id":"evilgenius","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"voiceforge","arg":"Frank","desc":"Frank","id":"frank","lang":"en","sex":"M"},{"country":"fr","language":"en","gender":"M","source":"voiceforge","arg":"French-fry","desc":"French-Fry","id":"frenchfry","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"voiceforge","arg":"Gregory","desc":"Gregory","id":"gregory","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"voiceforge","arg":"Jerkface","desc":"Jerkface","id":"jerkface","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","source":"voiceforge","arg":"JerseyGirl","desc":"Jersey Girl","id":"jerseygirl","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","source":"voiceforge","arg":"Kayla","desc":"Kayla","id":"kayla","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","source":"voiceforge","arg":"Kevin","desc":"Kevin","id":"kevin","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"voiceforge","arg":"Kidaroo","desc":"Kidaroo","id":"kidaroo","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","source":"voiceforge","arg":"Layo","desc":"Layo","id":"layo","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","source":"voiceforge","arg":"Princess","desc":"Princess","id":"princess","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","source":"voiceforge","arg":"RansomNote","desc":"Ransom Note","id":"ransomnote","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","source":"voiceforge","arg":"Robot","desc":"Robot","id":"robot","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","source":"voiceforge","arg":"Shygirl","desc":"Shy Girl","id":"shygirl","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","source":"voiceforge","arg":"Susan","desc":"Susan (VoiceForge)","id":"susan_voiceforge","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","source":"voiceforge","arg":"Tamika","desc":"Tamika","id":"tamika","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","source":"voiceforge","arg":"TopHat","desc":"Top-Hat","id":"tophat","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","source":"voiceforge","arg":"Vixen","desc":"Vixen","id":"vixen","lang":"en","sex":"F"},{"country":"RU","language":"en","gender":"M","source":"voiceforge","arg":"Vlad","desc":"Vlad","id":"vlad","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"voiceforge","arg":"Warren","desc":"Warren Peas","id":"warrenpeas","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"voiceforge","arg":"Wiseguy","desc":"Wiseguy","id":"wiseguy","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"voiceforge","arg":"Zach","desc":"Zach","id":"zach","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","source":"tiktok","arg":"en_us_001","desc":"TikTok Jessie","id":"tiktok_female","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","source":"tiktok","arg":"en_us_006","desc":"TikTok Joey","id":"tiktok_male1","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"tiktok","arg":"en_us_007","desc":"TikTok Professor","id":"tiktok_male2","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"tiktok","arg":"en_us_009","desc":"TikTok Scientist","id":"tiktok_male3","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"tiktok","arg":"en_us_010","desc":"TikTok Confidence","id":"tiktok_male4","lang":"en","sex":"M"},{"country":"GB","language":"en","gender":"M","source":"tiktok","arg":"en_uk_001","desc":"TikTok Narrator","id":"tiktok_male1GB","lang":"en","sex":"M"},{"country":"GB","language":"en","gender":"M","source":"tiktok","arg":"en_uk_003","desc":"TikTok Male2 UK","id":"tiktok_male2GB","lang":"en","sex":"M"},{"country":"AU","language":"en","gender":"F","source":"tiktok","arg":"en_au_001","desc":"TikTok Metro","id":"tiktok_femaleAU","lang":"en","sex":"F"},{"country":"AU","language":"en","gender":"M","source":"tiktok","arg":"en_au_002","desc":"TikTok Male AU","id":"tiktok_maleAU","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"tiktok","arg":"en_us_ghostface","desc":"TikTok Ghostface (Scream)","id":"tiktok_ghostface","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"tiktok","arg":"en_us_chewbacca","desc":"TikTok Chewbacca (Star Wars)","id":"tiktok_chewbacca","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"tiktok","arg":"en_us_c3po","desc":"TikTok C3PO (Star Wars)","id":"tiktok_c3po","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"tiktok","arg":"en_us_stitch","desc":"TikTok Stitch (Lilo & Stitch)","id":"tiktok_stitch","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"tiktok","arg":"en_us_stormtrooper","desc":"TikTok Stormtrooper (Star Wars)","id":"tiktok_stormtrooper","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"tiktok","arg":"en_us_rocket","desc":"TikTok Rocket (Guardians of the Galaxy)","id":"tiktok_rocket","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","source":"tiktok","arg":"en_female_f08_salut_damour","desc":"TikTok Alto","id":"tiktok_salut_damour","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","source":"tiktok","arg":"en_male_m03_lobby","desc":"TikTok Tenor","id":"tiktok_m03_lobby","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","source":"tiktok","arg":"en_male_m03_sunshine_soon","desc":"TikTok Sunshine Soon","id":"tiktok_sunshine_soon","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","source":"tiktok","arg":"en_female_f08_warmy_breeze","desc":"TikTok Warmy Breeze","id":"tiktok_warmy_breeze","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"F","source":"tiktok","arg":"en_female_ht_f08_glorious","desc":"TikTok Glorious","id":"tiktok_glorious","lang":"en","sex":"F"},{"country":"US","language":"en","gender":"M","source":"tiktok","arg":"en_male_sing_funny_it_goes_up","desc":"TikTok It Goes Up","id":"tiktok_funny_it_goes_up","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"M","source":"tiktok","arg":"en_male_m2_xhxs_m03_silly","desc":"TikTok Chipmunk","id":"tiktok_xhxs_m03_silly","lang":"en","sex":"M"},{"country":"US","language":"en","gender":"F","source":"tiktok","arg":"en_female_ht_f08_wonderful_world","desc":"TikTok Dramatic","id":"tiktok_wonderful_world","lang":"en","sex":"F"}]},"es":{"desc":"Spanish","options":[{"country":"ES","language":"es","gender":"M","source":"acapela","arg":"sps_hd_antonio_22k_lf.bvcu","desc":"Antonio","id":"antonio","lang":"es","sex":"M"},{"country":"ES","language":"es","gender":"F","source":"acapela","arg":"sps_hd_ines_22k_lf.bvcu","desc":"Ines","id":"ines1","lang":"es","sex":"F"},{"country":"MX","language":"es","gender":"F","source":"acapela","arg":"ca_es_hd_laia_22k_lf.bvcu","desc":"Ines","id":"laia","lang":"es","sex":"F"},{"country":"ES","language":"es","gender":"F","source":"acapela","arg":"sps_hd_maria_22k_lf.bvcu","desc":"Maria","id":"maria","lang":"es","sex":"F"},{"country":"US","language":"es","gender":"M","source":"acapela","arg":"spu_emilio_22k_ns.bvcu","desc":"Emilio (Spanish)","id":"emilio2","lang":"es","sex":"M"},{"country":"US","language":"es","gender":"M","source":"acapela","arg":"spu_hd_rodrigo_22k_lf.bvcu","desc":"Rodrigo","id":"rodrigo","lang":"es","sex":"M"},{"country":"US","language":"es","gender":"F","source":"acapela","arg":"spu_hd_rosa_22k_lf.bvcu","desc":"Rosa (Acapela)","id":"rosa1","lang":"es","sex":"F"},{"country":"US","language":"es","gender":"F","source":"acapela","arg":"spu_valeria_22k_ns.bvcu","desc":"Valeria (Spanish)","id":"valeriaES","lang":"es","sex":"F"},{"country":"MX","language":"es","gender":"F","source":"cepstral","arg":"Alejandra","desc":"Alejandra","id":"alejandra","lang":"es","sex":"F"},{"country":"MX","language":"es","gender":"M","source":"balabolka","arg":"Cepstral Miguel","desc":"Miguel","id":"miguel_cepstral","lang":"es","sex":"M"},{"country":"MX","language":"es","gender":"F","arg":[1,2,1],"source":"vocalware","desc":"Rosa","id":"rosa","lang":"es","sex":"F"},{"country":"MX","language":"es","gender":"M","arg":[1,2,2],"source":"vocalware","desc":"Alberto","id":"alberto","lang":"es","sex":"M"},{"country":"US","language":"es","gender":"M","arg":[2,2,7],"source":"vocalware","desc":"Carlos","id":"carlos","lang":"es","sex":"M"},{"country":"ES","language":"es","gender":"F","arg":[2,2,1],"source":"vocalware","desc":"Carmen","id":"carmen","lang":"es","sex":"F"},{"country":"AR","language":"es","gender":"M","arg":[2,2,4],"source":"vocalware","desc":"Diego","id":"diego","lang":"es","sex":"M"},{"country":"MX","language":"es","gender":"F","arg":[2,2,5],"source":"vocalware","desc":"Esperanza","id":"esperanza","lang":"es","sex":"F"},{"country":"ES","language":"es","gender":"F","arg":[2,2,3],"source":"vocalware","desc":"Francisca","id":"francisca","lang":"es","sex":"F"},{"country":"ES","language":"es","gender":"M","arg":[2,2,6],"source":"vocalware","desc":"Jorge","id":"jorge","lang":"es","sex":"M"},{"country":"ES","language":"es","gender":"M","arg":[2,2,2],"source":"vocalware","desc":"Juan","id":"juan","lang":"es","sex":"M"},{"country":"ES","language":"es","gender":"F","arg":[2,2,9],"source":"vocalware","desc":"Leonor","id":"leonor","lang":"es","sex":"F"},{"country":"US","language":"es","gender":"F","arg":[2,2,8],"source":"vocalware","desc":"Soledad","id":"soledad","lang":"es","sex":"F"},{"country":"ES","language":"es","gender":"F","arg":[2,2,10],"source":"vocalware","desc":"Ximena","id":"ximena","lang":"es","sex":"F"},{"country":"MX","language":"es","gender":"M","arg":"VW Francisco","source":"balabolka","desc":"Francisco","id":"francisco","lang":"es","sex":"M"},{"country":"MX","language":"es","gender":"F","arg":[3,2,3],"source":"vocalware","desc":"Gloria","id":"gloria","lang":"es","sex":"F"},{"country":"ES","language":"es","gender":"F","arg":[3,2,4],"source":"vocalware","desc":"Lola","id":"lola","lang":"es","sex":"F"},{"country":"ES","language":"es","gender":"M","arg":[3,2,5],"source":"vocalware","desc":"Manuel","id":"manuel","lang":"es","sex":"M"},{"country":"ES","language":"es","gender":"F","arg":"VW Violeta","source":"balabolka","desc":"Violeta","id":"violeta","lang":"es","sex":"F"},{"country":"ES","language":"es","gender":"M","source":"tiktok","arg":"es_002","desc":"TikTok Male ES","id":"tiktok_maleES","lang":"es","sex":"M"},{"country":"MX","language":"es","gender":"M","source":"tiktok","arg":"es_mx_002","desc":"TikTok Male MX","id":"tiktok_maleMX","lang":"es","sex":"M"}]},"pt":{"desc":"Portuguese","options":[{"country":"PT","language":"pt","gender":"F","arg":[2,6,2],"source":"vocalware","desc":"Amalia","id":"amalia","lang":"pt","sex":"F"},{"country":"PT","language":"pt","gender":"M","arg":[2,6,3],"source":"vocalware","desc":"Eusebio","id":"eusebio","lang":"pt","sex":"M"},{"country":"BR","language":"pt","gender":"F","arg":[3,6,1],"source":"vocalware","desc":"Helena","id":"helena","lang":"pt","sex":"F"},{"country":"BR","language":"pt","gender":"M","arg":[3,6,2],"source":"vocalware","desc":"Rafael","id":"rafael","lang":"pt","sex":"M"},{"country":"BR","language":"pt","gender":"F","source":"tiktok","arg":"br_003","desc":"TikTok Female2 BR","id":"tiktok_female2BR","lang":"pt","sex":"F"},{"country":"BR","language":"pt","gender":"F","source":"tiktok","arg":"br_004","desc":"TikTok Female3 BR","id":"tiktok_female3BR","lang":"pt","sex":"F"},{"country":"BR","language":"pt","gender":"M","source":"tiktok","arg":"br_005","desc":"TikTok Male BR","id":"tiktok_maleBR","lang":"pt","sex":"M"}]},"default":{"desc":"More","options":[{"country":"IT","language":"it","gender":"F","source":"balabolka","arg":"Cepstral Vittoria","desc":"Vittoria","id":"vittoria","lang":"it","sex":"F"},{"country":"DE","language":"de","gender":"F","source":"balabolka","arg":"Cepstral Katrin","desc":"Katrin","id":"katrin_cepstral","lang":"de","sex":"F"},{"country":"DE","language":"de","gender":"M","source":"balabolka","arg":"Cepstral Matthias","desc":"Matthias","id":"matthias","lang":"de","sex":"M"},{"country":"CA","language":"fr","gender":"F","source":"cepstral","arg":"Isabelle","desc":"Isabelle","id":"isabelle","lang":"fr","sex":"F"},{"country":"CA","language":"fr","gender":"M","source":"balabolka","arg":"Cepstral Jean-Pierre","desc":"Jean-Pierre","id":"jean-pierre","lang":"fr","sex":"M"},{"country":"SA","language":"ar","gender":"F","arg":[2,27,2],"source":"vocalware","desc":"Laila (VocalWare)","id":"laila_vocalware","lang":"ar","sex":"F"},{"country":"SA","language":"ar","gender":"M","arg":[2,27,1],"source":"vocalware","desc":"Tarik (VocalWare)","id":"tarik_vocalware","lang":"ar","sex":"M"},{"country":"SA","language":"ar","gender":"M","arg":[4,27,1],"source":"vocalware","desc":"Maged (VocalWare)","id":"maged_vocalware","lang":"ar","sex":"M"},{"country":"ES","language":"va","gender":"F","arg":[2,5,3],"source":"vocalware","desc":"Empar","id":"empar","lang":"va","sex":"F"},{"country":"ES","language":"ca","gender":"M","arg":[2,5,2],"source":"vocalware","desc":"Jordi","id":"jordi","lang":"ca","sex":"M"},{"country":"ES","language":"ca","gender":"F","arg":[2,5,1],"source":"vocalware","desc":"Montserrat","id":"montserrat","lang":"ca","sex":"F"},{"country":"CN","language":"zh","gender":"F","arg":[2,10,1],"source":"vocalware","desc":"Linlin","id":"linlin","lang":"zh","sex":"F"},{"country":"CN","language":"zh","gender":"F","arg":[2,10,2],"source":"vocalware","desc":"Lisheng","id":"lisheng","lang":"zh","sex":"F"},{"country":"DK","language":"da","gender":"F","arg":[2,19,1],"source":"vocalware","desc":"Frida","id":"frida","lang":"da","sex":"F"},{"country":"DK","language":"da","gender":"M","arg":[2,19,2],"source":"vocalware","desc":"Magnus","id":"magnus","lang":"da","sex":"M"},{"country":"NL","language":"nl","gender":"F","arg":[2,11,2],"source":"vocalware","desc":"Saskia","id":"saskia","lang":"nl","sex":"F"},{"country":"NL","language":"nl","gender":"M","arg":[2,11,1],"source":"vocalware","desc":"Willem","id":"willem","lang":"nl","sex":"M"},{"country":"DE","language":"de","gender":"F","arg":[1,3,1],"source":"vocalware","desc":"Klara","id":"klara","lang":"de","sex":"F"},{"country":"DE","language":"de","gender":"M","arg":[1,3,2],"source":"vocalware","desc":"Reiner","id":"reiner","lang":"de","sex":"M"},{"country":"SA","language":"ar","gender":"M","arg":"ar_sa_hd_mehdi_22k_lf.bvcu","source":"acapela","desc":"Mehdi","id":"mehdi","lang":"ar","sex":"M"},{"country":"eo","language":"eo","gender":"M","arg":[2,31,1],"source":"vocalware","desc":"Ludoviko","id":"ludoviko","lang":"eo","sex":"M"},{"country":"FI","language":"fi","gender":"M","arg":[2,23,2],"source":"vocalware","desc":"Marko","id":"marko","lang":"fi","sex":"M"},{"country":"FI","language":"fi","gender":"F","arg":[2,23,1],"source":"vocalware","desc":"Milla","id":"milla","lang":"fi","sex":"F"},{"country":"FR","language":"fr","gender":"M","arg":[2,4,2],"source":"vocalware","desc":"Bernard","id":"bernard","lang":"fr","sex":"M"},{"country":"FR","language":"fr","gender":"F","arg":[1,4,1],"source":"vocalware","desc":"Juliette","id":"juliette","lang":"fr","sex":"F"},{"country":"FR","language":"fr","gender":"M","arg":[1,4,2],"source":"vocalware","desc":"Alain","id":"alain","lang":"fr","sex":"M"},{"country":"CA","language":"fr","gender":"M","arg":[1,4,3],"source":"vocalware","desc":"Pierre","id":"pierre","lang":"fr","sex":"M"},{"country":"FR","language":"fr","gender":"F","arg":[2,4,5],"source":"vocalware","desc":"Charlotte","id":"charlotte","lang":"fr","sex":"F"},{"country":"FR","language":"fr","gender":"F","arg":[2,4,4],"source":"vocalware","desc":"Florence","id":"florence","lang":"fr","sex":"F"},{"country":"FR","language":"fr","gender":"F","arg":[2,4,3],"source":"vocalware","desc":"Jolie","id":"jolie","lang":"fr","sex":"F"},{"country":"FR","language":"fr","gender":"M","arg":[2,4,6],"source":"vocalware","desc":"Olivier","id":"olivier","lang":"fr","sex":"M"},{"country":"ES","language":"gl","gender":"F","arg":[2,15,1],"source":"vocalware","desc":"Carmela","id":"carmela","lang":"gl","sex":"F"},{"country":"DE","language":"de","gender":"F","arg":[2,3,3],"source":"vocalware","desc":"Katrin (Vocalware)","id":"katrin_vocalware","lang":"de","sex":"F"},{"country":"DE","language":"de","gender":"M","arg":[2,3,2],"source":"vocalware","desc":"Stefan","id":"stefan","lang":"de","sex":"M"},{"country":"el","language":"el","gender":"F","arg":[2,8,1],"source":"vocalware","desc":"Afroditi","id":"afroditi","lang":"el","sex":"F"},{"country":"EL","language":"el","gender":"M","arg":[2,8,3],"source":"vocalware","desc":"Nikos","id":"nikos","lang":"el","sex":"M"},{"country":"IT","language":"it","gender":"F","arg":[2,7,10],"source":"vocalware","desc":"Federica","id":"federica","lang":"it","sex":"F"},{"country":"IT","language":"it","gender":"F","arg":[2,7,9],"source":"vocalware","desc":"Giulia","id":"giulia","lang":"it","sex":"F"},{"country":"IT","language":"it","gender":"M","arg":[2,7,5],"source":"vocalware","desc":"Luca","id":"luca","lang":"it","sex":"M"},{"country":"IT","language":"it","gender":"M","arg":[2,7,6],"source":"vocalware","desc":"Marcello","id":"marcello","lang":"it","sex":"M"},{"country":"IT","language":"it","gender":"M","arg":[2,7,8],"source":"vocalware","desc":"Matteo","id":"matteo","lang":"it","sex":"M"},{"country":"IT","language":"it","gender":"F","arg":[2,7,1],"source":"vocalware","desc":"Paola","id":"paola","lang":"it","sex":"F"},{"country":"IT","language":"it","gender":"M","arg":[2,7,7],"source":"vocalware","desc":"Raffaele","id":"raffaele","lang":"it","sex":"M"},{"country":"IT","language":"it","gender":"F","arg":[2,7,2],"source":"vocalware","desc":"Silvana","id":"silvana","lang":"it","sex":"F"},{"country":"IT","language":"it","gender":"F","arg":[2,7,3],"source":"vocalware","desc":"Valentina","id":"valentina","lang":"it","sex":"F"},{"country":"no","language":"no","gender":"M","arg":[2,20,2],"source":"vocalware","desc":"Henrik","id":"henrik","lang":"no","sex":"M"},{"country":"no","language":"no","gender":"F","arg":[2,20,1],"source":"vocalware","desc":"Vilde","id":"vilde","lang":"no","sex":"F"},{"country":"PL","language":"pl","gender":"M","arg":[2,14,2],"source":"vocalware","desc":"Krzysztof","id":"krzysztof","lang":"pl","sex":"M"},{"country":"PL","language":"pl","gender":"F","arg":[2,14,1],"source":"vocalware","desc":"Zosia","id":"zosia","lang":"pl","sex":"F"},{"country":"RO","language":"ro","gender":"F","arg":[2,30,1],"source":"vocalware","desc":"Ioana","id":"ioana","lang":"ro","sex":"F"},{"country":"RU","language":"ru","gender":"M","arg":[2,21,2],"source":"vocalware","desc":"Dmitri","id":"dmitri","lang":"ru","sex":"M"},{"country":"RU","language":"ru","gender":"F","arg":[2,21,1],"source":"vocalware","desc":"Olga","id":"olga","lang":"ru","sex":"F"},{"country":"SE","language":"sv","gender":"F","arg":[2,9,1],"source":"vocalware","desc":"Annika","id":"annika","lang":"sv","sex":"F"},{"country":"SE","language":"sv","gender":"M","arg":[2,9,2],"source":"vocalware","desc":"Sven","id":"sven","lang":"sv","sex":"M"},{"country":"TR","language":"tr","gender":"M","arg":[2,16,1],"source":"vocalware","desc":"Kerem","id":"kerem","lang":"tr","sex":"M"},{"country":"TR","language":"tr","gender":"F","arg":[2,16,3],"source":"vocalware","desc":"Selin","id":"selin","lang":"tr","sex":"F"},{"country":"TR","language":"tr","gender":"F","arg":[2,16,2],"source":"vocalware","desc":"Zeynep","id":"zeynep","lang":"tr","sex":"F"},{"country":"CN","language":"zh","gender":"F","arg":[3,10,3],"source":"vocalware","desc":"Hui","id":"hui","lang":"zh","sex":"F"},{"country":"CN","language":"zh","gender":"M","arg":[3,10,6],"source":"vocalware","desc":"Kaho","id":"kaho","lang":"zh","sex":"M"},{"country":"CN","language":"zh","gender":"F","arg":[3,10,7],"source":"vocalware","desc":"Kayan","id":"kayan","lang":"zh","sex":"F"},{"country":"CN","language":"zh","gender":"M","arg":[3,10,5],"source":"vocalware","desc":"Kiang","id":"kiang","lang":"zh","sex":"M"},{"country":"CN","language":"zh","gender":"M","arg":[3,10,4],"source":"vocalware","desc":"Liang","id":"liang","lang":"zh","sex":"M"},{"country":"TW","language":"zh","gender":"F","arg":[3,10,8],"source":"vocalware","desc":"Yafang","id":"yafang","lang":"zh","sex":"F"},{"country":"CA","language":"fr","gender":"F","arg":[3,4,1],"source":"vocalware","desc":"Chloe (Vocalware)","id":"chloe_vocalware","lang":"fr","sex":"F"},{"country":"CA","language":"fr","gender":"M","arg":[3,4,2],"source":"vocalware","desc":"Leo","id":"leo","lang":"fr","sex":"M"},{"country":"FR","language":"fr","gender":"M","arg":[3,4,4],"source":"vocalware","desc":"Louis","id":"louis","lang":"fr","sex":"M"},{"country":"FR","language":"fr","gender":"F","arg":[3,4,3],"source":"vocalware","desc":"Roxane","id":"roxane","lang":"fr","sex":"F"},{"country":"DE","language":"de","gender":"F","arg":[3,3,1],"source":"vocalware","desc":"Lena","id":"lena","lang":"de","sex":"F"},{"country":"DE","language":"de","gender":"M","arg":[3,3,2],"source":"vocalware","desc":"Tim","id":"tim","lang":"de","sex":"M"},{"country":"IT","language":"it","gender":"F","arg":[3,7,1],"source":"vocalware","desc":"Elisa","id":"elisa","lang":"it","sex":"F"},{"country":"IT","language":"it","gender":"M","arg":[3,7,2],"source":"vocalware","desc":"Roberto","id":"roberto","lang":"it","sex":"M"},{"country":"JP","language":"ja","gender":"F","arg":[3,12,6],"source":"vocalware","desc":"HarGBa","id":"harGBa","lang":"ja","sex":"F"},{"country":"JP","language":"ja","gender":"F","arg":[3,12,5],"source":"vocalware","desc":"Hikari","id":"hikari","lang":"ja","sex":"F"},{"country":"JP","language":"ja","gender":"F","arg":[3,12,3],"source":"vocalware","desc":"Misaki","id":"misaki","lang":"ja","sex":"F"},{"country":"JP","language":"ja","gender":"M","arg":[3,12,7],"source":"vocalware","desc":"Ryo","id":"ryo","lang":"ja","sex":"M"},{"country":"JP","language":"ja","gender":"F","arg":[3,12,4],"source":"vocalware","desc":"Sayaka","id":"sayaka","lang":"ja","sex":"F"},{"country":"JP","language":"ja","gender":"M","arg":[3,12,2],"source":"vocalware","desc":"Show","id":"show","lang":"ja","sex":"M"},{"country":"JP","language":"ja","gender":"M","arg":[3,12,8],"source":"vocalware","desc":"Takeru","id":"takeru","lang":"ja","sex":"M"},{"country":"ko","language":"ko","gender":"F","arg":[3,13,7],"source":"vocalware","desc":"Dayoung","id":"dayoung","lang":"ko","sex":"F"},{"country":"ko","language":"ko","gender":"F","arg":[3,13,4],"source":"vocalware","desc":"Hyeryun","id":"hyeryun","lang":"ko","sex":"F"},{"country":"ko","language":"ko","gender":"F","arg":[3,13,8],"source":"vocalware","desc":"Hyuna","id":"hyuna","lang":"ko","sex":"F"},{"country":"ko","language":"ko","gender":"M","arg":[3,13,10],"source":"vocalware","desc":"Jihun","id":"jihun","lang":"ko","sex":"M"},{"country":"ko","language":"ko","gender":"F","arg":[3,13,5],"source":"vocalware","desc":"Jimin","id":"jimin","lang":"ko","sex":"F"},{"country":"ko","language":"ko","gender":"M","arg":[3,13,2],"source":"vocalware","desc":"Junwoo","id":"junwoo","lang":"ko","sex":"M"},{"country":"ko","language":"ko","gender":"F","arg":[3,13,6],"source":"vocalware","desc":"Sena","id":"sena","lang":"ko","sex":"F"},{"country":"ko","language":"ko","gender":"F","arg":[3,13,1],"source":"vocalware","desc":"Yumi","id":"yumi","lang":"ko","sex":"F"},{"country":"ko","language":"ko","gender":"F","arg":[3,13,9],"source":"vocalware","desc":"Yura","id":"yura","lang":"ko","sex":"F"},{"country":"TH","language":"th","gender":"M","arg":[3,26,1],"source":"vocalware","desc":"Sarawut","id":"sarawut","lang":"th","sex":"M"},{"country":"TH","language":"th","gender":"F","arg":[3,26,2],"source":"vocalware","desc":"Somsi","id":"somsi","lang":"th","sex":"F"},{"country":"FR","language":"fr","gender":"M","source":"tiktok","arg":"fr_001","desc":"TikTok Male1 FR","id":"tiktok_male1FR","lang":"fr","sex":"M"},{"country":"FR","language":"fr","gender":"M","source":"tiktok","arg":"fr_002","desc":"TikTok Male2 FR","id":"tiktok_male2FR","lang":"fr","sex":"M"},{"country":"DE","language":"de","gender":"M","source":"tiktok","arg":"de_001","desc":"TikTok Male DE","id":"tiktok_maleDE","lang":"de","sex":"M"},{"country":"DE","language":"de","gender":"F","source":"tiktok","arg":"de_002","desc":"TikTok Female DE","id":"tiktok_femaleDE","lang":"de","sex":"F"},{"country":"ID","language":"id","gender":"F","source":"tiktok","arg":"id_001","desc":"TikTok Female ID","id":"tiktok_femaleID","lang":"id","sex":"F"},{"country":"JP","language":"ja","gender":"F","source":"tiktok","arg":"jp_001","desc":"FeTikTok Male1 JP","id":"tiktok_female1JP","lang":"ja","sex":"F"},{"country":"JP","language":"ja","gender":"F","source":"tiktok","arg":"jp_003","desc":"FeTikTok Male2 JP","id":"tiktok_female2JP","lang":"ja","sex":"F"},{"country":"JP","language":"ja","gender":"F","source":"tiktok","arg":"jp_005","desc":"FeTikTok Male3 JP","id":"tiktok_female3JP","lang":"ja","sex":"F"},{"country":"JP","language":"ja","gender":"M","source":"tiktok","arg":"jp_006","desc":"TikTok Male JP","id":"tiktok_maleJP","lang":"ja","sex":"M"},{"country":"ko","language":"ko","gender":"M","source":"tiktok","arg":"kr_002","desc":"TikTok Male1 KO","id":"tiktok_male1KO","lang":"ko","sex":"M"},{"country":"ko","language":"ko","gender":"M","source":"tiktok","arg":"kr_004","desc":"TikTok Male2 KO","id":"tiktok_male2KO","lang":"ko","sex":"M"},{"country":"ko","language":"ko","gender":"F","source":"tiktok","arg":"kr_003","desc":"TikTok Female KO","id":"tiktok_femaleKO","lang":"ko","sex":"F"}]}};
+    return {
+      getModel: function() {
+        return lang_model;
+      },
+      lookupVoiceInfo: function(voice_id) {
+        for (var langId in lang_model) {
+          for (var i = 0; i < lang_model[langId]['options'].length; i++) {
+            if (lang_model[langId]['options'][i].id == voice_id) {
+              return {
+                desc: lang_model[langId]['options'][i].desc,
+                sex: lang_model[langId]['options'][i].sex,
+                plus: lang_model[langId]['options'][i].plus,
+                locale: {
+                  id: langId,
+                  lang: lang_model[langId]['options'][i].lang,
+                  country: lang_model[langId]['options'][i].country,
+                  desc: lang_model[langId].desc
+                }
+              };
+            }
+          }
+        }
+        return null;
+      }
+    };
+  })();
+</script>
+<div class="voiceselectorwidget">
+<div class="voiceselector">
+</div>
+
+<div class="templates" style="display: none">
+
+<div class="categorytab">
+<div class="flag" title="Language"></div>
+<div class="masteroptionscontainer">
+<div class="optionscontainer">
+</div>
+</div>
+</div>
+
+<div class="option">
+<div class="cflag"></div>
+<div class="sex"></div>
+<span class="label"></span>
+<span class="plus"> (Only for GoPlus)</span>
+<div class="playercontrol">
+<div class="button play"></div>
+</div>
+</div>
+</div>
+<div class="jplayer"></div>
+</div>
+<div style="overflow: auto; padding-left: 135px;">
+<a href="javascript:;" class="buttonbase buttonorange" id="voiceselect_confirm" style="margin:15px auto;float:left;display:block;">
+<div class="buttontitle">Confirm</div>
+</a>
+<a href="javascript:;" class="buttonbase buttonblue dark" id="voiceselect_plusupgrade" style="margin:15px auto;float:left;display:none;">
+<div class="buttontitle">Upgrade Now</div>
+</a>
+<a href="#" onclick="jQuery.unblockUI();return false;" class="bottomcancel"><div style="width: 180px">Cancel</div></a>
+</div>
+<a onclick="jQuery.unblockUI()" class="close_btn">&#215;</a>
+</div>
+</div>
+<div class="selectvoiceoverlay lightbox" style="display:none">
+<div class="lightbox_wrapper">
+<style type="text/css">
+.selectvoiceoverlay { width: 550px; }
+.selectvoiceoverlay h2 { text-align: center; color: black; margin-bottom: 0px;  }
+.selectvoiceoverlay h3 { text-align: center; color: #999999; font-style: oblique; margin-top: 0px; margin-bottom: 2em; font-weight: normal; }
+.selectvoiceoverlay .voiceselectorwidget { margin-left: auto; margin-right: auto; }
+.selectvoiceoverlay a.bottomcancel { float: left; text-align: center; margin: 30px auto; display: block; color: #666666; font-size: 16px; font-weight: bold; text-decoration: none; }
+.selectvoiceoverlay a.bottomcancel:hover { color: #777777; text-decoration: none; }
+</style>
+<h2>Select a voice for your character</h2>
+<h3>This change applies to the whole movie</h3>
+<script type="text/javascript">
+</script>
+<div class="voiceselectorwidget">
+<div class="voiceselector">
+</div>
+
+<div class="templates" style="display: none">
+
+<div class="categorytab">
+<div class="flag" title="Language"></div>
+<div class="masteroptionscontainer">
+<div class="optionscontainer">
+</div>
+</div>
+</div>
+
+<div class="option">
+<div class="cflag"></div>
+<div class="sex"></div>
+<span class="label"></span>
+<span class="plus"> (Only for GoPlus)</span>
+<div class="playercontrol">
+<div class="button play"></div>
+</div>
+</div>
+</div>
+<div class="jplayer"></div>
+</div>
+<div style="overflow: auto; padding-left: 85px;">
+<a href="javascript:;" class="buttonbase buttonorange" id="voiceselectonly_confirm" style="margin:15px auto;float:left;display:block;">
+<div class="buttontitle">Confirm</div>
+</a>
+<a href="javascript:;" class="buttonbase buttonblue dark" id="voiceselectonly_plusupgrade" style="margin:15px auto;float:left;display:none;">
+<div class="buttontitle">Upgrade Now</div>
+</a>
+<a href="#" onclick="jQuery.unblockUI();return false;" class="bottomcancel"><div style="width: 180px">Cancel</div></a>
+</div>
+<a onclick="jQuery.unblockUI()" class="close_btn">&#215;</a>
+</div>
+</div>
+</div>
+<script id="dialogTmpl" type="text/x-jquery-tmpl">
+	<div class="dialog">
+		<div class="num"></div>
+		<div class="char_thumb">
+			<img src="${thumbURL}" alt="" />
+			<a class="switch">Switch</a>
+			<div class="tips">Switch Actor</div>
+		</div>
+		<div class="box">
+			<div class="dialog_input_wrapper">
+				<textarea class="dialog_input" name="script_text[]"></textarea>
+				<span class="label">Type in or Record Your dialog</span>
+			</div>
+			<div class="counter" style="display:none;"></div>
+			<div class="voice_recorder"></div>
+			<div class="dialog_options">
+				<a class="dialog_switch">Actor<span class="tips">Switch Actor</span></a>
+				{{if hasFacial}}
+				<a class="dialog_facial">Emotion<span class="tips">Switch Emotion</span></a>
+				{{/if}}
+				<div class="langarea">
+					<div class="lang"></div>
+					<div class="gender"></div>
+					Voice					<div class="tips">Switch Voice</div>
+				</div>
+			</div>
+			<div class="dialog_input_control">
+				<a class="dialog_tts on" data-method="tts"><div class="icon"></div><span class="tips">Text to Speech</span></a>
+				<a class="dialog_mic" data-method="mic"><div class="icon"></div><span class="tips">Voice Recording</span></a>
+			</div>
+			<div class="dialog_control">
+				<a title="Delete" class="dialog_delete">Delete</a>
+				<a title="Insert Line" class="dialog_insert">Insert Line</a>
+			</div>
+		</div>
+	</div>
+</script>
+<a class="btn_next" href="#step3" onclick="stepTo('#step3'); return false;">Next</a>
+<div class="upgrade">
+<a href="javascript:popUpgrade();" class="buttonbase buttonblue dark" style="margin:0 auto;float:none;display:block;">
+<div class="buttontitle">Upgrade Now</div>
+</a>
+</div>
+</div>
+<div id="seperator2"></div>
+<div id="step3" class="section">
+<h2><span>3. Type in or Record Your dialog</span></h2>
+<a class="previous_step" href="#step2" onclick="stepTo('#step2'); return false;">Back</a>
+<div id="dialog_wrapper">
+<div id="dialogs">
+<div class="dialog focus" data-charid="0" data-facial="default">
+<div class="num">1</div>
+<div class="char_thumb">
+<img src="https://flashthemes.net/char_thumbs/cc_head/834767.png" alt>
+<a class="switch">Switch</a>
+<div class="tips">Switch Actor</div>
+</div>
+<div class="box">
+<div class="dialog_input_wrapper">
+<textarea class="dialog_input" name="script_text[]"></textarea>
+<span class="label">Type in or Record Your dialog</span>
+</div>
+<div class="counter" style="display:none;"></div>
+<div class="voice_recorder"></div>
+<div class="dialog_options">
+<a class="dialog_switch">Actor<span class="tips">Switch Actor</span></a>
+<a class="dialog_facial">Emotion<span class="tips">Switch Emotion</span></a>
+<div class="langarea">
+<div class="lang"></div>
+<div class="gender"></div>
+Voice <div class="tips">Switch Voice</div>
+</div>
+</div>
+<div class="dialog_input_control">
+<a class="dialog_tts on" data-method="tts"><div class="icon"></div><span class="tips">Text to Speech</span></a>
+<a class="dialog_mic" data-method="mic"><div class="icon"></div><span class="tips">Voice Recording</span></a>
+</div>
+<div class="dialog_control">
+<a title="Delete" class="dialog_delete">Delete</a>
+<a title="Insert Line" class="dialog_insert">Insert Line</a>
+</div>
+</div>
+</div>
+<div class="dialog fake" data-charid="1">
+<div class="char_thumb">
+<img src="https://flashthemes.net/char_thumbs/cc_head/834767.png" alt>
+</div>
+<div class="box">
+<div class="dialog_input_wrapper">
+<div class="langarea">
+</div>
+<textarea id="fake_dialog_input" class="dialog_input" name="script_text[]"></textarea>
+</div>
+<label for="fake_dialog_input" class="dialog_input_message">
+<span class="basic">+ Add Dialog Line (10 max)</span>
+<span class="plus">+ Add up to 30 dialog lines</span>
+</label>
+</div>
+</div>
+<div class="max"><div>You've reached the maximum number of dialog lines</div></div>
+<div class="upsell">Add up to 30 dialog lines in all your Quick Videos! <a href="javascript:popUpgrade();"><br> Upgrade to GoPlus &gt;</a></div>
+</div>
+</div>
+<div class="footer">
+<div class="bottom"></div>
+<a class="btn_next" onclick="GoLite.preview();stepTo('#step4');">Preview</a>
+<div class="upgrade">
+<a href="javascript:popUpgrade();" class="buttonbase buttonblue dark" style="margin:0 auto;float:none;display:block;">
+<div class="buttontitle">Upgrade Now</div>
+</a>
+</div>
+</div>
+<div id="facial_expression" class="lightbox" style="display:none">
+<div class="lightbox_wrapper">
+<h2>Choose a facial expression:</h2>
+<div id="expression">
+Expressions:
+<ul id="expression_list">
+<li><a data-facial="default" class="default selected">Default</a></li>
+<li><a data-facial="happy" class="happy">Happy</a></li>
+<li><a data-facial="angry" class="angry">Angry</a></li>
+<li><a data-facial="sad" class="sad">Sad</a></li>
+<li><a data-facial="cry" class="cry">Cry</a></li>
+</ul>
+</div>
+<a id="facial_expression_submit" href="javascript:;">Confirm</a>
+<a onclick="jQuery.unblockUI();" class="close_btn">&#215;</a>
+</div>
+</div>
+<script type="text/javascript">
+facialExpression.init({
+"default" : "Default",
+"happy": "Happy",
+"angry": "Angry",
+"sad": "Sad",
+"cry": "Cry"
+});
+</script>
+<div id="dialog_input_change_confirm" class="lightbox confirmbox" style="display:none">
+<div class="lightbox_wrapper">
+<p>Switch Voice Input</p>
+<p>The current line of dialog will reset if you switch to a different voice input.</p>
+<div class="confirm_buttons">
+<a class="action-btn alert" onclick="jQuery.unblockUI();">Proceed</a>
+<a class="action-btn disabled" onclick="jQuery.unblockUI();">Cancel</a>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+jQuery('#dialogs .dialog').scriptDialog();
+</script>
+<div id="seperator3"></div>
+<div id="step4" class="section">
+<h2>4. Preview Your Video</h2>
+<a class="previous_step" href="#step3" onclick="stepTo('#step3'); return false;">Back</a>
+<div class="inside">
+<div class="anonymous">
+<h3>You need an account to preview and save your video.</h3>
+<a href="javascript:;" class="buttonbase buttonfacebook dark" id="btn_facebook_login" onclick="submitFBConnect();" style="width:220px;margin:15px auto;float:none;display:block;">
+<div class="buttontitle">Login with Facebook</div>
+</a>
+<a href="javascript:;" class="buttonbase buttonred dark" id="btn_signup" style="width:220px;margin:15px auto;float:none;display:block;">
+<div class="buttontitle">Signup Now</div>
+</a>
+<a href="javascript:;" class="buttonbase buttonpurple2 dark" id="bth_login" style="width:220px;margin:15px auto;float:none;display:block;">
+<div class="buttontitle">Login</div>
+</a>
+</div>
+<script type="text/javascript">
+jQuery('#bth_login').click(function(e) {
+	e.preventDefault();
+	showOverlay(jQuery('#login'));
+	jQuery('#login_email').focus();
+});
+jQuery('#btn_signup').click(function(e) {
+	e.preventDefault();
+	showOverlay(jQuery('#signup'), {top: '80px'});
+	jQuery('#email').focus();
+});
+</script>
+<div class="upgrade" style="display:none">
+<h3>Upgrade to GoPlus to enable preview and save your video.</h3>
+<a href="javascript:popUpgrade();" class="buttonbase buttonblue dark" id="btn_upgrade" style="margin:15px auto;float:none;display:block;">
+<div class="buttontitle">Upgrade Now</div>
+</a>
+</div>
+<div class="generate" style="display:none">
+<a class="btn_preview" href="#" onclick="GoLite.preview(); return false;">Generate Preview</a>
+<p>You made all the changes you wanted to your video?<br>
+Let's see how it looks like then!</p>
+</div>
+<div class="loading"></div>
+<div class="preview" style="display:none">
+<div id="player_container">
+This content requires the Flash Player: <a href="https://flashthemes.net/getflash/">Get Flash</a>
+</div>
+<div class="upsell">Upgrade to publish all your videos to YouTube. <a href="javascript:popUpgrade('golite_youtube.site');">Get GoPlus now &gt;</a></div>
+<a id="btn_save" href="#" onclick="jQuery(document).trigger('GoLite.stateChange', ['save']); return false;">Save Now</a>
+</div>
+<div class="save" style="display:none">
+<div class="thumbnail">
+Choose your thumbnail
+<div id="thumb_chooser_container">
+This content requires the Flash Player: <a href="https://flashthemes.net/getflash/">Get Flash</a>
+</div>
+</div>
+<div class="title">
+<label for="movie_title">TITLE:</label>
+<input type="text" id="movie_title" name="movie_title" value maxlength="140" placeholder="Enter your title here">
+</div>
+<div class="description">
+<label for="movie_description">DESCRIPTION:</label>
+<textarea id="movie_description" name="movie_description" placeholder="Enter your description (optional)"></textarea>
+</div>
+<div class="buttons">
+<a id="btn_publish" href="#" onclick="GoLite.save(); return false;">Publish</a>
+</div>
+<div class="clear"></div>
+<a id="back_preview" href="#" onclick="jQuery(document).trigger('GoLite.stateChange', ['preview']); return false;">&lt; Back to Preview</a>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+GoLite.init(0);
+</script>
+<div id="footer">
+
+</div>
+</div>
+<div id="publishing" class="lightbox" style="display:none">
+<div class="lightbox_wrapper">Publishing ...</div>
+</div>
+<div id="login" class="lightbox" style="display:none">
+<div class="lightbox_wrapper">
+<h2>Login to GoAnimate</h2>
+<form id="login_form" action method="post">
+<div id="login_form_message"></div>
+<div>
+<label>Email</label>
+<input id="login_email" type="text" name="email" value>
+</div>
+<div>
+<label>Password</label>
+<input id="login_password" type="password" name="password" value>
+</div>
+<div>
+<a href="javascript:;" class="buttonbase buttonblue" id="login_submit" style="margin:15px auto;float:none;display:block;">
+<div class="buttontitle">Login</div>
+</a>
+</div>
+</form>
+<a onclick="jQuery('#login_form_message').html('');jQuery('#login_email, #login_password').removeClass('error');jQuery.unblockUI();" class="close_btn">&#215;</a>
+</div>
+</div>
+<script type="text/javascript">
+(function($) {
+var processing = false;
+
+function validateLogin() {
+	var email = $('#login_email'), email_val = $.trim(email.val())
+	,password = $('#login_password[type="password"]');
+
+	// remove error class from input
+	$('#login_email, #login_password').removeClass('error');
+	// Empty form error message
+	formErrorMessage('');
+
+	if (!email_val || email_val == email.attr('placeholder')) {
+		email.addClass('error').focus();
+		formErrorMessage(GT.gettext('Please enter your Email'));
+		return false;
+	}
+
+	if (!password.val()) {
+		$('#login_password').focus();
+		password.addClass('error');
+		formErrorMessage('Your password is incorrect. Is your caps lock on?');
+		return false;
+	}
+
+	return true;
+}
+
+function formErrorMessage(message) {
+	$('#login_form_message').html(message);
+}
+
+function submitLogin() {
+	if (!validateLogin()) { return; }
+	if (processing) { return; }
+
+	processing = true;
+
+	$.post('/ajax/doLogin', $('#login_form').serialize(), function(response) {
+		parseResponse(response);
+
+		processing = false;
+
+		if (responseArray['code'] == 0) {
+			$(document).trigger('user.login');
+		} else {
+			formErrorMessage(responseArray['json'].errmsg);
+		}
+	});
+}
+
+$(document).ready(function() {
+	$('#login_submit').click(function(e) {
+		e.preventDefault();
+		submitLogin();
+	});
+});
+})(jQuery);
+</script>
+<div id="signup" class="lightbox" style="display:none">
+<div class="lightbox_wrapper">
+<h2>Create an account</h2>
+<form id="signup_form" action method="post">
+<div id="signup_form_message"></div>
+<div>
+<label for="email">Your Email Address</label>
+<input type="text" id="email" name="email" value placeholder="Your Email Address">
+</div>
+<div>
+<label for="username">Your Display Name</label>
+<input type="text" id="username" name="username" value placeholder="Your Display Name">
+</div>
+<div>
+<label for="password1">Your Password</label>
+<input type="password" id="password1" name="password1" value placeholder="Your Password">
+</div>
+<div>
+<label for="password2">Confirm Password</label>
+<input type="password" id="password2" name="password2" value placeholder="Confirm Password">
+</div>
+<div>
+<label><input type="checkbox" id="termsofuse" name="termsofuse" value="on">
+I agree to the <a id="tos_link" href="https://flashthemes.net/termsofuse" target="_blank">Terms of Use</a>.</label>
+</div>
+<input type="hidden" name="regsignup" value="1">
+<div>
+<a href="javascript:;" class="buttonbase buttonblue" id="signup_submit" style="margin:15px auto;float:none;display:block;">
+<div class="buttontitle">Sign Up Now</div>
+</a>
+</div>
+</form>
+<a onclick="jQuery('#signup_form_message').html('');jQuery('#email, #username, #password1, #password2').removeClass('error');jQuery.unblockUI();" class="close_btn">&#215;</a>
+</div>
+</div>
+<script type="text/javascript" src="https://flashthemes.net/static/ft/js/signup.js"></script>
+<div id="upgrade" class="lightbox" style="display:none">
+<div class="lightbox_wrapper">
+<h2>Make animated videos exactly the way you want!</h2>
+<p>Complete the transaction in the browser window that just opened and confirm below to enable the upgrade.</p>
+<div>
+<a href="javascript:;" class="buttonbase buttonorange" id="upgrade_confirm" style="margin:15px auto;float:none;display:block;">
+<div class="buttontitle">Confirm</div>
+</a>
+</div>
+<a class="close_btn">&#215;</a>
+</div>
+</div>
+<script type="text/javascript">
+jQuery('#upgrade_confirm, #upgrade .close_btn').click(function(e) {
+	e.preventDefault();
+	GoLite.updateUserState(function(userState) {
+		if (userState == 2) reloadCCList();
+	});
+	jQuery.unblockUI();
+});
+</script>
+<script type="text/javascript" src="https://flashthemes.net/static/ft/js/jquery/jquery.swfobject.min.js"></script>
+<script type="text/javascript" src="https://flashthemes.net/static/ft/js/jquery/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="https://flashthemes.net/static/ft/js/jquery/jquery.placeholder.min.js"></script>
+<script type="text/javascript" src="https://flashthemes.net/static/ft/js/watermark.js"></script>
+<script type="text/javascript">
+jQuery.flash.expressInstall = "/static/libs/expressInstall.swf";
+
+var customCC_model = [];
+var reloadCCList = function() {
+	jQuery.ajax({
+		url: '/ajax/getCCCharacters',
+		type: 'POST',
+		data: { cc_theme_id: 'family', tags: '' },
+		dataType: 'json',
+		success: function(data, dummy1, dummy2) {
+			customCC_model = jQuery.grep(data, function(cc) { return (cc.head_url && cc.thumb_url); });
+			jQuery('div.character .customlink').addClass('ready');
+		}
+	});
+};
+
+(function($) {
+$(document).ready(function() {
+	$(document).trigger('GoLite.stateChange', ['']);
+
+	var next = 'step1', prev = '';
+
+	$('#nav_links .next').click(function(e) {
+		e.preventDefault();
+
+		next && stepTo('#' + next);
+	});
+	$('#nav_links .prev').click(function(e) {
+		e.preventDefault();
+
+		prev && stepTo('#' + prev);
+	});
+
+	$('.section').waypoint({
+		element: document.getElementById('element-waypoint'),
+    	handler: function(direction) {
+		var id = this.element.id;
+		if (direction == 'up') {
+			if (id == 'step1') {
+				next = 'step1';
+				prev = '';
+				id = 'intro';
+			} else if (id == 'step2') {
+				next = 'step2';
+				prev = 'intro';
+				id = 'step1';
+			} else if (id == 'step3') {
+				next = 'step3';
+				prev = 'step1';
+				id = 'step2';
+			} else if (id == 'step4') {
+				next = 'step4';
+				prev = 'step2';
+				id = 'step3';
+			}
+		} else {
+			if (id == 'step1') {
+				next = 'step2';
+				prev = 'intro';
+			} else if (id == 'step2') {
+				next = 'step3';
+				prev = 'step1';
+			} else if (id == 'step3') {
+				next = 'step4';
+				prev = 'step2';
+			} else if (id == 'step4') {
+				next = '';
+				prev = 'step3';
+			}
+        }
+
+		$('#nav_links').find('li').removeClass('on').end()
+		.find('.' + id).addClass('on');
+    	},
+    	offset: '50%'
+	});
+	if ($('#login_bar').length) {
+		$('#seperator0').waypoint(function(e) {
+			$('#login_bar').slideDown();
+		}, {offset: 'bottom-in-view', triggerOnce: true});
+
+		$(document).bind('user.signup user.login', function(e) {
+			GoLite.updateUserState(function(userState) {
+				if (userState == 2) reloadCCList();
+				$(document).trigger('GoLite.stateChange', ['']);
+				$('#login_bar').slideUp();
+				showNotice('You are now logged in to FlashThemes');
+			});
+		});
+	}
+    
+	GoLite.updateUserState(function(userState) {
+				if (userState == 2) { reloadCCList();
+				$(document).trigger('GoLite.stateChange', ['']);
+				}
+			});
+		
+	jQuery('#movie_title, #movie_description').placeholder();
+});
+$(window).on("load", function (e) {$('#nav_links').fadeIn();})
+})(jQuery);
+</script>
+<script type="text/javascript">
+	var customCCHeadsBaseUrl = 'http://fs.goanimate.com/files/thumbnails/cchead/0/0/';
+	var customCCThumbsBaseUrl = 'http://fs.goanimate.com/files/thumbnails/ccthumb/0/0/';
+	
+
+	var goliteEditorMode = 'new';
+
+</script>
+</body>
+</html>
